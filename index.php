@@ -17,25 +17,17 @@
  * You should have received a copy of the GNU General Public License along
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
-if (file_exists("logs.xml")) {
-	$xml = simplexml_load_file("logs.xml");
-	printXML($xml);
-}else{
-		print_r("test");
-
-}
-function printXML($xml){
-	$count = 1;
-	foreach($xml->children() as $rootItem){
-		$count++;
-		print_r($count);
-		print_r("&nbsp;&nbsp;&nbsp;&nbsp;");
-		print_r($rootItem->getName()."</br>");
-		print_r($rootItem."</br>");
-		if($rootItem){
-			printXML($rootItem);
-		}
-	}
-}
+/**
+ * Class SimpleXML 
+ * @author 
+ */
+define("DB_PATH","./");
+include "xmlDB1.php";
+//Database::create("lenny",NULL,"lennyFirstTable");
+$row = Database::factory("lenny",NULL);
+//$row->createTable("lennyFirstTable");
+//$row->chooseTable("lennyFirstTable");
+//$row->removeTable("lennyFirstTable");
+//$row->removeTable("lenny2Table");
+$row->save();
 ?>
