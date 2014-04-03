@@ -22,12 +22,27 @@
  * @author 
  */
 define("DB_PATH","./");
-include "xmlDB1.php";
+include "logs.php";
+$old_path = getcwd();
+chdir('./projects/tool/');
+//$output = shell_exec('run.cmd');
+chdir($old_path);
 //Database::create("lenny",NULL,"lennyFirstTable");
-$row = Database::factory("lenny",NULL);
+//$row = Database::factory("logs",NULL,"Logs");
 //$row->createTable("lennyFirstTable");
 //$row->chooseTable("lennyFirstTable");
 //$row->removeTable("lennyFirstTable");
 //$row->removeTable("lenny2Table");
-$row->save();
+//`$row->save();
+//foreach ($row->select()->find_all() as $log){
+	//$logs[] = new Log($log);
+//}
+//var_dump($logs);
+//print_r(replaceIndexLogs($logs));
+//getSIngleLog($logs[1]);
+$tmp = new Logs();
+//$tmp->generateIndexLogs();
+//$tmp->generateSingleLogPage();
+$tmp->generateLogs();
+
 ?>

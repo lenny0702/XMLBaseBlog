@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Database name="lenny">
-<table name="lenny2Table" lastID="1"><row id="1"><field name="field2" type="string">testthird</field><field name="field3" type="string">testSencent</field><field>lenny3</field></row></table><table name="lennyFirstTable" lastID="1"><row id="1"><field name="field1" type="string">lenny1</field><field name="field2" type="string">lenny2</field><field name="field3" type="string">lenny3</field></row></table></Database>
