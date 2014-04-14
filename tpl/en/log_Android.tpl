@@ -3,7 +3,14 @@
 
 <div class="p"><p class="text">{$log->description}</p></div>
 <div class="p"><p class="text bold">What's New in version {$log->version}:</p></div>
+
+{assign var=val value=1}
 {section name=sec1 loop=$log->features }
 <div class="p"><p class="text bold">{$log->features[sec1]}</p></div>
-<div class="p"><p class="text bold"><img class="img" src={$IMAGEBASE}/{$log->lang}/img/{$log->dir}/wechat_{($smarty.section.sec1.index+1)*2-1}.jpg "/><img class="img" src={$IMAGEBASE}/{$log->lang}/img/{$log->dir}/wechat_{($smarty.section.sec1.index+1)*2}.jpg "/></p></div>
+<div class="p"><p class="text bold">
+{for $featureNum=1 to {$log->featuresNum[sec1]}}
+	<img class="img" src={$IMAGEBASE}/{$log->lang}/img/{$log->dir}/wechat_{$val}.jpg "/>
+	{assign var=val value=$val+1}
+{/for}
+</p></div>
 {/section}

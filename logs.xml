@@ -1,7 +1,1309 @@
 <?xml version="1.0"?>
 <Database name="logs">
-<table name="Logs" lastID="2">
-<row id="1"><field name="date" type="string">1908-10-06</field><field name="version" type="string">Android</field><field name="lang" type="string">en</field><field name="title" type="string">test</field><field name="platform" type="string">Android</field><field name="description" type="string">ssdfd</field><field name="indexDescription" type="string">sdfsdf</field><field name="features" type="array">a:3:{i:0;s:6:"sdfsdf";i:1;s:6:"sdfsdf";i:2;s:6:"sdffsd";}</field><field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field></row><row id="2"><field name="date" type="string">02-16-2012</field><field name="version" type="string">ios</field><field name="lang" type="string">en</field><field name="title" type="string">&#x5168;&#x65B0;&#x53D1;&#x5E03;</field><field name="platform" type="string">Android</field><field name="description" type="string">&#x5168;&#x65B0;&#x53D1;&#x5E03;</field><field name="indexDescription" type="string">&#x5168;&#x65B0;&#x53D1;&#x5E03;</field><field name="features" type="array">a:3:{i:0;s:13:"&#x5168;&#x65B0;&#x53D1;&#x5E03;1";i:1;s:12:"&#x5168;&#x65B0;&#x53D1;&#x5E03;";i:2;s:12:"&#x5168;&#x65B0;&#x53D1;&#x5E03;";}</field><field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field></row></table>
-<table name="configuration" lastID="3">
-<row id="1"><field name="key" type="string">isSpecified</field><field name="value" type="string">0</field></row><row id="2"><field name="key" type="string">lang</field><field name="value" type="array">a:17:{i:0;s:2:"en";i:1;s:5:"zh_TW";i:2;s:2:"pt";i:3;s:2:"th";i:4;s:2:"id";i:5;s:2:"vi";i:6;s:2:"es";i:7;s:2:"ru";i:8;s:2:"ar";i:9;s:2:"he";i:10;s:2:"pl";i:11;s:2:"hi";i:12;s:2:"ja";i:13;s:2:"it";i:14;s:2:"ko";i:15;s:2:"ms";i:16;s:2:"tr";}</field></row><row id="3"><field name="key" type="string">platform</field><field name="value" type="array">a:8:{i:0;s:6:"iPhone";i:1;s:7:"Android";i:2;s:13:"Windows Phone";i:3;s:3:"S40";i:4;s:10:"Symbian V5";i:5;s:10:"Symbian V3";i:6;s:10:"BlackBerry";i:7;s:13:"BlackBerry 10";}</field></row></table>
+<table name="Logs" lastID="118">
+  <row id="5">
+    <field name="platform" type="string">Mac</field>
+    <field name="date" type="string">2014-03-06</field>
+    <field name="version" type="string">1.0</field>
+    <field name="title" type="string">WeChat 1.0 for Mac Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string"/>
+    <field name="indexDescription" type="string">Simple and Effective.</field>
+  </row>
+  <row id="6">
+    <field name="platform" type="string">Mac</field>
+    <field name="date" type="string">2014-03-06</field>
+    <field name="version" type="string">1.0</field>
+    <field name="title" type="string">WeChat 1.0 for Mac &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string"/>
+    <field name="indexDescription" type="string">&#x6975;&#x81F4;&#x7C21;&#x6F54;&#xFF0C;&#x8FC5;&#x6377;&#x6E9D;&#x901A;&#x3002;</field>
+  </row>
+  <row id="7">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2012-09-05</field>
+    <field name="version" type="string">4.3</field>
+    <field name="title" type="string">WeChat 4.3 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. It supports 15 languages including English, Chinese, Thai, Vietnamese, Indonesian, and Portuguese.</field>
+    <field name="indexDescription" type="string">Web Grab allows you to pull images straight from your computer browser to your phone.</field>
+    <field name="features" type="array">a:8:{i:0;s:167:"1.Introduced Web Grab, a new feature allowing you to pull images straight from your computer browser to your phone. (Visit http://www.wechat.com/shake to learn more) .";i:1;s:38:"2.Sync your Moments photos to Twitter.";i:2;s:77:"3.Download photos from your Facebook albums and share them on WeChat Moments.";i:3;s:29:"4.Download special emoticons.";i:4;s:154:"5.Fixed a bug where Facebook unlinking didn't work. You can now also unlink your phone number and can set/edit your WeChat login password from My Account.";i:5;s:55:"6.Lock favorite conversations on top of your Chat list.";i:6;s:45:"7.Slide to view all images in a conversation.";i:7;s:133:"8.Add people to Moments Blocked List if you don't want to see their Moments updates. You can also now switch Private photos to Publi.";}</field>
+    <field name="featuresNum" type="array">a:8:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";i:5;s:1:"2";i:6;s:1:"2";i:7;s:1:"2";}</field>
+  </row>
+  <row id="8">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2012-09-05</field>
+    <field name="version" type="string">4.3</field>
+    <field name="title" type="string">WeChat 4.3 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E00;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;&#x6416;&#x4E00;&#x6416;&#x50B3;&#x5716;,&#x53EF;&#x4EE5;&#x5C07;&#x96FB;&#x8166;&#x7DB2;&#x9801;&#x4E0A;&#x7684;&#x5716;&#x7247;&#x201C;&#x6416;&#x201D;&#x5230;&#x624B;&#x6A5F;&#x4E0A;&#x3002;</field>
+    <field name="features" type="array">a:8:{i:0;s:167:"1.&#x65B0;&#x589E;&#x6416;&#x4E00;&#x6416;&#x50B3;&#x5716;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5C07;&#x96FB;&#x8166;&#x7DB2;&#x9801;&#x4E0A;&#x7684;&#x5716;&#x7247;&#x201C;&#x6416;&#x201D;&#x5230;&#x624B;&#x6A5F;&#x4E0A;&#xFF0C;&#x8B93;&#x597D;&#x53CB;&#x4E5F;&#x6416;&#x5230;&#x4F60;&#x7684;&#x5716;&#x7247;&#x3002;&#xFF08;&#x67E5;&#x770B;&#x8A73;&#x60C5;http://www.wechat.com/shake&#xFF09;&#x3002;";i:1;s:90:"2.&#x53EF;&#x4EE5;&#x5C07;&#x670B;&#x53CB;&#x5708;&#x7684;&#x76F8;&#x7247;&#x540C;&#x6B65;&#x5230;Twitter&#xFF0C;&#x8B93;&#x66F4;&#x591A;&#x670B;&#x53CB;&#x5206;&#x4EAB;&#x4F60;&#x7684;&#x5FEB;&#x6A02;&#x4E00;&#x523B;&#x3002;";i:2;s:61:"3.&#x53EF;&#x4EE5;&#x5F9E;Facebook&#x76F8;&#x7C3F;&#x4E0B;&#x8F09;&#x76F8;&#x7247;&#x4E26;&#x5206;&#x4EAB;&#x5230;&#x670B;&#x53CB;&#x5708;&#x3002;";i:3;s:29:"4.&#x53EF;&#x4EE5;&#x4E0B;&#x8F09;&#x52D5;&#x756B;&#x8868;&#x60C5;&#x3002;";i:4;s:73:"5.&#x53EF;&#x4EE5;&#x89E3;&#x7D81;Facebook&#x5E33;&#x6236;&#x548C;&#x624B;&#x6A5F;&#x865F;&#x78BC;&#xFF0C;&#x8A2D;&#x5B9A;WeChat&#x767B;&#x5165;&#x5BC6;&#x78BC;&#x3002;";i:5;s:86:"6.&#x65B0;&#x589E;&#x6703;&#x8A71;&#x7F6E;&#x9802;&#xFF0C;&#x628A;&#x5E38;&#x7528;&#x6703;&#x8A71;&#x56FA;&#x5B9A;&#x5728;&#x6703;&#x8A71;&#x5217;&#x8868;&#x9802;&#x90E8;&#xFF0C;&#x4EE5;&#x65B9;&#x4FBF;&#x4F7F;&#x7528;&#x3002;";i:6;s:47:"7.&#x53EF;&#x4EE5;&#x5728;&#x6703;&#x8A71;&#x4E2D;&#x6ED1;&#x52D5;&#x67E5;&#x770B;&#x591A;&#x5F35;&#x5716;&#x7247;&#x3002;";i:7;s:83:"8.&#x670B;&#x53CB;&#x5708;&#x66F4;&#x65B0;&#xFF0C;&#x53EF;&#x8A2D;&#x5B9A;&#x670B;&#x53CB;&#x5708;&#x9ED1;&#x540D;&#x55AE;&#xFF0C;&#x53EF;&#x5C07;&#x79C1;&#x4EBA;&#x76F8;&#x7247;&#x8A2D;&#x70BA;&#x516C;&#x958B;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:8:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";i:5;s:1:"2";i:6;s:1:"2";i:7;s:1:"2";}</field>
+  </row>
+  <row id="9">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2012-07-19</field>
+    <field name="version" type="string">4.2</field>
+    <field name="title" type="string">WeChat 4.2 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. It supports 15 languages including English, Chinese, Thai, Vietnamese, Indonesian, and Portuguese.</field>
+    <field name="indexDescription" type="string">WeChat 4.2 for iPhone has been released. Download WeChat in App Store to experience video calls and web WeChat on your handset
+</field>
+    <field name="features" type="array">a:4:{i:0;s:49:"1.Video Calls: talk to your friends face to face.";i:1;s:62:"2.Web WeChat: chat on WeChat from your PC through the browser.";i:2;s:151:"3.Selective sharing of Moments using Visibility and custom-defined groups and the ability to reply directly to a friend&#x2019;s comment in Moments using @.";i:3;s:19:"4.New QR Name Card.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="10">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2012-07-19</field>
+    <field name="version" type="string">4.2</field>
+    <field name="title" type="string">WeChat 4.2 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E00;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">WeChat 4.2 for iPhone has been released. Download WeChat in App Store to experience video calls and web WeChat on your handset
+</field>
+    <field name="features" type="array">a:4:{i:0;s:56:"1.&#x65B0;&#x589E;&#x8996;&#x8A0A;&#x901A;&#x8A71;&#x529F;&#x80FD;&#xFF0C;&#x9060;&#x8DDD;&#x96E2;&#x4E0D;&#x518D;&#x662F;&#x554F;&#x984C;&#x3002;";i:1;s:71:"2.&#x65B0;&#x589E;WeChat&#x7DB2;&#x9801;&#x7248;&#xFF0C;&#x96FB;&#x8166;&#x9023;&#x63A5;WeChat&#xFF0C;&#x8F38;&#x5165;&#x6587;&#x5B57;&#x66F4;&#x65B9;&#x4FBF;&#x3002;";i:2;s:132:"3.&#x670B;&#x53CB;&#x5708;&#x4E0A;&#x50B3;&#x76F8;&#x7247;&#x53EF;&#x9078;&#x64C7;&#x5206;&#x4EAB;&#x5C0D;&#x8C61; &#xFF0C;&#x52A0;&#x5F37;&#x670B;&#x53CB;&#x5708;&#x79C1;&#x96B1;&#x4FDD;&#x8B77;&#xFF1B;&#x56DE;&#x8986;&#x67D0;&#x689D;&#x76F8;&#x7247;&#x8A55;&#x8AD6;&#xFF0C;&#x8B93;&#x4EA4;&#x6D41;&#x66F4;&#x76F4;&#x63A5;&#x660E;&#x78BA;&#x3002;";i:3;s:53:"4.&#x5168;&#x65B0;&#x7684;WeChat&#x540D;&#x7247;&#x8A2D;&#x8A08;&#xFF0C;&#x8B93;&#x4F60;&#x66F4;&#x5177;&#x9B45;&#x529B;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="11">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2012-04-19</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat puts all of your social needs at your fingertips! Keep in touch with everyone important with this comprehensive feature suite: voice chatting, text messaging, photo and video exchange, and sharing of personal photo journals of your lives' highlights.</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:10:{i:0;s:83:"1.Create a streaming photo journal of your day's highlights and personal interests.";i:1;s:95:"2.Easily share captioned photos with your circle of friends, to &#x2018;like&#x2019; and comment on them.";i:2;s:33:"3.Simple Facebook Connect log-in.";i:3;s:70:"4.Link your Facebook account to find and invite friends from Facebook.";i:4;s:62:"5.Simple registration via phone number (SMS or voice message).";i:5;s:84:"6.Multiple language support including: Thai, Vietnamese, Indonesian, and Portuguese.";i:6;s:44:"7.Forward photos and videos to your friends.";i:7;s:68:"8.Relay your current location to a friend to make meeting up easier.";i:8;s:58:"9.Highlight best friends in your contact list with a star!";i:9;s:45:"10.Broadcast messages to multiple recipients.";}</field>
+    <field name="featuresNum" type="array">a:10:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"1";i:6;s:1:"2";i:7;s:1:"2";i:8;s:1:"2";i:9;s:1:"2";}</field>
+  </row>
+  <row id="12">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2012-04-19</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x4FE1;&#x3001;&#x8996;&#x983B;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x3001;&#x6CF0;&#x8A9E;&#x3001;&#x8461;&#x8404;&#x7259;&#x8A9E;&#x3001;&#x8D8A;&#x5357;&#x8A9E;&#x3001;&#x5370;&#x5C3C;&#x8A9E;&#x4E03;&#x7A2E;&#x754C;&#x9762;</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:10:{i:0;s:71:"1.&#x4F60;&#x53EF;&#x4EE5;&#x64C1;&#x6709;&#x4E00;&#x500B;&#x7CBE;&#x7F8E;&#x7684;&#x76F8;&#x518A;&#xFF0C;&#x5C07;&#x751F;&#x6D3B;&#x8A18;&#x9304;&#x5728;&#x76F8;&#x518A;&#x4E2D;&#x3002;";i:1;s:122:"2.&#x652F;&#x6301;&#x628A;&#x7167;&#x7247;&#x5206;&#x4EAB;&#x5230;&#x670B;&#x53CB;&#x5708;&#xFF0C;&#x8B93;&#x6240;&#x6709;WeChat&#x901A;&#x8A0A;&#x9304;&#x88CF;&#x7684;&#x670B;&#x53CB;&#x770B;&#x5230;&#xFF0C;&#x4ED6;&#x5011;&#x9084;&#x53EF;&#x4EE5;&#x5C0D;&#x7167;&#x7247;&#x8A55;&#x8AD6;&#x548C;&#x8D0A;&#x3002;";i:2;s:71:"3.&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;facebook&#x5E33;&#x865F;&#xFF0C;&#x901A;&#x904E;facebook connect&#x767B;&#x9304;WeChat&#x3002;";i:3;s:113:"4.&#x4F60;&#x53EF;&#x4EE5;&#x7D81;&#x5B9A;facebook&#x5E33;&#x865F;&#xFF0C;&#x627E;&#x5230;facebook&#x4E0A;&#x7684;WeChat&#x597D;&#x53CB;&#xFF0C;&#x6216;&#x9080;&#x8ACB;facebook&#x597D;&#x53CB;&#x4E00;&#x8D77;&#x4F86;&#x73A9;WeChat&#x3002;";i:4;s:74:"5.&#x652F;&#x6301;&#x6D77;&#x5916;&#x624B;&#x6A5F;&#x865F;&#x78BC;&#xFF0C;&#x901A;&#x904E;&#x63A5;&#x807D;&#x8A9E;&#x97F3;&#x96FB;&#x8A71;&#xFF0C;&#x7372;&#x53D6;&#x9A57;&#x8B49;&#x78BC;&#x3002;";i:5;s:62:"6.&#x652F;&#x6301;&#x6CF0;&#x8A9E;&#xFF0C;&#x8461;&#x8404;&#x7259;&#x8A9E;&#xFF0C;&#x8D8A;&#x5357;&#x8A9E;&#xFF0C;&#x5370;&#x5C3C;&#x8A9E;&#x986F;&#x793A;&#x3002;";i:6;s:53:"7.&#x652F;&#x6301;&#x5716;&#x7247;&#x3001;&#x8996;&#x983B;&#x8F49;&#x767C;&#x7D66;&#x5176;&#x4ED6;WeChat&#x670B;&#x53CB;&#x3002;";i:7;s:80:"8.&#x652F;&#x6301;&#x5C0D;WeChat&#x670B;&#x53CB;&#x767C;&#x9001;&#x4F60;&#x7576;&#x524D;&#x7684;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#xFF0C;&#x65B9;&#x4FBF;&#x670B;&#x53CB;&#x627E;&#x5230;&#x4F60;&#x3002;";i:8;s:125:"9.&#x53EF;&#x4EE5;&#x5C0D;&#x67D0;&#x500B;&#x901A;&#x8A0A;&#x9304;&#x88CF;&#x7684;&#x670B;&#x53CB;&#x6A19;&#x661F;&#x6A19;&#xFF0C;&#x9019;&#x6A23;&#x5C31;&#x53EF;&#x4EE5;&#x5FEB;&#x901F;&#x5728;&#x901A;&#x8A0A;&#x9304;&#x9802;&#x90E8;&#x7684;&#x661F;&#x6A19;&#x5206;&#x7D44;&#x88CF;&#x627E;&#x5230;&#x4ED6;&#x5011;&#x4E86;&#x3002;";i:9;s:84:"10.&#x652F;&#x6301;&#x5C0D;&#x591A;&#x500B;WeChat&#x597D;&#x53CB;&#x7FA4;&#x767C;&#x6D88;&#x606F;&#xFF0C;&#x6E1B;&#x5C11;&#x4F60;&#x91CD;&#x5FA9;&#x7E41;&#x7463;&#x7684;&#x64CD;&#x4F5C;&#x5DE5;&#x4F5C;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:10:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"1";i:6;s:1:"2";i:7;s:1:"2";i:8;s:1:"2";i:9;s:1:"2";}</field>
+  </row>
+  <row id="13">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2011-12-20</field>
+    <field name="version" type="string">3.5</field>
+    <field name="title" type="string">WeChat 3.5 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo and video sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, Traditional Chinese and Simplified Chinese.</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:5:{i:0;s:69:"1.Show your QR Code on Facebook, and your friends will say hi to you.";i:1;s:84:"2.Support dynamic emoticons on transparent backgrounds, Emoji, and custom emoticons.";i:2;s:65:"3.SMS registration is now supported in over a hundred of regions.";i:3;s:64:"4.Play Rock-Paper-Scissors game while chatting at the same time.";i:4;s:51:"5.Set customized background image in chat sessions.";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="14">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2011-12-20</field>
+    <field name="version" type="string">3.5</field>
+    <field name="title" type="string">WeChat 3.5 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x6D88;&#x606F;&#x3001;&#x8996;&#x983B;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x4E09;&#x7A2E;&#x754C;&#x9762;&#x3002;</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:5:{i:0;s:65:"1.&#x5206;&#x4EAB;&#x5C08;&#x5C6C;&#x65BC;&#x81EA;&#x5DF1;&#x7684;QR Code&#x5230;Facebook&#x548C;&#x793E;&#x4EA4;&#x7DB2;&#x7AD9;&#x4E0A;&#x3002;";i:1;s:67:"2.&#x652F;&#x6301;&#x900F;&#x660E;&#x80CC;&#x666F;&#x7684;&#x52D5;&#x756B;&#x8868;&#x60C5;&#x3001;emoji&#x8868;&#x60C5;&#x3001;&#x81EA;&#x8A02;&#x8868;&#x60C5;&#x3002;";i:2;s:71:"3.&#x7C21;&#x5316;&#x8A3B;&#x518A;&#x6D41;&#x7A0B;&#xFF0C;&#x652F;&#x6301;&#x5168;&#x7403;&#x8D85;&#x904E;100&#x500B;&#x570B;&#x5BB6;&#x7684;&#x7C21;&#x8A0A;&#x8A3B;&#x518A;&#x3002;";i:3;s:53:"4.&#x5C0D;&#x8A71;&#x4E2D;&#x53EF;&#x4EE5;&#x9032;&#x884C;&#x5305;&#x526A;&#x63FC;&#x548C;&#x6254;&#x9AB0;&#x5B50;&#x904A;&#x6232;&#x3002;";i:4;s:41:"5.&#x5C0D;&#x8A71;&#x9801;&#x9762;&#x652F;&#x6301;&#x81EA;&#x8A02;&#x804A;&#x5929;&#x80CC;&#x666F;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="15">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-01-04</field>
+    <field name="version" type="string">4.3.3</field>
+    <field name="title" type="string">WeChat 4.3.3 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. It supports 15 languages including English, Chinese, Thai, Vietnamese, Indonesian, and Portuguese.</field>
+    <field name="indexDescription" type="string">WeChat 4.3.3 for iPhone has been released. Download now from App Store.</field>
+    <field name="features" type="array">a:3:{i:0;s:77:"1.Fixed the issue causing WeChat to crash when the user would send emoticons.";i:1;s:60:"2.Fixed the issue of not being able to view mobile contacts.";i:2;s:56:"3.Improved Moments sharing and account privacy settings.";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";}</field>
+  </row>
+  <row id="16">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-01-04</field>
+    <field name="version" type="string">4.3.3</field>
+    <field name="title" type="string">WeChat 4.3.3 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E00;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">WeChat 4.3.3 for iPhone &#x5DF2;&#x767C;&#x4F48;&#x3002; &#x8ACB;&#x5230;App Store&#x4E0B;&#x8F09;&#x3002;</field>
+    <field name="features" type="array">a:3:{i:0;s:65:"1.&#x4FEE;&#x5FA9;&#x4E86;&#x90E8;&#x5206;&#x7528;&#x6236;&#x9047;&#x5230;&#x7684;&#x767C;&#x8868;&#x60C5;&#x7B26;&#x865F;&#x9583;&#x9000;&#x7684;&#x554F;&#x984C;&#x3002;";i:1;s:71:"2.&#x89E3;&#x6C7A;&#x4E86;&#x90E8;&#x5206;&#x7528;&#x6236;&#x7121;&#x6CD5;&#x67E5;&#x770B;&#x624B;&#x6A5F;&#x901A;&#x8A0A;&#x9304;&#x806F;&#x7D61;&#x4EBA;&#x7684;&#x554F;&#x984C;&#x3002;";i:2;s:59:"3.&#x5C0D;&#x670B;&#x53CB;&#x5708;&#x53CA;&#x5E33;&#x6236;&#x79C1;&#x96B1;&#x7684;&#x4E00;&#x4E9B;&#x6B0A;&#x9650;&#x505A;&#x4E86;&#x8ABF;&#x6574;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";}</field>
+  </row>
+  <row id="17">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-02-05</field>
+    <field name="version" type="string">4.5</field>
+    <field name="title" type="string">WeChat 4.5 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Chat with friends in a Live Chat session.</field>
+    <field name="features" type="array">a:4:{i:0;s:43:"1.Chat with friends in a Live Chat session.";i:1;s:57:"2.Invite your friends to a WeChat group chat via QR code.";i:2;s:32:"3.Search through chat histories.";i:3;s:39:"4.Backup and restore your chat history.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="18">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-02-05</field>
+    <field name="version" type="string">4.5</field>
+    <field name="title" type="string">WeChat 4.5 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x9019;&#x4E00;&#x6B21;&#xFF0C;&#x6211;&#x5011;&#x91CD;&#x65B0;&#x5B9A;&#x7FA9;&#x4E86;&#x5C0D;&#x8B1B;&#x6A5F;&#x3002;</field>
+    <field name="features" type="array">a:4:{i:0;s:26:"1.&#x8207;&#x670B;&#x53CB;&#x5373;&#x6642;&#x5C0D;&#x8B1B;&#x3002;";i:1;s:48:"2.&#x5206;&#x4EAB;&#x804A;&#x5929;&#x5BA4;QR Code&#xFF0C;&#x9080;&#x8ACB;&#x670B;&#x53CB;&#x52A0;&#x5165;&#x3002;";i:2;s:23:"3.&#x641C;&#x5C0B;&#x804A;&#x5929;&#x8A18;&#x9304;&#x3002;";i:3;s:32:"4.&#x5099;&#x4EFD;&#x53CA;&#x9084;&#x539F;&#x804A;&#x5929;&#x8A18;&#x9304;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="19">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-08-05</field>
+    <field name="version" type="string">5.0</field>
+    <field name="title" type="string">WeChat 5.0 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">New sticker shop is  available now!</field>
+    <field name="features" type="array">a:4:{i:0;s:64:"1.Download loads of new animated stickers from the Sticker Shop.";i:1;s:56:"2.Save favorite content clippings from chats or Moments.";i:2;s:64:"3.Add friends nearby easily with the new Hold Together function.";i:3;s:99:"4.Swipe to the right to return from a chat. Double tap the Chats tab to cycle through unread chats.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="20">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-08-05</field>
+    <field name="version" type="string">5.0</field>
+    <field name="title" type="string">WeChat 5.0 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;&#x8CBC;&#x5716;&#x5E02;&#x96C6;&#x3001;&#x6536;&#x85CF;&#x529F;&#x80FD;&#x548C;&#x66F4;&#x591A;&#x65B0;&#x7279;&#x6027;&#x3002;</field>
+    <field name="features" type="array">a:5:{i:0;s:50:"1.&#x8CBC;&#x5716;&#x5E02;&#x96C6;&#xFF0C;&#x6709;&#x8DA3;&#x597D;&#x73A9;&#x7684;&#x8CBC;&#x5716;&#x5728;&#x9019;&#x88E1;&#x3002;";i:1;s:80:"2.&#x65B0;&#x589E;&#x6536;&#x85CF;&#x529F;&#x80FD;&#xFF0C;&#x53EF;&#x4EE5;&#x6536;&#x85CF;&#x804A;&#x5929;&#x3001;&#x5B98;&#x65B9;&#x5E33;&#x865F;&#x3001;&#x670B;&#x53CB;&#x5708;&#x7684;&#x8CC7;&#x8A0A;&#x3002;";i:2;s:53:"3.&#x670B;&#x53CB;&#x63A2;&#x6E2C;&#x6309;&#x9215;&#xFF0C;&#x5FEB;&#x901F;&#x65B0;&#x589E;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;";i:3;s:107:"4.&#x53F3;&#x5283;&#x53EF;&#x4EE5;&#x8FD4;&#x56DE;&#x5230;&#x804A;&#x5929;&#x5217;&#x8868;&#xFF0C;&#x96D9;&#x64CA;&#x5DE6;&#x4E0B;&#x89D2;&#x201C;WeChat&#x201D;&#x53EF;&#x4EE5;&#x5B9A;&#x4F4D;&#x5230;&#x6700;&#x65B0;&#x4E00;&#x689D;&#x672A;&#x8B80;&#x8A0A;&#x606F;&#x3002;";i:4;s:38:"5.&#x96D9;&#x64CA;&#x53EF;&#x67E5;&#x770B;&#x6587;&#x5B57;&#x8A0A;&#x606F;&#x5168;&#x6587;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="21">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-10-24</field>
+    <field name="version" type="string">5.0.3</field>
+    <field name="title" type="string">WeChat 5.0.3 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Fully compatible with iOS 7.</field>
+    <field name="features" type="array">a:5:{i:0;s:20:"1.Sign up via Email.";i:1;s:43:"2.Add Google Contacts to find more friends.";i:2;s:44:"3.Manually clean WeChat files to save space.";i:3;s:32:"4.Export chat history via Email.";i:4;s:45:"5.Edit and send Favorite Messages to friends.";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="22">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-10-24</field>
+    <field name="version" type="string">5.0.3</field>
+    <field name="title" type="string">WeChat 5.0.3 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x5168;&#x9762;&#x652F;&#x6301;iOS7&#x3002;</field>
+    <field name="features" type="array">a:5:{i:0;s:34:"1.&#x53EF;&#x4EE5;&#x4F7F;&#x7528;Email&#x8A3B;&#x518A;WeChat&#x3002;";i:1;s:54:"2.&#x53EF;&#x4EE5;&#x65B0;&#x589E; Google&#x806F;&#x7D61;&#x4EBA;&#xFF0C;&#x627E;&#x5230;&#x66F4;&#x591A;&#x670B;&#x53CB;&#x3002;";i:2;s:50:"3.&#x624B;&#x52D5;&#x6E05;&#x7406;WeChat&#x6A94;&#x6848;&#xFF0C;&#x51CF;&#x5C11;&#x5B58;&#x5132;&#x7A7A;&#x9593;&#x3002;";i:3;s:35:"4.&#x900F;&#x904E;&#x90F5;&#x4EF6;&#x50B3;&#x9001;&#x804A;&#x5929;&#x8A18;&#x9304;&#x3002;";i:4;s:68:"5.&#x6536;&#x85CF;&#x6587;&#x5B57;&#x8A0A;&#x606F;&#x53EF;&#x7DE8;&#x8F2F;&#xFF0C;&#x6536;&#x85CF;&#x5167;&#x5BB9;&#x53EF;&#x50B3;&#x9001;&#x5230;&#x804A;&#x5929;&#x5BA4;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="23">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-12-20</field>
+    <field name="version" type="string">5.1</field>
+    <field name="title" type="string">WeChat 5.1 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Increase your group's capacity to 100 members.</field>
+    <field name="features" type="array">a:3:{i:0;s:48:"1.Increase your group's capacity to 100 members.";i:1;s:55:"2.Press sticker to preview animation before purchasing.";i:2;s:22:"3.View message drafts.";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="24">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2013-12-20</field>
+    <field name="version" type="string">5.1</field>
+    <field name="title" type="string">WeChat 5.1 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App&#x3002;</field>
+    <field name="indexDescription" type="string">&#x804A;&#x5929;&#x5BA4;&#x4EBA;&#x6578;&#x4E0A;&#x9650;&#x53EF;&#x9078;&#x64C7;&#x5347;&#x7D1A;&#x81F3;100&#x4EBA;&#x3002;</field>
+    <field name="features" type="array">a:3:{i:0;s:50:"1.&#x804A;&#x5929;&#x5BA4;&#x4EBA;&#x6578;&#x4E0A;&#x9650;&#x53EF;&#x9078;&#x64C7;&#x5347;&#x7D1A;&#x81F3;100&#x4EBA;&#x3002;";i:1;s:38:"2.&#x5728;&#x8CBC;&#x5716;&#x5E02;&#x96C6;&#x65B0;&#x589E;&#x9810;&#x89BD;&#x529F;&#x80FD;&#x3002;";i:2;s:62:"3.&#x672A;&#x80FD;&#x50B3;&#x9001;&#x8A0A;&#x606F;&#x7684;&#x8349;&#x7A3F;&#xFF0C;&#x6703;&#x986F;&#x793A;&#x5728;&#x804A;&#x5929;&#x5217;&#x8868;&#x4E2D;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="25">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2014-01-24</field>
+    <field name="version" type="string">5.2</field>
+    <field name="title" type="string">WeChat 5.2 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Share your real-time location in chat.</field>
+    <field name="features" type="array">a:7:{i:0;s:48:"1.Real-time location sharing with walkie talkie.";i:1;s:49:"2.Universal search including chat history search.";i:2;s:69:"3.Receive a special notification if you're mentioned in a group chat.";i:3;s:34:"4.Share sticker sets with friends.";i:4;s:38:"5.Link and show your LinkedIn account.";i:5;s:32:"6.Better image browsing in chats";i:6;s:69:"7.Calls connect more reliably and video and audio quality is improved";}</field>
+    <field name="featuresNum" type="array">a:7:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";i:5;s:1:"2";i:6;s:1:"0";}</field>
+  </row>
+  <row id="26">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2014-01-24</field>
+    <field name="version" type="string">5.2</field>
+    <field name="title" type="string">WeChat 5.2 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App&#x3002;</field>
+    <field name="indexDescription" type="string">&#x8207;&#x597D;&#x53CB;&#x5206;&#x4EAB;&#x5BE6;&#x6642;&#x4F4D;&#x7F6E;&#xFF0C;&#x540C;&#x6642;&#x9032;&#x884C;&#x5373;&#x6642;&#x5C0D;&#x8B1B;&#x3002;</field>
+    <field name="features" type="array">a:7:{i:0;s:86:"1.&#x53EF;&#x65BC;&#x804A;&#x5929;&#x6642;&#x67E5;&#x770B;&#x53CA;&#x5206;&#x4EAB;&#x597D;&#x53CB;&#x5BE6;&#x6642;&#x4F4D;&#x7F6E;&#xFF0C;&#x4E26;&#x80FD;&#x540C;&#x6642;&#x9032;&#x884C;&#x5373;&#x6642;&#x5C0D;&#x8B1B;&#x3002;";i:1;s:62:"2.&#x641C;&#x7D22;&#x529F;&#x80FD;&#x652F;&#x6301;&#x806F;&#x7D61;&#x4EBA;&#x53CA;&#x804A;&#x5929;&#x8A18;&#x9304;&#x7B49;&#x6240;&#x6709;&#x5167;&#x5BB9;&#x3002;";i:2;s:53:"3.&#x512A;&#x5316;&#x804A;&#x5929;&#x8A0A;&#x606F;&#x4E2D;&#x6B77;&#x53F2;&#x5716;&#x7247;&#x7684;&#x700F;&#x89BD;&#x9AD4;&#x9A57;&#x3002;";i:3;s:54:"4.&#x804A;&#x5929;&#x8A0A;&#x606F;&#x4E2D;&#x88AB;&#x597D;&#x53CB;@&#x5230;&#xFF0C;&#x6703;&#x6709;&#x7279;&#x5225;&#x63D0;&#x9192;&#x3002;";i:4;s:56:"5.&#x53EF;&#x4EE5;&#x5206;&#x4EAB;&#x8CBC;&#x5716;&#x4E0B;&#x8F09;&#x9801;&#x9762;&#x81F3;&#x597D;&#x53CB;&#x548C;&#x670B;&#x53CB;&#x5708;&#x3002;";i:5;s:52:"6.&#x652F;&#x6301;LinkedIn&#x5E33;&#x6236;&#x7D81;&#x5B9A;&#x548C;&#x540D;&#x7247;&#x5C55;&#x793A;&#x82F1;&#x6587;&#x3002;";i:6;s:60:"7.&#x5168;&#x9762;&#x512A;&#x5316;VOIP&#x6280;&#x8853;&#xFF0C;&#x63D0;&#x4F9B;&#x66F4;&#x4F73;&#x8996;&#x8A0A;&#x901A;&#x8A71;&#x9AD4;&#x9A57;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:7:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";i:5;s:1:"2";i:6;s:1:"0";}</field>
+  </row>
+  <row id="27">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2014-03-21</field>
+    <field name="version" type="string">5.2.1</field>
+    <field name="title" type="string">WeChat 5.2.1 for iPhone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Quickly snap and send a photo to your friends.</field>
+    <field name="features" type="array">a:2:{i:0;s:75:"1.Click the top right "+" to quickly snap and send a photo to your friends.";i:1;s:49:"2.Universal search including chat history search.";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"1";}</field>
+  </row>
+  <row id="28">
+    <field name="platform" type="string">iPhone</field>
+    <field name="date" type="string">2014-03-21</field>
+    <field name="version" type="string">5.2.1</field>
+    <field name="title" type="string">WeChat 5.2.1 for iPhone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App&#x3002;</field>
+    <field name="indexDescription" type="string">&#x4F7F;&#x7528;&#x4E3B;&#x9801;&#x201C;+&#x201D;&#x6309;&#x9215;&#xFF0C;&#x8FC5;&#x901F;&#x5206;&#x4EAB;&#x76F8;&#x7247;&#x3002;</field>
+    <field name="features" type="array">a:2:{i:0;s:51:"1.&#x4F7F;&#x7528;&#x4E3B;&#x9801;&#x201C;+&#x201D;&#x6309;&#x9215;&#xFF0C;&#x8FC5;&#x901F;&#x5206;&#x4EAB;&#x76F8;&#x7247;&#x3002;";i:1;s:50:"2.&#x5728;&#x670B;&#x53CB;&#x8CC7;&#x8A0A;&#x9801;&#x9762;&#x76F4;&#x63A5;&#x958B;&#x59CB;&#x8A9E;&#x97F3;&#x901A;&#x8A71;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"1";}</field>
+  </row>
+  <row id="29">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2012-08-21</field>
+    <field name="version" type="string">4.2</field>
+    <field name="title" type="string">WeChat 4.2 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. It supports 17 languages including English, Chinese, Thai, Vietnamese, Indonesian, and Portuguese.</field>
+    <field name="indexDescription" type="string">WeChat 4.2 for Android has been released. The new version increased Video Calls, Web WeChat, New QR Name Card and so on
+</field>
+    <field name="features" type="array">a:4:{i:0;s:49:"1.Video Calls: talk to your friends face to face.";i:1;s:62:"2.Web WeChat: chat on WeChat from your PC through the browser.";i:2;s:151:"3.Selective sharing of Moments using Visibility and custom-defined groups and the ability to reply directly to a friend&#x2019;s comment in Moments using @.";i:3;s:19:"4.New QR Name Card.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="30">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2012-08-21</field>
+    <field name="version" type="string">4.2</field>
+    <field name="title" type="string">WeChat 4.2 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E00;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App&#x3002;</field>
+    <field name="indexDescription" type="string">WeChat 4.2 for Android has been released. The new version increased Video Calls, Web WeChat, New QR Name Card and so on
+</field>
+    <field name="features" type="array">a:4:{i:0;s:62:"1.&#x65B0;&#x589E;&#x8996;&#x8A0A;&#x901A;&#x8A71;&#x63D2;&#x4EF6;&#xFF0C;&#x662F;&#x6642;&#x5019;&#x548C;&#x670B;&#x53CB;&#x9762;&#x5C0D;&#x9762;&#x4E86;&#x3002;";i:1;s:90:"2.&#x65B0;&#x589E;WeChat&#x7DB2;&#x9801;&#x7248;&#xFF0C;&#x4FBF;&#x6377;&#x7684;QR Code&#x6383;&#x63CF;&#x5165;&#x53E3;&#xFF0C;&#x8B93;&#x4F60;&#x5FEB;&#x901F;&#x9032;&#x5165;WeChat&#x751F;&#x6D3B;&#x3002;";i:2;s:132:"3.&#x670B;&#x53CB;&#x5708;&#x4E0A;&#x50B3;&#x76F8;&#x7247;&#x53EF;&#x9078;&#x64C7;&#x5206;&#x4EAB;&#x5C0D;&#x8C61; &#xFF0C;&#x52A0;&#x5F37;&#x670B;&#x53CB;&#x5708;&#x79C1;&#x96B1;&#x4FDD;&#x8B77;&#xFF1B;&#x56DE;&#x8986;&#x67D0;&#x689D;&#x76F8;&#x7247;&#x8A55;&#x8AD6;&#xFF0C;&#x8B93;&#x4EA4;&#x6D41;&#x66F4;&#x76F4;&#x63A5;&#x660E;&#x78BA;&#x3002;";i:3;s:53:"4.&#x5168;&#x65B0;&#x7684;WeChat&#x540D;&#x7247;&#x8A2D;&#x8A08;&#xFF0C;&#x8B93;&#x4F60;&#x66F4;&#x5177;&#x9B45;&#x529B;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="31">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2012-05-24</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat puts all of your social needs at your fingertips! Keep in touch with everyone important with this comprehensive feature suite: voice chatting, text messaging, photo and video exchange, and sharing of personal photo journals of your lives' highlights.</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:7:{i:0;s:83:"1.Create a streaming photo journal of your day's highlights and personal interests.";i:1;s:70:"2.Link your Facebook account to find and invite friends from Facebook.";i:2;s:62:"3.Simple registration via phone number (SMS or voice message).";i:3;s:91:"4.Multiple language support including: Thai, Vietnamese, Indonesian, Spanish and Portuguese";i:4;s:44:"5.Forward photos and videos to your friends.";i:5;s:68:"6.Relay your current location to a friend to make meeting up easier.";i:6;s:58:"7.Highlight best friends in your contact list with a star!";}</field>
+    <field name="featuresNum" type="array">a:7:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"1";i:3;s:1:"1";i:4;s:1:"1";i:5;s:1:"1";i:6;s:1:"2";}</field>
+  </row>
+  <row id="32">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2012-05-24</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x4E00;&#x5C0D;&#x4E00;&#x804A;&#x5929;&#x53CA;&#x5EFA;&#x7ACB;&#x804A;&#x5929;&#x5BA4;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x3001;&#x6CF0;&#x8A9E;&#x3001;&#x8461;&#x8404;&#x7259;&#x8A9E;&#x3001;&#x8D8A;&#x5357;&#x8A9E;&#x3001;&#x5370;&#x5C3C;&#x8A9E;&#x3001;&#x897F;&#x73ED;&#x7259;&#x8A9E;&#x516B;&#x7A2E;&#x4ECB;&#x9762;&#x8A9E;&#x8A00;&#x3002;</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:7:{i:0;s:71:"1.&#x4F60;&#x53EF;&#x4EE5;&#x64C1;&#x6709;&#x4E00;&#x672C;&#x7CBE;&#x7F8E;&#x7684;&#x76F8;&#x7C3F;&#xFF0C;&#x5C07;&#x751F;&#x6D3B;&#x8A18;&#x9304;&#x5728;&#x76F8;&#x7C3F;&#x4E2D;&#x3002;";i:1;s:130:"2.&#x4F60;&#x53EF;&#x4EE5;&#x900F;&#x904E;Facebook connect&#x767B;&#x5165;WeChat&#xFF0C;&#x627E;&#x5230;&#x4F7F;&#x7528;WeChat&#x7684;Facebook&#x670B;&#x53CB;&#xFF0C;&#x4E26;&#x9080;&#x8ACB;&#x66F4;&#x591A;Facebook&#x670B;&#x53CB;&#x52A0;&#x5165;WeChat&#x3002;";i:2;s:50:"3.&#x652F;&#x6301;&#x900F;&#x904E;&#x63A5;&#x807D;&#x8A9E;&#x97F3;&#x96FB;&#x8A71;&#x7372;&#x53D6;&#x9A57;&#x8B49;&#x78BC;&#x3002;";i:3;s:77:"4.&#x652F;&#x6301;&#x6CF0;&#x8A9E;&#x3001;&#x8461;&#x8404;&#x7259;&#x8A9E;&#x3001;&#x897F;&#x73ED;&#x7259;&#x8A9E;&#x3001;&#x8D8A;&#x5357;&#x8A9E;&#x3001;&#x5370;&#x5C3C;&#x8A9E;&#x986F;&#x793A;&#x3002;";i:4;s:56:"5.&#x652F;&#x6301;&#x5C07;&#x5716;&#x7247;&#x3001;&#x5F71;&#x7247;&#x8F49;&#x767C;&#x7D66;&#x5176;&#x4ED6;WeChat&#x670B;&#x53CB;&#x3002;";i:5;s:80:"6.&#x652F;&#x6301;&#x5411;WeChat&#x670B;&#x53CB;&#x5206;&#x4EAB;&#x4F60;&#x7576;&#x524D;&#x7684;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#xFF0C;&#x65B9;&#x4FBF;&#x670B;&#x53CB;&#x627E;&#x5230;&#x4F60;&#x3002;";i:6;s:110:"7.&#x53EF;&#x70BA;WeChat&#x670B;&#x53CB;&#x52A0;&#x4E0A;&#x661F;&#x6A19;&#xFF0C;&#x5373;&#x53EF;&#x5728;&#x901A;&#x8A0A;&#x9304;&#x9802;&#x90E8;&#x7684;&#x300C;&#x661F;&#x6A19;&#x670B;&#x53CB;&#x300D;&#x5206;&#x7D44;&#x4E2D;&#x5FEB;&#x901F;&#x627E;&#x5230;&#x4ED6;&#x5011;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:7:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"1";i:3;s:1:"1";i:4;s:1:"1";i:5;s:1:"1";i:6;s:1:"2";}</field>
+  </row>
+  <row id="33">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2012-11-01</field>
+    <field name="version" type="string">4.3</field>
+    <field name="title" type="string">WeChat 4.3 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. It supports 18 languages including English, Chinese, Thai, Vietnamese, Indonesian, and Portuguese.</field>
+    <field name="indexDescription" type="string">Web Grab is newly added. Sync your Moments Photos to Twitter and download special emoticons.</field>
+    <field name="features" type="array">a:7:{i:0;s:167:"1.Introduced Web Grab, a new feature allowing you to pull images straight from your computer browser to your phone. (Visit&#xA0;http://www.wechat.com/shake&#xA0;to learn more)";i:1;s:38:"2.Sync your Moments photos to Twitter.";i:2;s:29:"3.Download special emoticons.";i:3;s:154:"4.Fixed a bug where Facebook unlinking didn't work. You can now also unlink your phone number and can set/edit your WeChat login password from My Account.";i:4;s:55:"5.Lock favorite conversations on top of your Chat list.";i:5;s:45:"6.Slide to view all images in a conversation.";i:6;s:134:"7.Add people to Moments Blocked List if you don't want to see their Moments updates. You can also now switch Private photos to Public.";}</field>
+    <field name="featuresNum" type="array">a:7:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";i:5;s:1:"2";i:6;s:1:"2";}</field>
+  </row>
+  <row id="34">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2012-11-01</field>
+    <field name="version" type="string">4.3</field>
+    <field name="title" type="string">WeChat 4.3 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x8A0A;&#x8EDF;&#x9AD4;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x8A0A;&#x606F;&#x3001;&#x5F71;&#x7247;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x4E00;&#x5C0D;&#x4E00;&#x804A;&#x5929;&#x4EE5;&#x53CA;&#x5EFA;&#x7ACB;&#x591A;&#x4EBA;&#x804A;&#x5929;&#x5BA4;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x6D41;&#x52D5;&#x901A;&#x8A0A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x53F0;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7E41;/&#x7C21;&#x9AD4;&#x4E2D;&#x6587;&#x3001;&#x82F1;&#x6587;&#x3001;&#x6CF0;&#x8A9E;&#x3001;&#x8461;&#x8404;&#x7259;&#x8A9E;&#x3001;&#x8D8A;&#x5357;&#x8A9E;&#x3001;&#x5370;&#x5C3C;&#x8A9E;&#x7B49;&#x5341;&#x516B;&#x7A2E;&#x754C;&#x9762;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;&#x6416;&#x4E00;&#x6416;&#x50B3;&#x5716;&#xFF1B;&#x5C07;&#x670B;&#x53CB;&#x5708;&#x7684;&#x76F8;&#x7247;&#x540C;&#x6B65;&#x5230;Twitter&#xFF1B;&#x53EF;&#x4EE5;&#x4E0B;&#x8F09;&#x52D5;&#x756B;&#x8868;&#x60C5;&#x3002;
+        </field>
+    <field name="features" type="array">a:7:{i:0;s:162:"1.&#x65B0;&#x589E;&#x6416;&#x4E00;&#x6416;&#x50B3;&#x5716;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5C07;&#x96FB;&#x8166;&#x7DB2;&#x9801;&#x4E0A;&#x7684;&#x5716;&#x7247;&#x201C;&#x6416;&#x201D;&#x5230;&#x624B;&#x6A5F;&#x4E0A;&#xFF0C;&#x8B93;&#x597D;&#x53CB;&#x4E5F;&#x6416;&#x5230;&#x4F60;&#x7684;&#x5716;&#x7247;&#x3002;&#xFF08;&#x67E5;&#x770B;&#x8A73;&#x60C5; http://wechat.com/shake &#xFF09;";i:1;s:90:"2.&#x53EF;&#x4EE5;&#x5C07;&#x670B;&#x53CB;&#x5708;&#x7684;&#x76F8;&#x7247;&#x540C;&#x6B65;&#x5230;Twitter&#xFF0C;&#x8B93;&#x66F4;&#x591A;&#x670B;&#x53CB;&#x5206;&#x4EAB;&#x4F60;&#x7684;&#x5FEB;&#x6A02;&#x4E00;&#x523B;&#x3002;";i:2;s:29:"3.&#x53EF;&#x4EE5;&#x4E0B;&#x8F09;&#x52D5;&#x756B;&#x8868;&#x60C5;&#x3002;";i:3;s:46:"4.&#x53EF;&#x4EE5;&#x89E3;&#x7D81;Facebook&#x5E33;&#x6236;&#x548C;&#x624B;&#x6A5F;&#x865F;&#x78BC;&#x3002;";i:4;s:83:"5.&#x65B0;&#x589E;&#x804A;&#x5929;&#x7F6E;&#x9802;&#xFF0C;&#x53EF;&#x628A;&#x6709;&#x5F85;&#x8FA6;&#x4E8B;&#x9805;&#x7684;&#x804A;&#x5929;&#x7F6E;&#x9802;&#xFF0C;&#x65B9;&#x4FBF;&#x7A0D;&#x5F8C;&#x8655;&#x7406;&#x3002;";i:5;s:47:"6.&#x53EF;&#x4EE5;&#x5728;&#x6703;&#x8A71;&#x4E2D;&#x6ED1;&#x52D5;&#x67E5;&#x770B;&#x591A;&#x5F35;&#x5716;&#x7247;&#x3002;";i:6;s:107:"7.&#x4F60;&#x53EF;&#x4EE5;&#x9078;&#x64C7;&#x4E0D;&#x67E5;&#x770B;&#x67D0;&#x4EBA;&#x7684;&#x670B;&#x53CB;&#x5708;&#x66F4;&#x65B0;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x628A;&#x670B;&#x53CB;&#x5708;&#x4E0A;&#x7684;&#x79C1;&#x5BC6;&#x7167;&#x7247;&#x8A2D;&#x70BA;&#x516C;&#x958B;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:7:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";i:5;s:1:"2";i:6;s:1:"2";}</field>
+  </row>
+  <row id="35">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-01-06</field>
+    <field name="version" type="string">4.3.2</field>
+    <field name="title" type="string">WeChat 4.3.2 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. It supports 18 languages including English, Chinese, Thai, Vietnamese, Indonesian, and Portuguese.</field>
+    <field name="indexDescription" type="string">WeChat 4.3.2 for Android has been released.</field>
+    <field name="features" type="array">a:2:{i:0;s:34:"1. Improved Moments image quality.";i:1;s:57:"2. Improved Moments sharing and account privacy settings.";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"0";i:1;s:1:"0";}</field>
+  </row>
+  <row id="36">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-01-06</field>
+    <field name="version" type="string">4.3.2</field>
+    <field name="title" type="string">WeChat 4.3.2 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x8A0A;&#x8EDF;&#x9AD4;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x8A0A;&#x606F;&#x3001;&#x5F71;&#x7247;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x4E00;&#x5C0D;&#x4E00;&#x804A;&#x5929;&#x4EE5;&#x53CA;&#x5EFA;&#x7ACB;&#x591A;&#x4EBA;&#x804A;&#x5929;&#x5BA4;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x6D41;&#x52D5;&#x901A;&#x8A0A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x53F0;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7E41;/&#x7C21;&#x9AD4;&#x4E2D;&#x6587;&#x3001;&#x82F1;&#x6587;&#x3001;&#x6CF0;&#x8A9E;&#x3001;&#x8461;&#x8404;&#x7259;&#x8A9E;&#x3001;&#x8D8A;&#x5357;&#x8A9E;&#x3001;&#x5370;&#x5C3C;&#x8A9E;&#x7B49;&#x5341;&#x516B;&#x7A2E;&#x754C;&#x9762;&#x3002;</field>
+    <field name="indexDescription" type="string">WeChat 4.3.2 for Android &#x5DF2;&#x767C;&#x4F48;&#x3002;
+        </field>
+    <field name="features" type="array">a:2:{i:0;s:33:"1. &#x6539;&#x5584;&#x670B;&#x53CB;&#x5708;&#x5716;&#x7247;&#x54C1;&#x8CEA;&#x3002;";i:1;s:48:"2. &#x8ABF;&#x6574;&#x670B;&#x53CB;&#x5708;&#x6B0A;&#x9650;&#xFF0C;&#x4FDD;&#x8B77;&#x5E33;&#x6236;&#x96B1;&#x79C1;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"0";i:1;s:1:"0";}</field>
+  </row>
+  <row id="37">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-02-06</field>
+    <field name="version" type="string">4.5</field>
+    <field name="title" type="string">WeChat 4.5 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Live Chat: a real-time group walkie talkie.</field>
+    <field name="features" type="array">a:3:{i:0;s:44:"1. Chat with friends in a Live Chat session.";i:1;s:58:"2. Invite your friends to a WeChat group chat via QR code.";i:2;s:40:"3. Backup and restore your chat history.";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="38">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-02-06</field>
+    <field name="version" type="string">4.5</field>
+    <field name="title" type="string">WeChat 4.5 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;&#x5373;&#x6642;&#x5C0D;&#x8B1B;&#x529F;&#x80FD;&#xFF0C;&#x8B93;&#x4F60;&#x548C;&#x670B;&#x53CB;&#x53EF;&#x4EE5;&#x5373;&#x6642;&#x901A;&#x8A71;&#x3002;
+        </field>
+    <field name="features" type="array">a:3:{i:0;s:27:"1. &#x8207;&#x670B;&#x53CB;&#x5373;&#x6642;&#x5C0D;&#x8B1B;&#x3002;";i:1;s:49:"2. &#x5206;&#x4EAB;&#x804A;&#x5929;&#x5BA4;QR Code&#xFF0C;&#x9080;&#x8ACB;&#x670B;&#x53CB;&#x52A0;&#x5165;&#x3002;";i:2;s:33:"3. &#x5099;&#x4EFD;&#x53CA;&#x9084;&#x539F;&#x804A;&#x5929;&#x8A18;&#x9304;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="39">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-08-22</field>
+    <field name="version" type="string">5.0</field>
+    <field name="title" type="string">WeChat 5.0 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">New sticker shop is  available now!</field>
+    <field name="features" type="array">a:4:{i:0;s:65:"1.	Download loads of new animated stickers from the Sticker Shop.";i:1;s:57:"2.	Save favorite content clippings from chats or Moments.";i:2;s:65:"3.	Add friends nearby easily with the new Hold Together function.";i:3;s:102:"4.	Swipe to the left to delete a conversation. Double tap the Chats tab to cycle through unread chats.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="40">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-08-22</field>
+    <field name="version" type="string">5.0</field>
+    <field name="title" type="string">WeChat 5.0 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;&#x8CBC;&#x5716;&#x5E02;&#x96C6;&#x3001;&#x6536;&#x85CF;&#x529F;&#x80FD;&#x548C;&#x66F4;&#x591A;&#x65B0;&#x7279;&#x6027;&#x3002;
+        </field>
+    <field name="features" type="array">a:5:{i:0;s:51:"1.	&#x8CBC;&#x5716;&#x5E02;&#x96C6;&#xFF0C;&#x6709;&#x8DA3;&#x597D;&#x73A9;&#x7684;&#x8CBC;&#x5716;&#x5728;&#x9019;&#x88E1;&#x3002;";i:1;s:81:"2.	&#x65B0;&#x589E;&#x6536;&#x85CF;&#x529F;&#x80FD;&#xFF0C;&#x53EF;&#x4EE5;&#x6536;&#x85CF;&#x804A;&#x5929;&#x3001;&#x5B98;&#x65B9;&#x5E33;&#x865F;&#x3001;&#x670B;&#x53CB;&#x5708;&#x7684;&#x8CC7;&#x8A0A;&#x3002;";i:2;s:54:"3.	&#x670B;&#x53CB;&#x63A2;&#x6E2C;&#x6309;&#x9215;&#xFF0C;&#x5FEB;&#x901F;&#x65B0;&#x589E;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;";i:3;s:105:"4.	&#x5DE6;&#x5283;&#x53EF;&#x4EE5;&#x522A;&#x9664;&#x804A;&#x5929;&#x8A18;&#x9304;&#xFF0C;&#x96D9;&#x64CA;&#x5DE6;&#x4E0B;&#x89D2;&#x201C;WeChat&#x201D;&#x53EF;&#x4EE5;&#x5B9A;&#x4F4D;&#x5230;&#x6700;&#x65B0;&#x4E00;&#x689D;&#x672A;&#x8B80;&#x8A0A;&#x606F;&#x3002;";i:4;s:39:"5.	&#x96D9;&#x64CA;&#x53EF;&#x67E5;&#x770B;&#x6587;&#x5B57;&#x8A0A;&#x606F;&#x5168;&#x6587;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="41">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-11-04</field>
+    <field name="version" type="string">5.0.3</field>
+    <field name="title" type="string">WeChat 5.0.3 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Add Google Contacts to find more friends.</field>
+    <field name="features" type="array">a:5:{i:0;s:21:"1.	Sign up via Email.";i:1;s:44:"2.	Add Google Contacts to find more friends.";i:2;s:45:"3.	Manually clean WeChat files to save space.";i:3;s:33:"4.	Export chat history via Email.";i:4;s:46:"5.	Edit and send Favorite Messages to friends.";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="42">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-11-04</field>
+    <field name="version" type="string">5.0.3</field>
+    <field name="title" type="string">WeChat 5.0.3 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E; Google&#x806F;&#x7D61;&#x4EBA;&#xFF0C;&#x627E;&#x5230;&#x66F4;&#x591A;&#x670B;&#x53CB;&#x3002;
+        </field>
+    <field name="features" type="array">a:5:{i:0;s:35:"1.	&#x53EF;&#x4EE5;&#x4F7F;&#x7528;Email&#x6CE8;&#x518C;WeChat&#x3002;";i:1;s:55:"2.	&#x53EF;&#x4EE5;&#x65B0;&#x589E; Google&#x806F;&#x7D61;&#x4EBA;&#xFF0C;&#x627E;&#x5230;&#x66F4;&#x591A;&#x670B;&#x53CB;&#x3002;";i:2;s:51:"3.	&#x624B;&#x52D5;&#x6E05;&#x7406;WeChat&#x6A94;&#x6848;&#xFF0C;&#x51CF;&#x5C11;&#x5B58;&#x5132;&#x7A7A;&#x9593;&#x3002;";i:3;s:36:"4.	&#x900F;&#x904E;&#x90F5;&#x4EF6;&#x50B3;&#x9001;&#x804A;&#x5929;&#x8A18;&#x9304;&#x3002;";i:4;s:69:"5.	&#x6536;&#x85CF;&#x6587;&#x5B57;&#x8A0A;&#x606F;&#x53EF;&#x7DE8;&#x8F2F;&#xFF0C;&#x6536;&#x85CF;&#x5167;&#x5BB9;&#x53EF;&#x50B3;&#x9001;&#x5230;&#x804A;&#x5929;&#x5BA4;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="43">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-12-23</field>
+    <field name="version" type="string">5.1</field>
+    <field name="title" type="string">WeChat 5.1 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Play the new game Pencil Pilot with your friends.</field>
+    <field name="features" type="array">a:4:{i:0;s:52:"1.	Play the new game Pencil Pilot with your friends.";i:1;s:37:"2.	Group chat with up to 100 friends.";i:2;s:56:"3.	Press sticker to preview animation before purchasing.";i:3;s:23:"4.	View message drafts.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="44">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2013-12-23</field>
+    <field name="version" type="string">5.1</field>
+    <field name="title" type="string">WeChat 5.1 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x548C;&#x597D;&#x53CB;&#x4E00;&#x8D77;&#x73A9;Pencil Pilot&#x3002;
+        </field>
+    <field name="features" type="array">a:4:{i:0;s:36:"1. &#x548C;&#x597D;&#x53CB;&#x4E00;&#x8D77;&#x73A9;Pencil Pilot&#x3002;";i:1;s:36:"2.	&#x804A;&#x5929;&#x5BA4;&#x73FE;&#x5728;&#x53EF;&#x5BB9;&#x7D0D;100&#x4EBA;&#x3002;";i:2;s:39:"3.	&#x5728;&#x8CBC;&#x5716;&#x5E02;&#x96C6;&#x65B0;&#x589E;&#x9810;&#x89BD;&#x529F;&#x80FD;&#x3002;";i:3;s:63:"4.	&#x672A;&#x80FD;&#x50B3;&#x9001;&#x8A0A;&#x606F;&#x7684;&#x8349;&#x7A3F;&#xFF0C;&#x6703;&#x986F;&#x793A;&#x5728;&#x804A;&#x5929;&#x5217;&#x8868;&#x4E2D;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="45">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2014-02-21</field>
+    <field name="version" type="string">5.2</field>
+    <field name="title" type="string">WeChat 5.2 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Redesigned faster and lighter WeChat for Android!</field>
+    <field name="features" type="array">a:7:{i:0;s:49:"1. Real-time location sharing with walkie talkie.";i:1;s:50:"2. Universal search including chat history search.";i:2;s:70:"3.	Receive a special notification if you're mentioned in a group chat.";i:3;s:35:"4.	Share sticker sets with friends.";i:4;s:39:"5.	Link and show your LinkedIn account.";i:5;s:34:"6.	Better image browsing in chats.";i:6;s:71:"6.	Calls connect more reliably and video and audio quality is improved.";}</field>
+    <field name="featuresNum" type="array">a:7:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";i:5;s:1:"2";i:6;s:1:"0";}</field>
+  </row>
+  <row id="46">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2014-02-21</field>
+    <field name="version" type="string">5.2</field>
+    <field name="title" type="string">WeChat 5.2 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x5168;&#x65B0;Android&#x8A2D;&#x8A08;&#xFF0C;&#x5E36;&#x7D66;&#x4F60;&#x66F4;&#x8F15;&#x66F4;&#x5FEB;&#x7684;WeChat&#x9AD4;&#x9A57;&#x3002;
+        </field>
+    <field name="features" type="array">a:7:{i:0;s:87:"1. &#x53EF;&#x65BC;&#x804A;&#x5929;&#x6642;&#x67E5;&#x770B;&#x53CA;&#x5206;&#x4EAB;&#x597D;&#x53CB;&#x5BE6;&#x6642;&#x4F4D;&#x7F6E;&#xFF0C;&#x4E26;&#x80FD;&#x540C;&#x6642;&#x9032;&#x884C;&#x5373;&#x6642;&#x5C0D;&#x8B1B;&#x3002;";i:1;s:63:"2.	&#x641C;&#x7D22;&#x529F;&#x80FD;&#x652F;&#x6301;&#x806F;&#x7D61;&#x4EBA;&#x53CA;&#x804A;&#x5929;&#x8A18;&#x9304;&#x7B49;&#x6240;&#x6709;&#x5167;&#x5BB9;&#x3002;";i:2;s:54:"3.	&#x512A;&#x5316;&#x804A;&#x5929;&#x8A0A;&#x606F;&#x4E2D;&#x6B77;&#x53F2;&#x5716;&#x7247;&#x7684;&#x700F;&#x89BD;&#x9AD4;&#x9A57;&#x3002;";i:3;s:55:"4.	&#x804A;&#x5929;&#x8A0A;&#x606F;&#x4E2D;&#x88AB;&#x597D;&#x53CB;@&#x5230;&#xFF0C;&#x6703;&#x6709;&#x7279;&#x5225;&#x63D0;&#x9192;&#x3002;";i:4;s:57:"5.	&#x53EF;&#x4EE5;&#x5206;&#x4EAB;&#x8CBC;&#x5716;&#x4E0B;&#x8F09;&#x9801;&#x9762;&#x81F3;&#x597D;&#x53CB;&#x548C;&#x670B;&#x53CB;&#x5708;&#x3002;";i:5;s:53:"6.	&#x652F;&#x6301;LinkedIn&#x5E33;&#x6236;&#x7D81;&#x5B9A;&#x548C;&#x540D;&#x7247;&#x5C55;&#x793A;&#x82F1;&#x6587;&#x3002;";i:6;s:61:"7.	&#x5168;&#x9762;&#x512A;&#x5316;VOIP&#x6280;&#x8853;&#xFF0C;&#x63D0;&#x4F9B;&#x66F4;&#x4F73;&#x8996;&#x8A0A;&#x901A;&#x8A71;&#x9AD4;&#x9A57;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:7:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";i:5;s:1:"2";i:6;s:1:"0";}</field>
+  </row>
+  <row id="47">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2014-04-04</field>
+    <field name="version" type="string">5.2.1</field>
+    <field name="title" type="string">WeChat 5.2.1 for Android Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Quickly snap and send a photo to your friends.</field>
+    <field name="features" type="array">a:2:{i:0;s:76:"1. Click the top right "+" to quickly snap and send a photo to your friends.";i:1;s:58:"2. Make free calls to any contact from their profile page.";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"1";}</field>
+  </row>
+  <row id="48">
+    <field name="platform" type="string">Android</field>
+    <field name="date" type="string">2014-04-04</field>
+    <field name="version" type="string">5.2.1</field>
+    <field name="title" type="string">WeChat 5.2.1 for Android &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x4F7F;&#x7528;&#x4E3B;&#x9801;&#x201C;+&#x201D;&#x6309;&#x9215;&#xFF0C;&#x8FC5;&#x901F;&#x5206;&#x4EAB;&#x76F8;&#x7247;&#x3002;
+        </field>
+    <field name="features" type="array">a:2:{i:0;s:52:"1. &#x4F7F;&#x7528;&#x4E3B;&#x9801;&#x201C;+&#x201D;&#x6309;&#x9215;&#xFF0C;&#x8FC5;&#x901F;&#x5206;&#x4EAB;&#x76F8;&#x7247;&#x3002;";i:1;s:51:"2.	&#x5728;&#x670B;&#x53CB;&#x8CC7;&#x8A0A;&#x9801;&#x9762;&#x76F4;&#x63A5;&#x958B;&#x59CB;&#x8A9E;&#x97F3;&#x901A;&#x8A71;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"1";}</field>
+  </row>
+  <row id="49">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-08-13</field>
+    <field name="version" type="string">3.1</field>
+    <field name="title" type="string">WeChat 3.1 for Windows Phone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, Traditional Chinese and Simplified Chinese. WeChat for Windows Phone support devices with Windows Phone 7.5 platform.</field>
+    <field name="indexDescription" type="string">WeChat 3.1 for Windwos Phone are now available in Marketplace. Download WeChat and experience our new version.</field>
+    <field name="features" type="array">a:3:{i:0;s:65:"1.Enhance your chats with a huge selection of animated emoticons.";i:1;s:52:"2.Play a fun game Rock-Paper-Scissors in your chats.";i:2;s:19:"3.New QR Name Card.";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="50">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-08-13</field>
+    <field name="version" type="string">3.1</field>
+    <field name="title" type="string">WeChat 3.1 for Windows Phone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x6D88;&#x606F;&#x3001;&#x8996;&#x983B;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x4E09;&#x7A2E;&#x754C;&#x9762;&#x3002; &#x652F;&#x6301;Windows Phone 7.5&#x5E73;&#x81FA;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x8A2D;&#x5099;&#x3002;</field>
+    <field name="indexDescription" type="string">WeChat 3.1 for Windwos Phone are now available in Marketplace. Download WeChat and experience our new version.</field>
+    <field name="features" type="array">a:3:{i:0;s:50:"1.&#x52D5;&#x614B;&#x5154;&#x65AF;&#x57FA;&#x804A;&#x5929;&#x8868;&#x60C5;&#xFF0C;&#x804A;&#x5929;&#x66F4;&#x751F;&#x52D5;&#xFF1B;";i:1;s:26:"2.&#x73A9;&#x8F49;&#x526A;&#x5200;&#x77F3;&#x982D;&#x5E03;&#xFF1B;";i:2;s:71:"3.&#x95DC;&#x6CE8;&#x8A8D;&#x8B49;WeChat ID&#xFF0C;&#x4E86;&#x89E3;&#x6700;&#x65B0;&#x8CC7;&#x8A0A;&#xFF0C;&#x8207;&#x660E;&#x661F;&#x89AA;&#x5BC6;&#x4E92;&#x52D5;&#xFF1B;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="51">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-07-18</field>
+    <field name="version" type="string">3.0</field>
+    <field name="title" type="string">WeChat 3.0 for Windows Phone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, Traditional Chinese and Simplified Chinese.</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:4:{i:0;s:83:"1.Create a streaming photo journal of your day's highlights and personal interests.";i:1;s:95:"2.Easily share captioned photos with your circle of friends, to &#x2018;like&#x2019; and comment on them.";i:2;s:37:"3.Sync photos in Moments to Facebook.";i:3;s:43:"4.Forward texts and photos to your friends.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="52">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-07-18</field>
+    <field name="version" type="string">3.0</field>
+    <field name="title" type="string">WeChat 3.0 for Windows Phone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x6D88;&#x606F;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x4E09;&#x7A2E;&#x754C;&#x9762;&#x3002;
+WeChat for Windows Phone&#x652F;&#x6301;Windows Phone 7.5&#x5E73;&#x81FA;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x8A2D;&#x5099;&#x3002;WeChat 3.0 for Windows Phone&#x5DF2;&#x7D93;&#x65BC;&#x4ECA;&#x65E5;&#x5728;&#x5FAE;&#x8EDF;&#x5B98;&#x65B9;&#x5E02;&#x5834;&#x4E0A;&#x67B6;&#xFF0C;&#x53EF;&#x7528;&#x624B;&#x6A5F;&#x8A2A;&#x554F;&#x61C9;&#x7528;&#x5E02;&#x5834;&#x641C;&#x7D22;&#x201C;WeChat&#x201D;&#x5F8C;&#xFF0C;&#x76F4;&#x63A5;&#x5728;&#x624B;&#x6A5F;&#x4E0A;&#x4E0B;&#x8F09;&#x5B89;&#x88DD;&#x3002;</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:4:{i:0;s:62:"1.&#x4F60;&#x53EF;&#x4EE5;&#x64C1;&#x6709;&#x4E00;&#x500B;&#x7CBE;&#x7F8E;&#x7684;&#x76F8;&#x7C3F;&#xFF0C;&#x8A18;&#x9304;&#x751F;&#x6D3B;&#x9EDE;&#x6EF4;&#xFF1B;";i:1;s:122:"2.&#x652F;&#x6301;&#x628A;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x5230;&#x670B;&#x53CB;&#x5708;&#xFF0C;&#x8B93;&#x6240;&#x6709;WeChat&#x901A;&#x8A0A;&#x9304;&#x88E1;&#x7684;&#x670B;&#x53CB;&#x770B;&#x5230;&#xFF0C;&#x4ED6;&#x5011;&#x9084;&#x53EF;&#x4EE5;&#x5C0D;&#x76F8;&#x7247;&#x8A55;&#x8AD6;&#x548C;&#x8B9A;&#xFF1B;";i:2;s:46:"3.&#x652F;&#x6301;&#x5C07;&#x670B;&#x53CB;&#x5708;&#x76F8;&#x7247;&#x540C;&#x6B65;&#x5230;Facebook&#xFF1B;";i:3;s:50:"4.&#x652F;&#x6301;&#x5C07;&#x6587;&#x5B57;&#x548C;&#x5716;&#x7247;&#x8F49;&#x767C;&#x7D66;&#x5176;&#x4ED6;&#x670B;&#x53CB;&#xFF1B;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="53">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-05-11</field>
+    <field name="version" type="string">2.1</field>
+    <field name="title" type="string">WeChat 2.1 for Windows Phone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, Traditional Chinese and Simplified Chinese. WeChat for Windows Phone support devices with Windows Phone 7.5 platform.</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:4:{i:0;s:43:"1.Easy and seamless Facebook Connect log-in";i:1;s:68:"2.Show your QR Code on Facebook, and your friends will say hi to you";i:2;s:43:"3.Broadcast messages to multiple recipients";i:3;s:50:"4.Set customized background image in chat sessions";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="54">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-05-11</field>
+    <field name="version" type="string">2.1</field>
+    <field name="title" type="string">WeChat 2.1 for Windows Phone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x6D88;&#x606F;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x4E09;&#x7A2E;&#x754C;&#x9762;&#x3002;
+WeChat for Windows Phone&#x652F;&#x6301;Windows Phone 7.5&#x5E73;&#x81FA;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x8A2D;&#x5099;&#x3002;WeChat 2.1 for Windows Phone&#x5DF2;&#x7D93;&#x65BC;&#x4ECA;&#x65E5;&#x5728;&#x5FAE;&#x8EDF;&#x5B98;&#x65B9;&#x5E02;&#x5834;&#x4E0A;&#x67B6;&#xFF0C;&#x53EF;&#x7528;&#x624B;&#x6A5F;&#x8A2A;&#x554F;&#x61C9;&#x7528;&#x5E02;&#x5834;&#x641C;&#x7D22;&#x201C;WeChat&#x201D; &#x5F8C;&#xFF0C;&#x76F4;&#x63A5;&#x5728;&#x624B;&#x6A5F;&#x4E0A;&#x4E0B;&#x8F09;&#x5B89;&#x88DD;&#x3002;</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:4:{i:0;s:78:"1.&#x652F;&#x6301;Facebook&#x5E33;&#x6236;&#x767B;&#x5165;&#xFF0C;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;Facebook&#x670B;&#x53CB;&#x70BA;WeChat&#x806F;&#x7E6B;&#x4EBA;&#xFF1B;";i:1;s:56:"2.&#x5206;&#x4EAB;&#x4F60;&#x7684;&#x4E8C;&#x7DAD;&#x78BC;&#xFF0C;&#x8B93;&#x5225;&#x4EBA;&#x4F86;&#x7D66;&#x4F60;&#x6253;&#x62DB;&#x547C;&#xFF1B;";i:2;s:50:"3.&#x5EE3;&#x64AD;&#x8A0A;&#x606F;&#xFF0C;&#x8F15;&#x9B06;&#x5411;&#x670B;&#x53CB;&#x5011;&#x50B3;&#x9001;&#x554F;&#x5019;&#xFF1B;";i:3;s:53:"4.&#x70BA;&#x4E0D;&#x540C;&#x7684;&#x670B;&#x53CB;&#x8A2D;&#x5B9A;&#x500B;&#x6027;&#x5316;&#x7684;&#x804A;&#x5929;&#x80CC;&#x666F;&#xFF1B;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="55">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-04-01</field>
+    <field name="version" type="string">2.0</field>
+    <field name="title" type="string">WeChat 2.0 for Windows Phone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, Traditional Chinese and Simplified Chinese.</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:2:{i:0;s:62:"1.Shake&#xFF1A;Find people who are shaking phones at the same time.";i:1;s:90:"2.Drift Bottle: Put your message into the drift bottle and share your feeling with others.";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"2";}</field>
+  </row>
+  <row id="56">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-04-01</field>
+    <field name="version" type="string">2.0</field>
+    <field name="title" type="string">WeChat 2.0 for Windows Phone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x6D88;&#x606F;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x4E09;&#x7A2E;&#x754C;&#x9762;&#x3002;
+WeChat for Windows Phone&#x652F;&#x6301;Windows Phone 7.5&#x5E73;&#x81FA;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x8A2D;&#x5099;&#x3002;WeChat 2.0 for Windows Phone&#x5DF2;&#x7D93;&#x65BC;&#x4ECA;&#x65E5;&#x5728;&#x5FAE;&#x8EDF;&#x5B98;&#x65B9;&#x5E02;&#x5834;&#x4E0A;&#x67B6;&#xFF0C;&#x53EF;&#x7528;&#x624B;&#x6A5F;&#x8A2A;&#x554F;&#x61C9;&#x7528;&#x5E02;&#x5834;&#x641C;&#x7D22;&#x201C;WeChat&#x201D; &#x5F8C;&#xFF0C;&#x76F4;&#x63A5;&#x5728;&#x624B;&#x6A5F;&#x4E0A;&#x4E0B;&#x8F09;&#x5B89;&#x88DD;&#x3002;</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:2:{i:0;s:74:"1.&#x6416;&#x4E00;&#x6416;&#xFF1A;&#x901A;&#x904E;&#x6416;&#x4E00;&#x6416;&#x624B;&#x6A5F;&#x627E;&#x5230;&#x540C;&#x6642;&#x4E5F;&#x5728;&#x6416;&#x624B;&#x6A5F;&#x7684;&#x670B;&#x53CB;&#x3002;";i:1;s:39:"2.&#x6F02;&#x6D41;&#x74F6;:&#x6254;&#x6F02;&#x6D41;&#x74F6;&#x533F;&#x540D;&#x4EA4;&#x53CB;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"2";}</field>
+  </row>
+  <row id="57">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-02-27</field>
+    <field name="version" type="string">1.2</field>
+    <field name="title" type="string">WeChat 1.2 for Windows Phone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, Traditional Chinese and Simplified Chinese.</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:2:{i:0;s:70:"1.Support registration via phone number in over 100 countries/regions.";i:1;s:64:"2.Support English&#xFF0C; Simplified Chinese and Traditional Chinese.";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"2";}</field>
+  </row>
+  <row id="58">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-02-27</field>
+    <field name="version" type="string">1.2</field>
+    <field name="title" type="string">WeChat 1.2 for Windows Phone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x6D88;&#x606F;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x4E09;&#x7A2E;&#x754C;&#x9762;&#x3002;
+WeChat for Windows Phone&#x652F;&#x6301;Windows Phone 7.5&#x5E73;&#x81FA;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x8A2D;&#x5099;&#x3002;WeChat 1.2 for Windows Phone&#x5DF2;&#x7D93;&#x65BC;&#x4ECA;&#x65E5;&#x5728;&#x5FAE;&#x8EDF;&#x5B98;&#x65B9;&#x5E02;&#x5834;&#x4E0A;&#x67B6;&#xFF0C;&#x53EF;&#x7528;&#x624B;&#x6A5F;&#x8A2A;&#x554F;&#x61C9;&#x7528;&#x5E02;&#x5834;&#x641C;&#x7D22;&#x201C;WeChat&#x201D;&#x5F8C;&#xFF0C;&#x76F4;&#x63A5;&#x5728;&#x624B;&#x6A5F;&#x4E0A;&#x4E0B;&#x8F09;&#x5B89;&#x88DD;&#x3002;</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:3:{i:0;s:78:"1.&#x652F;&#x6301;&#x63A5;&#x6536;&#x548C;&#x767C;&#x9001;QQ&#x96E2;&#x7DDA;&#x6D88;&#x606F;&#xFF0C;&#x8B93;&#x60A8;&#x6642;&#x523B;&#x8207;QQ&#x597D;&#x53CB;&#x4FDD;&#x6301;&#x806F;&#x7CFB;&#x3002;";i:1;s:122:"2.&#x652F;&#x6301;&#x5168;&#x7403;&#x8D85;&#x904E;100&#x500B;&#x570B;&#x5BB6;&#x7684;&#x624B;&#x6A5F;&#x865F;&#x78BC;&#x8A3B;&#x518A;&#xFF0C;&#x4E26;&#x7C21;&#x5316;&#x4E86;&#x8A3B;&#x518A;&#x6D41;&#x7A0B;&#xFF0C;&#x7C21;&#x55AE;&#x5E7E;&#x6B65;&#x5373;&#x523B;&#x64C1;&#x6709;&#x60A8;&#x7684;WeChat&#x3002;";i:2;s:71:"3.&#x652F;&#x6301;&#x7C21;&#x9AD4;&#x4E2D;&#x6587;&#x3001;&#x7E41;&#x9AD4;&#x4E2D;&#x6587;&#x3001;&#x82F1;&#x6587;&#x4E09;&#x7A2E;&#x8A9E;&#x8A00;&#x754C;&#x9762;&#x986F;&#x793A;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="59">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-09-27</field>
+    <field name="version" type="string">3.2</field>
+    <field name="title" type="string">WeChat 3.2 for Windows Phone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, Traditional Chinese and Simplified Chinese. WeChat for Windows Phone support devices with Windows Phone 7.5 platform.</field>
+    <field name="indexDescription" type="string">Chat on WeChat from your PC through the browser and share your location with your friends.
+        </field>
+    <field name="features" type="array">a:2:{i:0;s:62:"1.Web WeChat: Chat on WeChat from your PC through the browser.";i:1;s:40:"2.Share your location with your friends.";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"2";}</field>
+  </row>
+  <row id="60">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-09-27</field>
+    <field name="version" type="string">3.2</field>
+    <field name="title" type="string">WeChat 3.2 for Windows Phone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x7D61;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x6D88;&#x606F;&#x3001;&#x8996;&#x983B;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x4E09;&#x7A2E;&#x754C;&#x9762;&#x3002; &#x652F;&#x6301;Windows Phone 7.5&#x5E73;&#x81FA;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x8A2D;&#x5099;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;WeChat&#x7DB2;&#x9801;&#x7248;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5411;&#x670B;&#x53CB;&#x5206;&#x4EAB;&#x81EA;&#x5DF1;&#x7684;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x3002;
+        </field>
+    <field name="features" type="array">a:2:{i:0;s:78:"1.WeChat&#x7DB2;&#x9801;&#x7248;&#xFF0C;&#x4FBF;&#x6377;&#x7684;QR Code&#x6383;&#x63CF;&#x5165;&#x53E3;&#xFF0C;&#x5FEB;&#x901F;&#x9032;&#x5165;WeChat&#x751F;&#x6D3B;&#x3002;";i:1;s:44:"2.&#x53EF;&#x5411;&#x670B;&#x53CB;&#x5206;&#x4EAB;&#x81EA;&#x5DF1;&#x7684;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"2";}</field>
+  </row>
+  <row id="61">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-10-19</field>
+    <field name="version" type="string">3.3</field>
+    <field name="title" type="string">WeChat 3.3 for Windows Phone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, German, Traditional Chinese and Simplified Chinese. WeChat for Windows Phone support devices with Windows Phone 7.5 platform.</field>
+    <field name="indexDescription" type="string">Web Grab and special emoticons are newly added. More details please view the update article.</field>
+    <field name="features" type="array">a:4:{i:0;s:172:"1.Introduced Web Grab in Shake, a new feature allowing you to pull images straight from your computer browser to your phone. (Visit http://shake.wechat.com/ to learn more).";i:1;s:29:"2.Download special emoticons.";i:2;s:134:"3.Add people to Moments Blocked List if you don't want to see their Moments updates. You can also now switch Private photos to Public.";i:3;s:55:"4.Stick favorite conversations on top of the Chat list.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="62">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-10-19</field>
+    <field name="version" type="string">3.3</field>
+    <field name="title" type="string">WeChat 3.3 for Windows Phone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x9AD4;&#xFF0C;&#x652F;&#x63F4;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x8DEF;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x4FE1;&#x3001;&#x8996;&#x983B;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x63F4;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x3001;&#x5FB7;&#x8A9E;&#x7B49;&#x4ECB;&#x9762;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;&#x6416;&#x4E00;&#x6416;&#x50B3;&#x5716;&#xFF0C;&#x652F;&#x6301;&#x5F9E;&#x7DB2;&#x4E0A;&#x4E0B;&#x8F09;&#x52D5;&#x756B;&#x8868;&#x60C5;&#xFF0C;&#x512A;&#x5316;&#x670B;&#x53CB;&#x5708;&#x96B1;&#x79C1;&#x8A2D;&#x7F6E;&#x3002;</field>
+    <field name="features" type="array">a:4:{i:0;s:174:"1.&#x65B0;&#x589E;&#x6416;&#x4E00;&#x6416;&#x50B3;&#x5716;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5C07;&#x96FB;&#x8166;&#x7DB2;&#x9801;&#x4E0A;&#x7684;&#x5716;&#x7247;&#x50B3;&#x5230;&#x624B;&#x6A5F;&#x4E0A;&#xFF0C;&#x66F4;&#x53EF;&#x4EE5;&#x8B93;&#x597D;&#x53CB;&#x4E5F;&#x6416;&#x5230;&#x4F60;&#x7684;&#x5716;&#x7247;&#x3002;&#xFF08;&#x8ACB;&#x8A2A;&#x554F; http://wx.qq.com/yao &#x67E5;&#x770B;&#x8A73;&#x60C5;&#xFF09;&#xFF1B;";i:1;s:38:"2.&#x52D5;&#x756B;&#x8868;&#x60C5;&#x53EF;&#x4EE5;&#x5F9E;&#x7DB2;&#x4E0A;&#x4E0B;&#x8F09;&#xFF1B;";i:2;s:101:"3.&#x4F60;&#x53EF;&#x4EE5;&#x4E0D;&#x67E5;&#x770B;&#x67D0;&#x4EBA;&#x7684;&#x670B;&#x53CB;&#x5708;&#x66F4;&#x65B0;&#xFF0C;&#x4E26;&#x53EF;&#x4EE5;&#x628A;&#x670B;&#x53CB;&#x5708;&#x4E0A;&#x7684;&#x79C1;&#x5BC6;&#x7167;&#x7247;&#x8A2D;&#x70BA;&#x516C;&#x958B;&#xFF1B;";i:3;s:83:"4.&#x65B0;&#x589E;&#x804A;&#x5929;&#x7F6E;&#x9802;&#xFF0C;&#x53EF;&#x628A;&#x6709;&#x5F85;&#x8FA6;&#x4E8B;&#x9805;&#x7684;&#x804A;&#x5929;&#x7F6E;&#x9802;&#xFF0C;&#x65B9;&#x4FBF;&#x7A0D;&#x5F8C;&#x8655;&#x7406;&#xFF1B;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="63">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-11-13</field>
+    <field name="version" type="string">3.4</field>
+    <field name="title" type="string">WeChat 3.4 for Windows Phone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, German, Traditional Chinese and Simplified Chinese.</field>
+    <field name="indexDescription" type="string">Back up your chat history and View chat history page by page.</field>
+    <field name="features" type="array">a:3:{i:0;s:72:"1.Back up your chat history to the server and restore it to your device.";i:1;s:33:"2.View chat history page by page.";i:2;s:35:"3.Browse your album in full screen.";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="64">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2012-11-13</field>
+    <field name="version" type="string">3.4</field>
+    <field name="title" type="string">WeChat 3.4 for Windows Phone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x9AD4;&#xFF0C;&#x652F;&#x63F4;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x8DEF;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x4FE1;&#x3001;&#x8996;&#x983B;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x63F4;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x3001;&#x5FB7;&#x8A9E;&#x7B49;&#x4ECB;&#x9762;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x804A;&#x5929;&#x8A18;&#x9304;&#x5099;&#x4EFD;; &#x5206;&#x9801;&#x986F;&#x793A;&#x804A;&#x5929;&#x8A18;&#x9304;&#xFF0C;&#x67E5;&#x95B1;&#x66F4;&#x65B9;&#x4FBF;&#x3002;</field>
+    <field name="features" type="array">a:3:{i:0;s:92:"1.&#x804A;&#x5929;&#x8A18;&#x9304;&#x5099;&#x4EFD;&#x3002;&#x4E0A;&#x50B3;&#x548C;&#x4E0B;&#x8F09;&#x804A;&#x5929;&#x8A18;&#x9304;&#xFF0C;&#x66F4;&#x63DB;&#x624B;&#x6A5F;&#x4E5F;&#x53EF;&#x4FDD;&#x7559;&#x4EE5;&#x5F80;&#x8A0A;&#x606F;&#xFF1B;";i:1;s:47:"2.&#x5206;&#x9801;&#x986F;&#x793A;&#x804A;&#x5929;&#x8A18;&#x9304;&#xFF0C;&#x67E5;&#x95B1;&#x66F4;&#x65B9;&#x4FBF;&#xFF1B;";i:2;s:41:"3.&#x5168;&#x5C4F;&#x700F;&#x89BD;&#x500B;&#x4EBA;&#x76F8;&#x7C3F;&#x4E2D;&#x7684;&#x5716;&#x7247;&#xFF1B;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="65">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-01-08</field>
+    <field name="version" type="string">3.4.5</field>
+    <field name="title" type="string">WeChat 3.4.5 for Windows Phone Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Symbian, Windows Phone and BlackBerry platforms, and supports English, German&#xFF0C;Traditional Chinese and Simplified Chinese. WeChat for Windows Phone support devices with Windows Phone 7.5 platform.</field>
+    <field name="indexDescription" type="string">WeChat 3.4.5 for Windows Phone has been released.</field>
+    <field name="features" type="array">a:1:{i:0;s:40:"1.More stable and performance optimized.";}</field>
+    <field name="featuresNum" type="array">a:1:{i:0;s:1:"0";}</field>
+  </row>
+  <row id="66">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-01-08</field>
+    <field name="version" type="string">3.4.5</field>
+    <field name="title" type="string">WeChat 3.4.5 for Windows Phone &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x5FAE;&#x4FE1;&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x8EDF;&#x9AD4;&#xFF0C;&#x652F;&#x63F4;&#x901A;&#x904E;&#x624B;&#x6A5F;&#x7DB2;&#x8DEF;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x4FE1;&#x3001;&#x8996;&#x983B;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x55AE;&#x804A;&#x53CA;&#x7FA4;&#x804A;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;s&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x79FB;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&#x652F;&#x63F4;iOS&#x3001;Android&#x3001;Symbian&#x3001;Windows Phone&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x5E73;&#x81FA;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x3001;&#x5FB7;&#x8A9E;&#x7B49;&#x4ECB;&#x9762;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x5FAE;&#x4FE1;3.4.5 for WindowsPhone &#x5DF2;&#x767C;&#x4F48;</field>
+    <field name="features" type="array">a:1:{i:0;s:26:"1.&#x6027;&#x80FD;&#x512A;&#x5316;&#x66F4;&#x6D41;&#x66A2;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:1:{i:0;s:1:"0";}</field>
+  </row>
+  <row id="67">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-02-18</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for Windows Phone8 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. &lt;br/&gt;&lt;span class="bold" style="line-height:300%;"/&gt;WeChat 4.0 for Windows Phone 8 is specially designed for Windows Phone 8.&lt;/span&gt;</field>
+    <field name="indexDescription" type="string">Video Calls: talk to your friends face to face.</field>
+    <field name="features" type="array">a:3:{i:0;s:21:"1.Free HD video calls";i:1;s:89:"2.Support for video messages: record a video and share it with your friends or loved ones";i:2;s:67:"3.Play audio messages in Handset Mode to keep your messages private";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"1";}</field>
+  </row>
+  <row id="68">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-02-18</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for Windows Phone8 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat &#x662F;&#x4E00;&#x6B3E;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6A5F;&#x901A;&#x8A0A;App&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x4EE5;&#x53CA;&#x900F;&#x904E;&#x670B;&#x53CB;&#x5708;&#x5206;&#x4EAB;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x884C;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&lt;br/&gt;&lt;span class="bold" style="line-height:300%;"/&gt;WeChat 4.0 for Windows Phone 8&#x662F;&#x5C08;&#x70BA;Windows Phone 8&#x5E73;&#x81FA;&#x800C;&#x6253;&#x9020;&#x7684;&#x3002;&lt;/span&gt;</field>
+    <field name="indexDescription" type="string">&#x8996;&#x983B;&#x804A;&#x5929;&#xFF0C;&#x662F;&#x6642;&#x5019;&#x548C;&#x670B;&#x53CB;&#x9762;&#x5C0D;&#x9762;&#x4E86;&#x3002;</field>
+    <field name="features" type="array">a:3:{i:0;s:50:"1.&#x8996;&#x983B;&#x804A;&#x5929;&#xFF0C;&#x662F;&#x6642;&#x5019;&#x548C;&#x670B;&#x53CB;&#x9762;&#x5C0D;&#x9762;&#x4E86;&#x3002;";i:1;s:125:"2.&#x767C;&#x9001;&#x8996;&#x983B;&#x6D88;&#x606F;&#xFF1A;&#x8996;&#x983B;&#x5373;&#x62CD;&#x5373;&#x767C;&#xFF0C;&#x5373;&#x4F7F;&#x5728;&#x79FB;&#x52D5;&#x7DB2;&#x8DEF;&#x4E5F;&#x9069;&#x5408;&#x50B3;&#x9001;&#xFF0C;&#x8B93;&#x4F60;&#x96A8;&#x6642;&#x5206;&#x4EAB;&#x7CBE;&#x5F69;&#x7684;&#x751F;&#x6D3B;&#x7247;&#x6BB5;&#x3002;";i:2;s:74:"3.&#x807D;&#x7B52;&#x6A21;&#x5F0F;&#xFF0C;&#x4F7F;&#x7528;&#x624B;&#x6A5F;&#x807D;&#x7B52;&#x64AD;&#x653E;&#x8A9E;&#x97F3;&#x8A0A;&#x606F;&#xFF0C;&#x804A;&#x5929;&#x66F4;&#x79C1;&#x5BC6;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"1";}</field>
+  </row>
+  <row id="69">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-07-24</field>
+    <field name="version" type="string">4.1</field>
+    <field name="title" type="string">WeChat 4.1 for Windows Phone8 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. </field>
+    <field name="indexDescription" type="string">Video Calls: talk to your friends face to face.</field>
+    <field name="features" type="array">a:5:{i:0;s:56:"1.Invite your friends to a WeChat group chat via QR code";i:1;s:30:"2.Send multiple images at once";i:2;s:38:"3.Navigate to your friend&#x2019;s location";i:3;s:41:"4.Tap &#x201C;+&#x201D; to send screenshots quickly";i:4;s:32:"5.Set font size on the chat page";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="70">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-07-24</field>
+    <field name="version" type="string">4.1</field>
+    <field name="title" type="string">WeChat 4.1 for Windows Phone8 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat &#x662F;&#x4E00;&#x6B3E;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6A5F;&#x901A;&#x8A0A;App&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x4EE5;&#x53CA;&#x900F;&#x904E;&#x670B;&#x53CB;&#x5708;&#x5206;&#x4EAB;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x884C;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x8996;&#x983B;&#x804A;&#x5929;&#xFF0C;&#x662F;&#x6642;&#x5019;&#x548C;&#x670B;&#x53CB;&#x9762;&#x5C0D;&#x9762;&#x4E86;&#x3002;</field>
+    <field name="features" type="array">a:5:{i:0;s:45:"1.&#x5206;&#x4EAB;&#x804A;&#x5929;&#x5BA4;QR Code&#xFF0C;&#x9080;&#x8ACB;&#x670B;&#x53CB;&#x52A0;&#x5165;";i:1;s:32:"2.&#x53EF;&#x4EE5;&#x4E00;&#x6B21;&#x50B3;&#x9001;&#x591A;&#x5F35;&#x76F8;&#x7247;";i:2;s:38:"3.&#x5C0D;&#x670B;&#x53CB;&#x50B3;&#x4F86;&#x7684;&#x4F4D;&#x7F6E;&#x9032;&#x884C;&#x5C0E;&#x822A;";i:3;s:39:"4.&#x622A;&#x5C4F;&#x53EF;&#x4EE5;&#x9EDE;&#x64CA;&#x201C;+&#x201D;&#x5FEB;&#x901F;&#x50B3;&#x9001;";i:4;s:32:"5.&#x53EF;&#x4EE5;&#x8A2D;&#x5B9A;&#x804A;&#x5929;&#x5B57;&#x9AD4;&#x5927;&#x5C0F;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"2";}</field>
+  </row>
+  <row id="71">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-09-23</field>
+    <field name="version" type="string">4.5</field>
+    <field name="title" type="string">WeChat 4.5 for Windows Phone8 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. &lt;br/&gt;&lt;span class="bold" style="line-height:300%;"/&gt;WeChat 4.5 for Windows Phone 8 is specially designed for Windows Phone 8.&lt;/span&gt;</field>
+    <field name="indexDescription" type="string">Walkie Talkie has arrived!</field>
+    <field name="features" type="array">a:6:{i:0;s:46:"1.Chat with friends in a Walkie Talkie session";i:1;s:63:"2.Add friends nearby easily with the new Hold Together function";i:2;s:31:"3.Search through chat histories";i:3;s:51:"4.Double click text messages to view in full screen";i:4;s:62:"5.Double click &#x201C;messages&#x201D; to cycle through unread messages";i:5;s:39:"6.Support for Thai, Spanish and Italian";}</field>
+    <field name="featuresNum" type="array">a:6:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"1";}</field>
+  </row>
+  <row id="72">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-09-23</field>
+    <field name="version" type="string">4.5</field>
+    <field name="title" type="string">WeChat 4.5 for Windows Phone8 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat &#x662F;&#x4E00;&#x6B3E;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6A5F;&#x901A;&#x8A0A;App&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x4EE5;&#x53CA;&#x900F;&#x904E;&#x670B;&#x53CB;&#x5708;&#x5206;&#x4EAB;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x884C;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&lt;br/&gt;&lt;span class="bold" style="line-height:300%;"/&gt;WeChat 4.5 for Windows Phone 8&#x662F;&#x5C08;&#x70BA;Windows Phone 8&#x5E73;&#x53F0;&#x800C;&#x6253;&#x9020;&#x7684;&#x3002;&lt;/span&gt;</field>
+    <field name="indexDescription" type="string">&#x73FE;&#x5728;&#xFF0C;&#x548C;3&#x5104;&#x4EBA;&#x4E00;&#x8D77;&#x52A0;&#x5165;&#x5C0D;&#x8B1B;&#x9AD4;&#x9A57;&#x3002;</field>
+    <field name="features" type="array">a:6:{i:0;s:41:"1.&#x5BE6;&#x6642;&#x5C0D;&#x8B1B;&#xFF0C;&#x591A;&#x4EBA;&#x5BE6;&#x6642;&#x8A9E;&#x97F3;&#x804A;&#x5929;";i:1;s:71:"2.&#x65B0;&#x589E;&#x6DFB;&#x52A0;&#x670B;&#x53CB;&#x65B9;&#x5F0F;&#xFF02;&#x6309;&#x4F4F;&#x6309;&#x9215;&#xFF02;&#xFF0C;&#x6DFB;&#x52A0;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;";i:2;s:20:"3.&#x641C;&#x5C0B;&#x804A;&#x5929;&#x8A18;&#x9304;";i:3;s:41:"4.&#x6587;&#x5B57;&#x8A0A;&#x606F;&#xFF0C;&#x96D9;&#x64CA;&#x5373;&#x53EF;&#x653E;&#x5927;&#x95B1;&#x8B80;";i:4;s:62:"5.&#x6309;&#x5169;&#x4E0B;&#x201C;&#x8A0A;&#x606F;&#x201D;&#x53EF;&#x4EE5;&#x5B9A;&#x4F4D;&#x5230;&#x6700;&#x65B0;&#x4E00;&#x689D;&#x672A;&#x8B80;&#x6D88;&#x606F;";i:5;s:45:"6.&#x65B0;&#x589E;&#x6CF0;&#x8A9E;&#xFF0C;&#x897F;&#x73ED;&#x7259;&#x8A9E;&#x548C;&#x610F;&#x5927;&#x5229;&#x8A9E; ";}</field>
+    <field name="featuresNum" type="array">a:6:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"1";}</field>
+  </row>
+  <row id="73">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-12-31</field>
+    <field name="version" type="string">5.0</field>
+    <field name="title" type="string">WeChat 5.0 for Windows Phone8 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. &lt;br/&gt;&lt;span class="bold" style="line-height:300%;"/&gt;WeChat 5.0 for Windows Phone 8 is specially designed for Windows Phone 8.&lt;/span&gt;</field>
+    <field name="indexDescription" type="string">Download loads of new animated stickers from the Sticker Shop.</field>
+    <field name="features" type="array">a:4:{i:0;s:64:"1.Download loads of new animated stickers from the Sticker Shop.";i:1;s:56:"2.Save favorite content clippings from chats or Moments.";i:2;s:56:"3.Link your email for easy login and password retrieval.";i:3;s:25:"4.Support for Portuguese.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"1";}</field>
+  </row>
+  <row id="74">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2013-12-31</field>
+    <field name="version" type="string">5.0</field>
+    <field name="title" type="string">WeChat 5.0 for Windows Phone8 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat &#x662F;&#x4E00;&#x6B3E;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6A5F;&#x901A;&#x8A0A;App&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x4EE5;&#x53CA;&#x900F;&#x904E;&#x670B;&#x53CB;&#x5708;&#x5206;&#x4EAB;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x884C;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&lt;br/&gt;&lt;span class="bold" style="line-height:300%;"/&gt;WeChat 5.0 for Windows Phone 8&#x662F;&#x5C08;&#x70BA;Windows Phone 8&#x5E73;&#x53F0;&#x800C;&#x6253;&#x9020;&#x7684;&#x3002;&lt;/span&gt;</field>
+    <field name="indexDescription" type="string">&#x8CBC;&#x5716;&#x5E02;&#x96C6;&#xFF0C;&#x597D;&#x73A9;&#x7684;&#x8868;&#x60C5;&#x5728;&#x9019;&#x88E1;&#x3002;</field>
+    <field name="features" type="array">a:4:{i:0;s:44:"1.&#x8CBC;&#x5716;&#x5E02;&#x96C6;&#xFF0C;&#x597D;&#x73A9;&#x7684;&#x8868;&#x60C5;&#x5728;&#x9019;&#x88E1;&#x3002;";i:1;s:74:"2.&#x6536;&#x85CF;&#x529F;&#x80FD;&#xFF0C;&#x53EF;&#x4EE5;&#x6536;&#x85CF;&#x804A;&#x5929;&#x3001;&#x670B;&#x53CB;&#x5708;&#x3001;&#x5B98;&#x65B9;&#x5E33;&#x865F;&#x7684;&#x8A0A;&#x606F;&#x3002;";i:2;s:68:"3.&#x7D81;&#x5B9A;&#x4F60;&#x7684;&#x90F5;&#x7BB1;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x90F5;&#x7BB1;&#x767B;&#x5165;&#x6216;&#x627E;&#x56DE;WeChat&#x5BC6;&#x78BC;&#x3002;";i:3;s:23:"4.&#x65B0;&#x589E;&#x8461;&#x8404;&#x7259;&#x8A9E;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"1";}</field>
+  </row>
+  <row id="75">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2014-01-22</field>
+    <field name="version" type="string">5.1</field>
+    <field name="title" type="string">WeChat 5.1 for Windows Phone8 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. &lt;br/&gt;&lt;span class="bold" style="line-height:300%;"/&gt;WeChat 5.1 for Windows Phone 8 is specially designed for Windows Phone 8.&lt;/span&gt;</field>
+    <field name="indexDescription" type="string">Increase your group's capacity to 100 members.</field>
+    <field name="features" type="array">a:4:{i:0;s:48:"1.Increase your group's capacity to 100 members.";i:1;s:43:"2.Forward more than one messages at a time.";i:2;s:61:"3.Press and hold stickers to preview them before downloading.";i:3;s:42:"4.Show messages not sent in the chat list.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="76">
+    <field name="platform" type="string">Windows Phone</field>
+    <field name="date" type="string">2014-01-22</field>
+    <field name="version" type="string">5.1</field>
+    <field name="title" type="string">WeChat 5.1 for Windows Phone8 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat &#x662F;&#x4E00;&#x6B3E;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6A5F;&#x901A;&#x8A0A;App&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x4EE5;&#x53CA;&#x900F;&#x904E;&#x670B;&#x53CB;&#x5708;&#x5206;&#x4EAB;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x884C;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;&lt;br/&gt;&lt;span class="bold" style="line-height:300%;"/&gt;WeChat 5.1 for Windows Phone 8&#x662F;&#x5C08;&#x70BA;Windows Phone 8&#x5E73;&#x53F0;&#x800C;&#x6253;&#x9020;&#x7684;&#x3002;&lt;/span&gt;</field>
+    <field name="indexDescription" type="string">&#x804A;&#x5929;&#x5BA4;&#x73FE;&#x53EF;&#x5BB9;&#x7D0D;100&#x4EBA;&#x3002;</field>
+    <field name="features" type="array">a:4:{i:0;s:32:"1.&#x804A;&#x5929;&#x5BA4;&#x73FE;&#x53EF;&#x5BB9;&#x7D0D;100&#x4EBA;&#x3002;";i:1;s:41:"2.&#x53EF;&#x4EE5;&#x4E00;&#x6B21;&#x8F49;&#x767C;&#x591A;&#x689D;&#x804A;&#x5929;&#x8A0A;&#x606F;&#x3002;";i:2;s:53:"3.&#x5728;&#x8CBC;&#x5716;&#x4E0B;&#x8F09;&#x4ECB;&#x9762;&#xFF0C;&#x9577;&#x6309;&#x8CBC;&#x5716;&#x5373;&#x53EF;&#x9810;&#x89BD;&#x3002;";i:3;s:59:"4.&#x672A;&#x767C;&#x51FA;&#x7684;&#x8A0A;&#x606F;&#x8349;&#x7A3F;&#xFF0C;&#x6703;&#x986F;&#x793A;&#x5728;&#x804A;&#x5929;&#x5217;&#x8868;&#x4E2D;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="77">
+    <field name="platform" type="string">S40</field>
+    <field name="date" type="string">2013-05-31</field>
+    <field name="version" type="string">1.0</field>
+    <field name="title" type="string">WeChat 1.0 for S40 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Supported Devices:&lt;br/&gt;Nokia Asha 303/305/306/307/308/309/310/311&lt;br/&gt;Nokia X3-02/C3-01&lt;br/&gt;&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Voice Messages: talk to your friends faster with voice.</field>
+    <field name="features" type="array">a:6:{i:0;s:57:"1.Voice Messages: talk to your friends faster with voice.";i:1;s:76:"2.Instant Messaging: send and receive messages in real time, cross-platform.";i:2;s:69:"3.Group Chats: chat and coordinate with large groups of your friends.";i:3;s:62:"4.Easy Contact Adding: find friends from your mobile contacts.";i:4;s:44:"5.Set your WeChat password for easier login.";i:5;s:70:"6.Support for Five Languages: talk to your friends all over the world.";}</field>
+    <field name="featuresNum" type="array">a:6:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"1";}</field>
+  </row>
+  <row id="78">
+    <field name="platform" type="string">S40</field>
+    <field name="date" type="string">2013-05-31</field>
+    <field name="version" type="string">1.0</field>
+    <field name="title" type="string">WeChat 1.0 for S40 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x76EE;&#x524D;&#x652F;&#x6301;&#x624B;&#x6A5F;&#x578B;&#x865F;&#x5305;&#x62EC;&#xFF1A;&lt;br/&gt;Nokia Asha 303/305/306/307/308/309/310/311&lt;br/&gt;Nokia X3-02/C3-01&lt;br/&gt;&lt;br/&gt;WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#xFF0C;&#x8B93;&#x804A;&#x5929;&#x66F4;&#x7C21;&#x55AE;&#x3002;</field>
+    <field name="features" type="array">a:6:{i:0;s:104:"1.&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#xFF0C;&#x8B93;&#x804A;&#x5929;&#x66F4;&#x7C21;&#x55AE;&#x3002;&#x6309;&#x4F4F;&#x64A5;&#x865F;&#x9375;&#x958B;&#x59CB;&#x8AAA;&#x8A71;&#xFF0C;&#x9B06;&#x958B;&#x64A5;&#x865F;&#x9375;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x8A0A;&#x606F;&#x3002;";i:1;s:44:"2.&#x53EF;&#x50B3;&#x9001;&#x6587;&#x5B57;&#x3001;&#x5716;&#x7247;&#x3001;&#x8868;&#x60C5;&#x7B26;&#x865F;&#x3002;";i:2;s:62:"3.&#x804A;&#x5929;&#x5BA4;&#x529F;&#x80FD;&#xFF0C;&#x4E26;&#x53EF;&#x4EE5;&#x5132;&#x5B58;&#x804A;&#x5929;&#x5BA4;&#x5230;&#x901A;&#x8A0A;&#x9304;&#x4E2D;&#x3002;";i:3;s:47:"4.&#x5F9E;&#x624B;&#x6A5F;&#x901A;&#x8A0A;&#x9304;&#x4E2D;&#xFF0C;&#x627E;&#x5230;&#x66F4;&#x591A;&#x670B;&#x53CB;&#x3002;";i:4;s:53:"5.&#x8A2D;&#x5B9A;WeChat&#x767B;&#x5165;&#x5BC6;&#x78BC;&#xFF0C;&#x4F7F;&#x7528;&#x66F4;&#x65B9;&#x4FBF;&#x5B89;&#x5168;&#x3002;";i:5;s:65:"6.&#x652F;&#x6301;&#x4E94;&#x7A2E;&#x8A9E;&#x8A00;&#xFF0C;&#x8207;&#x4E16;&#x754C;&#x5404;&#x5730;&#x7684;&#x670B;&#x53CB;&#x6E9D;&#x901A;&#x7121;&#x969C;&#x7919;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:6:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"1";}</field>
+  </row>
+  <row id="79">
+    <field name="platform" type="string">S40</field>
+    <field name="date" type="string">2013-08-20</field>
+    <field name="version" type="string">1.5</field>
+    <field name="title" type="string">WeChat 1.5 for S40 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Supported Devices:&lt;br/&gt;Nokia Asha 303/305/306/307/308/309/310/311&lt;br/&gt;Nokia X3-02/C3-01&lt;br/&gt;&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Use People Nearby to find friends around you.</field>
+    <field name="features" type="array">a:4:{i:0;s:46:"1.Use People Nearby to find friends around you";i:1;s:37:"2.Hold to talk to send voice messages";i:2;s:33:"3.Send multiple emoticons at once";i:3;s:33:"4.Support for Thai and Portuguese";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"1";i:2;s:1:"1";i:3;s:1:"1";}</field>
+  </row>
+  <row id="80">
+    <field name="platform" type="string">S40</field>
+    <field name="date" type="string">2013-08-20</field>
+    <field name="version" type="string">1.5</field>
+    <field name="title" type="string">WeChat 1.5 for S40 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x76EE;&#x524D;&#x652F;&#x6301;&#x624B;&#x6A5F;&#x578B;&#x865F;&#x5305;&#x62EC;&#xFF1A;&lt;br/&gt;Nokia Asha 303/305/306/307/308/309/310/311&lt;br/&gt;Nokia X3-02/C3-01&lt;br/&gt;&lt;br/&gt;WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5728;&#x8EAB;&#x908A;&#x627E;&#x5230;&#x670B;&#x53CB;&#x3002;</field>
+    <field name="features" type="array">a:4:{i:0;s:38:"1.&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5728;&#x8EAB;&#x908A;&#x627E;&#x5230;&#x670B;&#x53CB;";i:1;s:50:"2.&#x6309;&#x4F4F;&#x5C4F;&#x5E55;&#x8AAA;&#x8A71;&#xFF0C;&#x9B06;&#x958B;&#x5F8C;&#x767C;&#x9001;&#x8A9E;&#x97F3;&#x8A0A;&#x606F;";i:2;s:41:"3.&#x804A;&#x5929;&#x6642;&#x53EF;&#x4EE5;&#x9023;&#x7E8C;&#x8F38;&#x5165;&#x8868;&#x60C5;&#x7B26;&#x865F;";i:3;s:29:"4.&#x652F;&#x6301;&#x6CF0;&#x8A9E;&#x3001;&#x8461;&#x8404;&#x7259;&#x8A9E;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"1";i:2;s:1:"1";i:3;s:1:"1";}</field>
+  </row>
+  <row id="81">
+    <field name="platform" type="string">S40</field>
+    <field name="date" type="string">2013-10-18</field>
+    <field name="version" type="string">2.0</field>
+    <field name="title" type="string">WeChat 2.0 for S40 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Supported Devices:&lt;br/&gt;Nokia Asha 207/208/300/302/303/305/306/307/308/309/310/311/515&lt;br/&gt;Nokia X3-02/C3-00/C3-01/X2-01/X2-00&lt;br/&gt;&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Shake to find new friends!</field>
+    <field name="features" type="array">a:3:{i:0;s:83:"1.Added support for the following new models: C3-00/X2-01/X2-00/207/208/300/302/515";i:1;s:96:"2.Optimized user interface for Touch-and-Type models, adding multiple tabs and a long press menu";i:2;s:55:"3.Shake to find new friends enabled in Full-Touch model";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="82">
+    <field name="platform" type="string">S40</field>
+    <field name="date" type="string">2013-10-18</field>
+    <field name="version" type="string">2.0</field>
+    <field name="title" type="string">WeChat 2.0 for S40 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x76EE;&#x524D;&#x652F;&#x6301;&#x624B;&#x6A5F;&#x578B;&#x865F;&#x5305;&#x62EC;&#xFF1A;&lt;br/&gt;Nokia Asha 207/208/300/302/303/305/306/307/308/309/310/311/515&lt;br/&gt;Nokia X3-02/C3-00/C3-01/X2-01/X2-00&lt;br/&gt;&lt;br/&gt;WeChat, &#x8D85;&#x904E;&#x4E09;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x201C;&#x6416;&#x201D;&#x5230;&#x65B0;&#x670B;&#x53CB;&#x3002;</field>
+    <field name="features" type="array">a:3:{i:0;s:66:"1.&#x65B0;&#x589E;&#x652F;&#x6301;&#x4EE5;&#x4E0B;&#x6A5F;&#x578B;&#xFF1A;C3-00/X2-01/X2-00/207/208/300/302/515";i:1;s:89:"2.&#x512A;&#x5316;&#x89F8;&#x9375;&#x96D9;&#x63A7;&#x6A5F;&#x578B;&#x754C;&#x9762;&#xFF0C;&#x6539;&#x70BA;&#x5206;&#x9801;&#x6A19;&#x7C64;&#x4ECB;&#x9762;&#xFF0C;&#x4E26;&#x652F;&#x6301;&#x5C4F;&#x5E55;&#x9577;&#x6309;&#x9078;&#x55AE;";i:2;s:38:"3.&#x5168;&#x89F8;&#x5C4F;&#x6A5F;&#x578B;&#x65B0;&#x589E;&#x6416;&#x4E00;&#x6416;&#x529F;&#x80FD;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";}</field>
+  </row>
+  <row id="83">
+    <field name="platform" type="string">Symbian V5</field>
+    <field name="date" type="string">2012-06-26</field>
+    <field name="version" type="string">3.7</field>
+    <field name="title" type="string">WeChat 3.7 for S60v5 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, Traditional Chinese and Simplified Chinese.</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:4:{i:0;s:70:"1.Support registration via phone number in over 100 countries/regions.";i:1;s:62:"2.Support English, Simplified Chinese and Traditional Chinese.";i:2;s:101:"3.Voice messaging&#xFF1A;Hold to talk, then release to send. It is more fun and easy than a walkie-talkie!";i:3;s:75:"4.Easily expand your social circle via Drift Bottle, Look Around and Shake!";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="84">
+    <field name="platform" type="string">Symbian V5</field>
+    <field name="date" type="string">2012-06-26</field>
+    <field name="version" type="string">3.7</field>
+    <field name="title" type="string">WeChat 3.7 for S60v5 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x61C9;&#x7528;&#x7A0B;&#x5F0F;&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x4E00;&#x5C0D;&#x4E00;&#x804A;&#x5929;&#x53CA;&#x5EFA;&#x7ACB;&#x804A;&#x5929;&#x5BA4;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x4ECB;&#x9762;&#x8A9E;&#x8A00;&#x3002;</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:4:{i:0;s:101:"1.&#x652F;&#x6301;&#x5168;&#x7403;&#x8D85;&#x904E;100&#x500B;&#x570B;&#x5BB6;&#x5730;&#x5340;&#x7684;&#x624B;&#x6A5F;&#x865F;&#x78BC;&#x8A3B;&#x518A;&#xFF0C;&#x7C21;&#x55AE;&#x5E7E;&#x6B65;&#x5373;&#x523B;&#x64C1;&#x6709;&#x60A8;&#x7684;WeChat&#x3002;";i:1;s:44:"2.&#x65B0;&#x7248;&#x652F;&#x6301;&#x7E41;&#x9AD4;&#x4E2D;&#x6587;&#x548C;&#x82F1;&#x6587;&#x4ECB;&#x9762;&#xFF01;";i:2;s:59:"3.&#x6700;&#x65B0;&#x3001;&#x6700;&#x4FBF;&#x6377;&#x7684;&#x6E9D;&#x901A;&#x65B9;&#x5F0F;&#xFF1A;&#x8A9E;&#x97F3;&#x804A;&#x5929;&#x6700;&#x50B3;&#x795E;";i:3;s:65:"4.&#x64F4;&#x95CA;&#x4F60;&#x7684;&#x793E;&#x4EA4;&#x5708;&#x5B50;&#xFF1A;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x6416;&#x4E00;&#x6416;&#xFF0C;&#x6F02;&#x6D41;&#x74F6;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="85">
+    <field name="platform" type="string">Symbian V5</field>
+    <field name="date" type="string">2012-09-12</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for S60v5 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">
+        </field>
+    <field name="indexDescription" type="string">Share captioned photos with friends to &#x2018;like&#x2019; and comment on.</field>
+    <field name="features" type="array">a:4:{i:0;s:96:"1.Create a streaming photo journal of your day's highlights and personal interests with Moments.";i:1;s:79:"2.Easily share captioned photos with your friends to &#x2018;like&#x2019; and comment on.";i:2;s:60:"3.Reply directly to a friend&#x2019;s comment in Moments using @.";i:3;s:56:"4.View your friends&#x2019; Moments photos in their profiles.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="86">
+    <field name="platform" type="string">Symbian V5</field>
+    <field name="date" type="string">2012-09-12</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for S60v5 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E00;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x4F60;&#x7684;WeChat&#x670B;&#x53CB;&#x53EF;&#x4EE5;&#x5728;&#x670B;&#x53CB;&#x5708;&#x4E0A;&#x770B;&#x5230;&#x4F60;&#x7684;&#x5206;&#x4EAB;&#x76F8;&#x7247;&#xFF0C;&#x4E26;&#x4E14;&#x53EF;&#x4EE5;&#x5C0D;&#x76F8;&#x7247;&#x8A55;&#x8AD6;&#x548C;&#x8B9A;&#x3002;</field>
+    <field name="features" type="array">a:4:{i:0;s:101:"1.&#x4F60;&#x53EF;&#x4EE5;&#x64C1;&#x6709;&#x4E00;&#x500B;&#x7CBE;&#x7F8E;&#x7684;&#x76F8;&#x7C3F;&#xFF0C;&#x5206;&#x4EAB;&#x4E00;&#x5F35;&#x6216;&#x8005;&#x591A;&#x5F35;&#x76F8;&#x7247;&#xFF0C;&#x540C;&#x6642;&#x50B3;&#x7D66;&#x4F60;&#x7684;&#x670B;&#x53CB;&#x3002;";i:1;s:104:"2.&#x4F60;&#x7684;WeChat&#x670B;&#x53CB;&#x53EF;&#x4EE5;&#x5728;&#x670B;&#x53CB;&#x5708;&#x4E0A;&#x770B;&#x5230;&#x4F60;&#x7684;&#x5206;&#x4EAB;&#x76F8;&#x7247;&#xFF0C;&#x4E26;&#x4E14;&#x53EF;&#x4EE5;&#x5C0D;&#x76F8;&#x7247;&#x8A55;&#x8AD6;&#x548C;&#x8B9A;&#x3002;";i:2;s:29:"3.&#x55AE;&#x7368;&#x56DE;&#x8986;&#x67D0;&#x689D;&#x8A55;&#x8AD6;&#x3002;";i:3;s:53:"4.&#x76F4;&#x63A5;&#x5728;&#x670B;&#x53CB;&#x7684;&#x8CC7;&#x6599;&#x4E2D;&#x67E5;&#x770B;&#x5C0D;&#x65B9;&#x7684;&#x76F8;&#x7C3F;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="87">
+    <field name="platform" type="string">Symbian V5</field>
+    <field name="date" type="string">2013-01-17</field>
+    <field name="version" type="string">4.2</field>
+    <field name="title" type="string">WeChat 4.2 for S60v5 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.
+        </field>
+    <field name="indexDescription" type="string">Web WeChat: chat on WeChat from your PC through the browser. </field>
+    <field name="features" type="array">a:2:{i:0;s:63:"1.Web WeChat: chat on WeChat from your PC through the browser. ";i:1;s:62:"2.Contact Backup: Backup and restore your mobile address book.";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"2";}</field>
+  </row>
+  <row id="88">
+    <field name="platform" type="string">Symbian V5</field>
+    <field name="date" type="string">2013-01-17</field>
+    <field name="version" type="string">4.2</field>
+    <field name="title" type="string">WeChat 4.2 for S60v5 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat &#x662F;&#x4E00;&#x6B3E;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6A5F;&#x901A;&#x8A0A;App&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x4EE5;&#x53CA;&#x900F;&#x904E;&#x670B;&#x53CB;&#x5708;&#x5206;&#x4EAB;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x884C;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;WeChat&#x7DB2;&#x9801;&#x7248;&#xFF0C;&#x8B93;&#x4F60;&#x5FEB;&#x901F;&#x9032;&#x5165;WeChat&#x751F;&#x6D3B;&#x3002;</field>
+    <field name="features" type="array">a:2:{i:0;s:59:"1.&#x65B0;&#x589E;WeChat&#x7DB2;&#x9801;&#x7248;&#xFF0C;&#x8B93;&#x4F60;&#x5FEB;&#x901F;&#x9032;&#x5165;WeChat&#x751F;&#x6D3B;&#x3002;";i:1;s:65:"2.&#x901A;&#x8A0A;&#x9304;&#x5B89;&#x5168;&#x52A9;&#x624B;&#xFF0C;&#x96A8;&#x6642;&#x5099;&#x4EFD;&#x548C;&#x6062;&#x5FA9;&#x624B;&#x6A5F;&#x901A;&#x8A0A;&#x9304;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"2";}</field>
+  </row>
+  <row id="89">
+    <field name="platform" type="string">Symbian V3</field>
+    <field name="date" type="string">2012-06-26</field>
+    <field name="version" type="string">3.7</field>
+    <field name="title" type="string">WeChat 3.7 for S60v3 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is a robust and comprehensive voice chatting app with photo sharing! With WeChat, you can chat with one or more friends, and find people around through LBS. It is available for iOS, Android, Windows Phone, Symbian and BlackBerry platforms, and supports English, Traditional Chinese and Simplified Chinese.</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:4:{i:0;s:70:"1.Support registration via phone number in over 100 countries/regions.";i:1;s:62:"2.Support English, Simplified Chinese and Traditional Chinese.";i:2;s:101:"3.Voice messaging&#xFF1A;Hold to talk, then release to send. It is more fun and easy than a walkie-talkie!";i:3;s:75:"4.Easily expand your social circle via Drift Bottle, Look Around and Shake!";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="90">
+    <field name="platform" type="string">Symbian V3</field>
+    <field name="date" type="string">2012-06-26</field>
+    <field name="version" type="string">3.7</field>
+    <field name="title" type="string">WeChat 3.7 for S60v3 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat&#x662F;&#x4E00;&#x6B3E;&#x624B;&#x6A5F;&#x901A;&#x4FE1;&#x61C9;&#x7528;&#x7A0B;&#x5F0F;&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x53EF;&#x4EE5;&#x4E00;&#x5C0D;&#x4E00;&#x804A;&#x5929;&#x53CA;&#x5EFA;&#x7ACB;&#x804A;&#x5929;&#x5BA4;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#x3002;&#x652F;&#x6301;iOS&#x3001;Android&#x3001;Windows Phone&#x3001;Symbian&#x3001;BlackBerry&#x7B49;&#x591A;&#x7A2E;&#x4F5C;&#x696D;&#x7CFB;&#x7D71;&#x624B;&#x6A5F;&#xFF0C;&#x53EF;&#x4EE5;&#x986F;&#x793A;&#x7C21;&#x9AD4;&#x3001;&#x7E41;&#x9AD4;&#x3001;&#x82F1;&#x6587;&#x4ECB;&#x9762;&#x8A9E;&#x8A00;&#x3002;</field>
+    <field name="indexDescription" type="string">
+        </field>
+    <field name="features" type="array">a:4:{i:0;s:101:"1.&#x652F;&#x6301;&#x5168;&#x7403;&#x8D85;&#x904E;100&#x500B;&#x570B;&#x5BB6;&#x5730;&#x5340;&#x7684;&#x624B;&#x6A5F;&#x865F;&#x78BC;&#x8A3B;&#x518A;&#xFF0C;&#x7C21;&#x55AE;&#x5E7E;&#x6B65;&#x5373;&#x523B;&#x64C1;&#x6709;&#x4F60;&#x7684;WeChat&#x3002;";i:1;s:44:"2.&#x65B0;&#x7248;&#x652F;&#x6301;&#x7E41;&#x9AD4;&#x4E2D;&#x6587;&#x548C;&#x82F1;&#x6587;&#x4ECB;&#x9762;&#xFF01;";i:2;s:59:"3.&#x6700;&#x65B0;&#x3001;&#x6700;&#x4FBF;&#x6377;&#x7684;&#x6E9D;&#x901A;&#x65B9;&#x5F0F;&#xFF1A;&#x8A9E;&#x97F3;&#x804A;&#x5929;&#x6700;&#x50B3;&#x795E;";i:3;s:65:"4.&#x64F4;&#x95CA;&#x4F60;&#x7684;&#x793E;&#x4EA4;&#x5708;&#x5B50;&#xFF1A;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x6416;&#x4E00;&#x6416;&#xFF0C;&#x6F02;&#x6D41;&#x74F6;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="91">
+    <field name="platform" type="string">Symbian V3</field>
+    <field name="date" type="string">2012-09-12</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for S60v3 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">
+        </field>
+    <field name="indexDescription" type="string">Share captioned photos with friends to &#x2018;like&#x2019; and comment on.</field>
+    <field name="features" type="array">a:4:{i:0;s:96:"1.Create a streaming photo journal of your day's highlights and personal interests with Moments.";i:1;s:79:"2.Easily share captioned photos with your friends to &#x2018;like&#x2019; and comment on.";i:2;s:60:"3.Reply directly to a friend&#x2019;s comment in Moments using @.";i:3;s:56:"4.View your friends&#x2019; Moments photos in their profiles.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="92">
+    <field name="platform" type="string">Symbian V3</field>
+    <field name="date" type="string">2012-09-12</field>
+    <field name="version" type="string">4.0</field>
+    <field name="title" type="string">WeChat 4.0 for S60v3 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat, &#x8D85;&#x904E;&#x4E00;&#x5104;&#x4EBA;&#x4F7F;&#x7528;&#x7684;&#x624B;&#x6A5F;&#x793E;&#x4EA4;App&#x3002;&#x5BE6;&#x8E10;&#x514D;&#x8CBB;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x5B57;&#x3001;&#x76F8;&#x7247;&#x5206;&#x4EAB;&#x53CA;&#x4EA4;&#x53CB;&#x7684;All-in-One App &#x3002;</field>
+    <field name="indexDescription" type="string">&#x4F60;&#x7684;WeChat&#x670B;&#x53CB;&#x53EF;&#x4EE5;&#x5728;&#x670B;&#x53CB;&#x5708;&#x4E0A;&#x770B;&#x5230;&#x4F60;&#x7684;&#x5206;&#x4EAB;&#x76F8;&#x7247;&#xFF0C;&#x4E26;&#x4E14;&#x53EF;&#x4EE5;&#x5C0D;&#x76F8;&#x7247;&#x8A55;&#x8AD6;&#x548C;&#x8B9A;&#x3002;</field>
+    <field name="features" type="array">a:4:{i:0;s:101:"1.&#x4F60;&#x53EF;&#x4EE5;&#x64C1;&#x6709;&#x4E00;&#x500B;&#x7CBE;&#x7F8E;&#x7684;&#x76F8;&#x7C3F;&#xFF0C;&#x5206;&#x4EAB;&#x4E00;&#x5F35;&#x6216;&#x8005;&#x591A;&#x5F35;&#x76F8;&#x7247;&#xFF0C;&#x540C;&#x6642;&#x50B3;&#x7D66;&#x4F60;&#x7684;&#x670B;&#x53CB;&#x3002;";i:1;s:104:"2.&#x4F60;&#x7684;WeChat&#x670B;&#x53CB;&#x53EF;&#x4EE5;&#x5728;&#x670B;&#x53CB;&#x5708;&#x4E0A;&#x770B;&#x5230;&#x4F60;&#x7684;&#x5206;&#x4EAB;&#x76F8;&#x7247;&#xFF0C;&#x4E26;&#x4E14;&#x53EF;&#x4EE5;&#x5C0D;&#x76F8;&#x7247;&#x8A55;&#x8AD6;&#x548C;&#x8B9A;&#x3002;";i:2;s:29:"3.&#x55AE;&#x7368;&#x56DE;&#x8986;&#x67D0;&#x689D;&#x8A55;&#x8AD6;&#x3002;";i:3;s:53:"4.&#x76F4;&#x63A5;&#x5728;&#x670B;&#x53CB;&#x7684;&#x8CC7;&#x6599;&#x4E2D;&#x67E5;&#x770B;&#x5C0D;&#x65B9;&#x7684;&#x76F8;&#x7C3F;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="93">
+    <field name="platform" type="string">Symbian V3</field>
+    <field name="date" type="string">2013-02-04</field>
+    <field name="version" type="string">4.2</field>
+    <field name="title" type="string">WeChat 4.2 for S60v3 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about. 
+        </field>
+    <field name="indexDescription" type="string">Web WeChat: chat on WeChat from your PC through the browser.</field>
+    <field name="features" type="array">a:2:{i:0;s:63:"1.Web WeChat: chat on WeChat from your PC through the browser. ";i:1;s:62:"2.Contact Backup: Backup and restore your mobile address book.";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"2";}</field>
+  </row>
+  <row id="94">
+    <field name="platform" type="string">Symbian V3</field>
+    <field name="date" type="string">2013-02-04</field>
+    <field name="version" type="string">4.2</field>
+    <field name="title" type="string">WeChat 4.2 for S60v3 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">WeChat &#x662F;&#x4E00;&#x6B3E;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6A5F;&#x901A;&#x8A0A;App&#xFF0C;&#x652F;&#x6301;&#x900F;&#x904E;&#x884C;&#x52D5;&#x7DB2;&#x7D61;&#x50B3;&#x9001;&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#x3001;&#x5716;&#x7247;&#x548C;&#x6587;&#x5B57;&#xFF0C;&#x9084;&#x80FD;&#x6839;&#x64DA;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x627E;&#x5230;&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x4EE5;&#x53CA;&#x900F;&#x904E;&#x670B;&#x53CB;&#x5708;&#x5206;&#x4EAB;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#xFF0C;&#x5E36;&#x7D66;&#x670B;&#x53CB;&#x5011;&#x5168;&#x65B0;&#x7684;&#x884C;&#x52D5;&#x6E9D;&#x901A;&#x9AD4;&#x9A57;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;WeChat&#x7DB2;&#x9801;&#x7248;&#xFF0C;&#x8B93;&#x4F60;&#x5FEB;&#x901F;&#x9032;&#x5165;WeChat&#x751F;&#x6D3B;&#x3002;</field>
+    <field name="features" type="array">a:2:{i:0;s:59:"1.&#x65B0;&#x589E;WeChat&#x7DB2;&#x9801;&#x7248;&#xFF0C;&#x8B93;&#x4F60;&#x5FEB;&#x901F;&#x9032;&#x5165;WeChat&#x751F;&#x6D3B;&#x3002;";i:1;s:65:"2.&#x901A;&#x8A0A;&#x9304;&#x5B89;&#x5168;&#x52A9;&#x624B;&#xFF0C;&#x96A8;&#x6642;&#x5099;&#x4EFD;&#x548C;&#x6062;&#x5FA9;&#x624B;&#x6A5F;&#x901A;&#x8A0A;&#x9304;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"2";}</field>
+  </row>
+  <row id="95">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2012-12-26</field>
+    <field name="version" type="string">1.0</field>
+    <field name="title" type="string">WeChat 1.0 for BlackBerry Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS5/OS6/OS7&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">WeChat 1.0 for BlackBerry is now available. </field>
+    <field name="features" type="array">a:4:{i:0;s:76:"1.Instant Messaging: send and receive messages in real time, cross-platform.";i:1;s:40:"2.Voice Messaging: talk to your friends.";i:2;s:58:"3.Group Chat: chat with all your friends at the same time.";i:3;s:65:"4.Photo Sharing: snap photos directly or choose from your albums.";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"1";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="96">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2012-12-26</field>
+    <field name="version" type="string">1.0</field>
+    <field name="title" type="string">WeChat 1.0 for BlackBerry &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS5/OS6/OS7&lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;</field>
+    <field name="features" type="array">a:4:{i:0;s:77:"1.&#x5373;&#x6642;&#x8A0A;&#x606F;&#xFF1A;&#x7C21;&#x55AE;&#x76F4;&#x63A5;&#x7684;&#x5C0D;&#x8A71;&#x6846;&#xFF0C;&#x5E36;&#x7D66;&#x4F60;&#x5168;&#x65B0;&#x7684;&#x901A;&#x8A0A;&#x9AD4;&#x9A57;&#x3002;";i:1;s:80:"2.&#x5C0D;&#x8B1B;&#x529F;&#x80FD;&#xFF1A;&#x8F15;&#x8F15;&#x6309;&#x4F4F;&#x8AAA;&#x8A71;&#xFF0C;&#x9B06;&#x958B;&#x5F8C;&#x5C0D;&#x65B9;&#x5C31;&#x80FD;&#x6536;&#x5230;&#x4F60;&#x7684;&#x8072;&#x97F3;&#x3002;";i:2;s:65:"3.&#x652F;&#x6301;&#x591A;&#x4EBA;&#x804A;&#x5929;&#xFF0C;&#x65B9;&#x4FBF;&#x4F60;&#x5728;&#x624B;&#x6A5F;&#x4E0A;&#x958B;&#x5C55;&#x7FA4;&#x7D44;&#x8A0E;&#x8AD6;&#x3002;";i:3;s:74:"4.&#x76F8;&#x7247;&#x5206;&#x4EAB;&#xFF1A;&#x53EF;&#x5373;&#x6642;&#x62CD;&#x7167;&#x6216;&#x9078;&#x64C7;&#x76F8;&#x7C3F;&#x5716;&#x7247;&#xFF0C;&#x5206;&#x4EAB;&#x66F4;&#x65B9;&#x4FBF;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"1";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";}</field>
+  </row>
+  <row id="97">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-01-18</field>
+    <field name="version" type="string">1.0.2</field>
+    <field name="title" type="string">WeChat 1.0.2 for BlackBerry Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS5/OS6/OS7&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Invite BBM friends to WeChat</field>
+    <field name="features" type="array">a:4:{i:0;s:30:"1.Invite BBM friends to WeChat";i:1;s:34:"2.Share WeChat name cards in chats";i:2;s:57:"3.Check network data consumption conveniently from WeChat";i:3;s:62:"4.Bug fixes including LED light issue, network setting changes";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";}</field>
+  </row>
+  <row id="98">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-01-18</field>
+    <field name="version" type="string">1.0.2</field>
+    <field name="title" type="string">WeChat 1.0.2 for BlackBerry &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS5/OS6/OS7&lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x652F;&#x6301;&#x9080;&#x8ACB;BBM&#x597D;&#x53CB;&#x52A0;&#x5165;WeChat</field>
+    <field name="features" type="array">a:5:{i:0;s:35:"1.&#x652F;&#x6301;&#x9080;&#x8ACB;BBM&#x597D;&#x53CB;&#x52A0;&#x5165;WeChat";i:1;s:32:"2.&#x652F;&#x6301;&#x5728;&#x804A;&#x5929;&#x4E2D;&#x5206;&#x4EAB;&#x540D;&#x7247;";i:2;s:32:"3.&#x652F;&#x6301;&#x7DB2;&#x7D61;&#x4F7F;&#x7528;&#x6D41;&#x91CF;&#x7D71;&#x8A08;";i:3;s:41:"4.&#x4FEE;&#x6B63;LED&#x932F;&#x8AA4;&#x958B;&#x555F;&#x548C;&#x95DC;&#x9589;&#x7684;&#x554F;&#x984C;";i:4;s:29:"5.&#x7DB2;&#x7D61;&#x914D;&#x7F6E;&#x53CA;&#x6027;&#x80FD;&#x512A;&#x5316;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}</field>
+  </row>
+  <row id="99">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-03-25</field>
+    <field name="version" type="string">2.0</field>
+    <field name="title" type="string">WeChat 2.0 for BlackBerry Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS5/OS6/OS7&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Use Look Around to find and chat with people nearby.</field>
+    <field name="features" type="array">a:8:{i:0;s:53:"1.Use Look Around to find and chat with people nearby";i:1;s:41:"2.Share your QR code to find more friends";i:2;s:25:"3.Send animated emoticons";i:3;s:52:"4.Receive rich media messages from Official Accounts";i:4;s:37:"5.Select multiple emoticons at a time";i:5;s:79:"6.Say the wrong thing in a voice message? Now you can cancel it before sending.";i:6;s:65:"7.Choose whether to receive WeChat messages when WeChat is closed";i:7;s:26:"8.Support for 7 languages ";}</field>
+    <field name="featuresNum" type="array">a:8:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"1";i:4;s:1:"1";i:5;s:1:"1";i:6;s:1:"1";i:7;s:1:"1";}</field>
+  </row>
+  <row id="100">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-03-25</field>
+    <field name="version" type="string">2.0</field>
+    <field name="title" type="string">WeChat 2.0 for BlackBerry &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS5/OS6/OS7&lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5728;&#x8EAB;&#x908A;&#x8A8D;&#x8B58;&#x65B0;&#x670B;&#x53CB;&#x3002;</field>
+    <field name="features" type="array">a:8:{i:0;s:41:"1.&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5728;&#x8EAB;&#x908A;&#x8A8D;&#x8B58;&#x65B0;&#x670B;&#x53CB;";i:1;s:89:"2.&#x6383;&#x63CF;QR Code&#xFF0C;&#x8F15;&#x9B06;&#x6DFB;&#x52A0;&#x670B;&#x53CB;&#xFF0C;&#x4E26;&#x53EF;&#x5C07;&#x4F60;&#x7684;WeChat QR Code&#x5206;&#x4EAB;&#x5230;&#x793E;&#x4EA4;&#x7DB2;&#x7D61;";i:2;s:47:"3.&#x52D5;&#x756B;&#x8868;&#x60C5;&#xFF0C;&#x7528;&#x52D5;&#x756B;&#x4F86;&#x8868;&#x9054;&#x4F60;&#x7684;&#x5FC3;&#x60C5;";i:3;s:62:"4.&#x63A5;&#x6536;&#x4F86;&#x81EA;&#x5B98;&#x65B9;&#x5E33;&#x6236;&#x7684;&#x8A0A;&#x606F;&#xFF0C;&#x8F15;&#x9B06;&#x7372;&#x53D6;&#x6700;&#x65B0;&#x8CC7;&#x8A0A;";i:4;s:44:"5.&#x804A;&#x5929;&#x7684;&#x6642;&#x5019;&#xFF0C;&#x53EF;&#x4EE5;&#x9023;&#x7E8C;&#x8F38;&#x5165;&#x8868;&#x60C5;";i:5;s:65:"6.&#x8A9E;&#x97F3;&#x8A0A;&#x606F;&#x8AAA;&#x5F97;&#x4E0D;&#x597D;&#x600E;&#x9EBC;&#x8FA6;&#xFF1F;&#x73FE;&#x5728;&#x767C;&#x9001;&#x524D;&#x53EF;&#x4EE5;&#x522A;&#x9664;";i:6;s:47:"7.&#x95DC;&#x9589;WeChat&#x5F8C;&#xFF0C;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x63A5;&#x6536;&#x65B0;&#x8A0A;&#x606F;";i:7;s:62:"8.&#x652F;&#x6301;&#x4E03;&#x7A2E;&#x8A9E;&#x8A00;&#xFF0C;&#x8207;&#x4E16;&#x754C;&#x5404;&#x5730;&#x7684;&#x670B;&#x53CB;&#x6E9D;&#x901A;&#x7121;&#x969C;&#x7919;";}</field>
+    <field name="featuresNum" type="array">a:8:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"1";i:4;s:1:"1";i:5;s:1:"1";i:6;s:1:"1";i:7;s:1:"1";}</field>
+  </row>
+  <row id="101">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-05-31</field>
+    <field name="version" type="string">2.5</field>
+    <field name="title" type="string">WeChat 2.5 for BlackBerry Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS5/OS6/OS7&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Shake to find friends.</field>
+    <field name="features" type="array">a:10:{i:0;s:55:"1.Shake to find others who are shaking at the same time";i:1;s:68:"2.Add BBM contacts right from WeChat and share your WeChat ID on BBM";i:2;s:35:"3.Add friends to the Favorites list";i:3;s:64:"4.Set an alias so your friends can recognize you in a Group Chat";i:4;s:28:"5.Zoom in to images received";i:5;s:32:"6.Send multiple images at a time";i:6;s:23:"7.Send full-size images";i:7;s:33:"8.Capture and forward screenshots";i:8;s:50:"9.Turn off notifications for a specific group chat";i:9;s:37:"10.Unlink phone number with WeChat ID";}</field>
+    <field name="featuresNum" type="array">a:10:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"1";i:6;s:1:"2";i:7;s:1:"2";i:8;s:1:"2";i:9;s:1:"2";}</field>
+  </row>
+  <row id="102">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-05-31</field>
+    <field name="version" type="string">2.5</field>
+    <field name="title" type="string">WeChat 2.5 for BlackBerry &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS5/OS6/OS7&lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x6416;&#x4E00;&#x6416;&#xFF0C;&#x627E;&#x5230;&#x540C;&#x6642;&#x6416;&#x52D5;&#x624B;&#x6A5F;&#x7684;&#x670B;&#x53CB;&#x3002;</field>
+    <field name="features" type="array">a:10:{i:0;s:47:"1.&#x6416;&#x4E00;&#x6416;&#xFF0C;&#x627E;&#x5230;&#x540C;&#x6642;&#x6416;&#x52D5;&#x624B;&#x6A5F;&#x7684;&#x670B;&#x53CB;";i:1;s:56:"2.&#x5FEB;&#x6377;&#x589E;&#x52A0;BBM&#x597D;&#x53CB;&#xFF0C;&#x628A;WeChat ID&#x5206;&#x4EAB;&#x5230;BBM&#x7C3D;&#x540D;";i:2;s:41:"3.&#x628A;&#x5E38;&#x806F;&#x7D61;&#x7684;&#x670B;&#x53CB;&#x6A19;&#x70BA;&#x8D85;&#x7D1A;&#x597D;&#x53CB;";i:3;s:74:"4.&#x804A;&#x5929;&#x5BA4;&#x4E2D;&#xFF0C;&#x53EF;&#x8A2D;&#x5B9A;&#x548C;&#x986F;&#x793A;&#x81EA;&#x5DF1;&#x548C;&#x5176;&#x4ED6;&#x4EBA;&#x5728;&#x804A;&#x5929;&#x5BA4;&#x7684;&#x6635;&#x7A31;";i:4;s:20:"5.&#x653E;&#x5927;&#x67E5;&#x770B;&#x5716;&#x7247;";i:5;s:26:"6.&#x4E00;&#x6B21;&#x50B3;&#x9001;&#x591A;&#x5F35;&#x5716;&#x7247;";i:6;s:35:"7.&#x50B3;&#x9001;&#x672A;&#x7D93;&#x58D3;&#x7E2E;&#x7684;&#x539F;&#x59CB;&#x5716;&#x7247;";i:7;s:44:"8.&#x7528;&#x5FEB;&#x901F;&#x9375;&#x622A;&#x5716;&#xFF0C;&#x4E26;&#x8F49;&#x767C;&#x5230;&#x90F5;&#x4EF6;&#x4E2D;";i:8;s:44:"9.&#x8A2D;&#x5B9A;&#x95DC;&#x9589;&#x67D0;&#x500B;&#x804A;&#x5929;&#x5BA4;&#x7684;&#x8A0A;&#x606F;&#x901A;&#x77E5;";i:9;s:21:"10.&#x89E3;&#x7D81;&#x624B;&#x6A5F;&#x865F;&#x78BC;";}</field>
+    <field name="featuresNum" type="array">a:10:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"1";i:6;s:1:"2";i:7;s:1:"2";i:8;s:1:"2";i:9;s:1:"2";}</field>
+  </row>
+  <row id="103">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-07-18</field>
+    <field name="version" type="string">2.6</field>
+    <field name="title" type="string">WeChat 2.6 for BlackBerry Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS5/OS6/OS7&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Download and enjoy more fun stickers.</field>
+    <field name="features" type="array">a:2:{i:0;s:39:"1.Download and enjoy more fun stickers.";i:1;s:37:"2.Improved performance and stability.";}</field>
+    <field name="featuresNum" type="array">a:2:{i:0;s:1:"2";i:1;s:1:"0";}</field>
+  </row>
+  <row id="104">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-07-18</field>
+    <field name="version" type="string">2.6</field>
+    <field name="title" type="string">WeChat 2.6 for BlackBerry &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS5/OS6/OS7&lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x66F4;&#x591A;&#x6709;&#x8DA3;&#x597D;&#x73A9;&#x7684;&#x52D5;&#x614B;&#x8CBC;&#x5716;&#x7B49;&#x4F60;&#x4F86;&#x4E0B;&#x8F09;&#x3002;</field>
+    <field name="features" type="array">a:4:{i:0;s:35:"1.&#x4E0B;&#x8F09;&#x66F4;&#x591A;&#x6709;&#x8DA3;&#x52D5;&#x614B;&#x8CBC;&#x5716;&#x3002;";i:1;s:59:"2.&#x4FEE;&#x5FA9;&#x201C;&#x65B0;&#x589E;BBM&#x597D;&#x53CB;&#x201D;&#x597D;&#x53CB;&#x5217;&#x8868;&#x986F;&#x793A;&#x7684;&#x554F;&#x984C;&#x3002;";i:2;s:41:"3.&#x4FEE;&#x5FA9;&#x522A;&#x9664;&#x806F;&#x7D61;&#x4EBA;&#x51FA;&#x932F;&#x7684;&#x554F;&#x984C;&#x3002;";i:3;s:47:"4.&#x4FEE;&#x5FA9;&#x90E8;&#x5206;&#x8CBC;&#x5716;&#x986F;&#x793A;&#x70BA;&#x4E82;&#x78BC;&#x7684;&#x554F;&#x984C;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:4:{i:0;s:1:"2";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";}</field>
+  </row>
+  <row id="105">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-09-13</field>
+    <field name="version" type="string">2.6.20</field>
+    <field name="title" type="string">WeChat 2.6.20 for BlackBerry Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS5/OS6/OS7&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Download and enjoy more fun stickers.</field>
+    <field name="features" type="array">a:3:{i:0;s:68:"1.Fixed the problem of not being able to set region on some devices.";i:1;s:72:"2.Improved performance on high-resolution devices such as 9810 and 9900.";i:2;s:18:"3.Other bug fixes.";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";}</field>
+  </row>
+  <row id="106">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-09-13</field>
+    <field name="version" type="string">2.6.20</field>
+    <field name="title" type="string">WeChat 2.6.20 for BlackBerry &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS5/OS6/OS7&lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x66F4;&#x591A;&#x6709;&#x8DA3;&#x597D;&#x73A9;&#x7684;&#x52D5;&#x614B;&#x8CBC;&#x5716;&#x7B49;&#x4F60;&#x4F86;&#x4E0B;&#x8F09;&#x3002;</field>
+    <field name="features" type="array">a:3:{i:0;s:50:"1.&#x4FEE;&#x5FA9;&#x90E8;&#x5206;&#x88DD;&#x7F6E;&#x7121;&#x6CD5;&#x8A2D;&#x5B9A;&#x5730;&#x5340;&#x7684;&#x554F;&#x984C;&#x3002;";i:1;s:58:"2.&#x4FEE;&#x5FA9;9900&#x3001;9810&#x7B49;&#x9AD8;&#x89E3;&#x50CF;&#x5EA6;&#x88DD;&#x7F6E;&#x7684;&#x6027;&#x80FD;&#x554F;&#x984C;&#x3002;";i:2;s:35:"3.&#x5176;&#x4ED6;bug&#x4FEE;&#x5FA9;&#xFF0C;&#x6027;&#x80FD;&#x512A;&#x5316;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";}</field>
+  </row>
+  <row id="107">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-10-28</field>
+    <field name="version" type="string">3.0</field>
+    <field name="title" type="string">WeChat 3.0 for BlackBerry Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS5/OS6/OS7&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Post pictures and comments and share them with your friends!</field>
+    <field name="features" type="array">a:6:{i:0;s:74:"1.Moments &#x2013; post pictures and comments and share them with your friends.";i:1;s:55:"2.Log in to Web WeChat easily by scanning your QR Code.";i:2;s:89:"3.Send your greetings or messages to your friends quickly with the new Broadcast feature.";i:3;s:60:"4.Choose from a set of wallpapers to personalize your chats.";i:4;s:70:"5.Interact with your favorite Official Accounts with customized menus.";i:5;s:51:"6.Improved user experience and overall performance.";}</field>
+    <field name="featuresNum" type="array">a:6:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"0";}</field>
+  </row>
+  <row id="108">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2013-10-28</field>
+    <field name="version" type="string">3.0</field>
+    <field name="title" type="string">WeChat 3.0 for BlackBerry &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS5/OS6/OS7&lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x65B0;&#x589E;&#x670B;&#x53CB;&#x5708;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x670B;&#x53CB;&#x5708;&#x548C;&#x670B;&#x53CB;&#x5011;&#x4E92;&#x52D5;&#x3002;</field>
+    <field name="features" type="array">a:6:{i:0;s:104:"1.&#x65B0;&#x589E;&#x670B;&#x53CB;&#x5708;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x670B;&#x53CB;&#x5708;&#x548C;&#x670B;&#x53CB;&#x5011;&#x4E92;&#x52D5;&#xFF0C;&#x5206;&#x4EAB;&#x7684;&#x76F8;&#x7247;&#x6703;&#x81EA;&#x52D5;&#x4FDD;&#x5B58;&#x5230;&#x76F8;&#x7C3F;&#x88CF;&#x3002;";i:1;s:62:"2.WeChat&#x7DB2;&#x9801;&#x7248;&#xFF0C;&#x6383;&#x4E00;&#x6383;&#x5C31;&#x80FD;&#x5728;&#x96FB;&#x8166;&#x4E0A;&#x767B;&#x5165;WeChat&#x3002;";i:2;s:41:"3.&#x5EE3;&#x64AD;&#x52A9;&#x624B;&#xFF0C;&#x5EE3;&#x64AD;&#x8A0A;&#x606F;&#x66F4;&#x4FBF;&#x6377;&#x3002;";i:3;s:65:"4.&#x5B98;&#x65B9;&#x5E33;&#x865F;&#x65B0;&#x589E;&#x81EA;&#x8A02;&#x83DC;&#x55AE;&#xFF0C;&#x53EF;&#x4EE5;&#x548C;&#x5B98;&#x65B9;&#x5E33;&#x865F;&#x4E92;&#x52D5;&#x3002;";i:4;s:32:"5.&#x53EF;&#x4EE5;&#x81EA;&#x5B9A;&#x7FA9;&#x804A;&#x5929;&#x80CC;&#x666F;&#x3002;";i:5;s:50:"6.&#x4F7F;&#x7528;&#x66F4;&#x7A69;&#x5B9A;&#x6D41;&#x66A2;&#xFF0C;&#x50B3;&#x9001;&#x8A0A;&#x606F;&#x66F4;&#x65B9;&#x4FBF;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:6:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"1";i:4;s:1:"2";i:5;s:1:"0";}</field>
+  </row>
+  <row id="109">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2014-01-23</field>
+    <field name="version" type="string">3.5</field>
+    <field name="title" type="string">WeChat 3.5 for BlackBerry Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS5/OS6/OS7&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">Fun and free stickers.</field>
+    <field name="features" type="array">a:3:{i:0;s:24:"1.Fun and free stickers.";i:1;s:56:"2.Share photos from your mobile album to WeChat Moments.";i:2;s:35:"3.Package now smaller and smoother.";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"0";}</field>
+  </row>
+  <row id="110">
+    <field name="platform" type="string">BlackBerry</field>
+    <field name="date" type="string">2014-01-23</field>
+    <field name="version" type="string">3.5</field>
+    <field name="title" type="string">WeChat 3.5 for BlackBerry &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS5/OS6/OS7&lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x514D;&#x8CBB;&#x8CBC;&#x5716;&#xFF0C;&#x6709;&#x8DA3;&#x597D;&#x73A9;&#x7684;&#x8CBC;&#x5716;&#x5728;&#x9019;&#x88E1;&#x3002;</field>
+    <field name="features" type="array">a:3:{i:0;s:53:"1.&#x514D;&#x8CBB;&#x8CBC;&#x5716;&#xFF0C;&#x7ACB;&#x5373;&#x4E0B;&#x8F09;&#x6709;&#x8DA3;&#x597D;&#x73A9;&#x7684;&#x8CBC;&#x5716;&#x3002;";i:1;s:50:"2.&#x5F9E;&#x624B;&#x6A5F;&#x76F8;&#x7C3F;&#x53EF;&#x4EE5;&#x8F49;&#x767C;&#x5716;&#x7247;&#x5230;&#x670B;&#x53CB;&#x5708;&#x3002;";i:2;s:44:"3.&#x7E2E;&#x6E1B;&#x5B89;&#x88DD;&#x5305;&#x5927;&#x5C0F;&#xFF0C;&#x904B;&#x884C;&#x66F4;&#x8F15;&#x5DE7;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:3:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"0";}</field>
+  </row>
+  <row id="111">
+    <field name="platform" type="string">BlackBerry 10</field>
+    <field name="date" type="string">2013-07-18</field>
+    <field name="version" type="string">1.0</field>
+    <field name="title" type="string">WeChat 1.0 for BlackBerry 10 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS 10.1 for Z10&lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">WeChat 1.0 for BlackBerry 10 is now available.</field>
+    <field name="features" type="array">a:5:{i:0;s:42:"1.Voice Messaging: Chat faster with voice.";i:1;s:26:"2.Send animated emoticons.";i:2;s:50:"3.Look around to find and chat with people nearby.";i:3;s:53:"4.Receive rich media messages from Official Accounts.";i:4;s:86:"5.Support for 4 languages: Simplified and Traditional Chinese, English and Indonesian.";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"1";i:4;s:1:"1";}</field>
+  </row>
+  <row id="112">
+    <field name="platform" type="string">BlackBerry 10</field>
+    <field name="date" type="string">2013-07-18</field>
+    <field name="version" type="string">1.0</field>
+    <field name="title" type="string">WeChat 1.0 for BlackBerry 10 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS10.1 Z10 &lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry 10&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;</field>
+    <field name="features" type="array">a:5:{i:0;s:38:"1.&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#xFF0C;&#x8B93;&#x804A;&#x5929;&#x66F4;&#x7C21;&#x55AE;&#x3002;";i:1;s:50:"2.&#x52D5;&#x756B;&#x8868;&#x60C5;&#xFF0C;&#x7528;&#x52D5;&#x756B;&#x4F86;&#x8868;&#x9054;&#x4F60;&#x7684;&#x5FC3;&#x60C5;&#x3002;";i:2;s:44:"3.&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5728;&#x8EAB;&#x908A;&#x8A8D;&#x8B58;&#x65B0;&#x670B;&#x53CB;&#x3002;";i:3;s:65:"4.&#x63A5;&#x6536;&#x4F86;&#x81EA;&#x5B98;&#x65B9;&#x5E33;&#x6236;&#x7684;&#x8A0A;&#x606F;&#xFF0C;&#x8F15;&#x9B06;&#x7372;&#x53D6;&#x6700;&#x65B0;&#x8CC7;&#x8A0A;&#x3002;";i:4;s:65:"5.&#x652F;&#x6301;&#x56DB;&#x7A2E;&#x8A9E;&#x8A00;&#xFF0C;&#x8207;&#x4E16;&#x754C;&#x5404;&#x5730;&#x7684;&#x670B;&#x53CB;&#x6E9D;&#x901A;&#x7121;&#x969C;&#x7919;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"2";i:2;s:1:"2";i:3;s:1:"1";i:4;s:1:"1";}</field>
+  </row>
+  <row id="113">
+    <field name="platform" type="string">BlackBerry 10</field>
+    <field name="date" type="string">2013-08-13</field>
+    <field name="version" type="string">1.1</field>
+    <field name="title" type="string">WeChat 1.1 for BlackBerry 10 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS 10.1 &lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">WeChat 1.0 for BlackBerry 10 is now available.</field>
+    <field name="features" type="array">a:6:{i:0;s:44:"&#x2022; Added support for Q10 keyboard handsets.";i:1;s:41:"1.Voice Messaging: Chat faster with voice";i:2;s:25:"2.Send animated emoticons";i:3;s:49:"3.Look around to find and chat with people nearby";i:4;s:85:"4.Support for 4 languages: Simplified and Traditional Chinese, English and Indonesian";i:5;s:42:"&#x2022; Improved user experience and fixed bug";}</field>
+    <field name="featuresNum" type="array">a:6:{i:0;s:1:"0";i:1;s:1:"2";i:2;s:1:"1";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"0";}</field>
+  </row>
+  <row id="114">
+    <field name="platform" type="string">BlackBerry 10</field>
+    <field name="date" type="string">2013-08-13</field>
+    <field name="version" type="string">1.1</field>
+    <field name="title" type="string">WeChat 1.1 for BlackBerry 10 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS10.1 &lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry10&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;</field>
+    <field name="features" type="array">a:6:{i:0;s:34:"&#x2022; &#x5B8C;&#x7F8E;&#x652F;&#x6301;Q10&#x5168;&#x9375;&#x76E4;&#x88DD;&#x7F6E;";i:1;s:35:"1.&#x8A9E;&#x97F3;&#x77ED;&#x8A0A;&#xFF0C;&#x8B93;&#x804A;&#x5929;&#x66F4;&#x7C21;&#x55AE;";i:2;s:47:"2.&#x52D5;&#x756B;&#x8868;&#x60C5;&#xFF0C;&#x7528;&#x52D5;&#x756B;&#x4F86;&#x8868;&#x9054;&#x4F60;&#x7684;&#x5FC3;&#x60C5;";i:3;s:41:"3.&#x9644;&#x8FD1;&#x7684;&#x4EBA;&#xFF0C;&#x5728;&#x8EAB;&#x908A;&#x8A8D;&#x8B58;&#x65B0;&#x670B;&#x53CB;";i:4;s:62:"4.&#x652F;&#x6301;&#x56DB;&#x7A2E;&#x8A9E;&#x8A00;&#xFF0C;&#x8207;&#x4E16;&#x754C;&#x5404;&#x5730;&#x7684;&#x670B;&#x53CB;&#x6E9D;&#x901A;&#x7121;&#x969C;&#x7919;";i:5;s:28:"&#x2022; &#x512A;&#x5316;&#x6027;&#x80FD;&#xFF0C;&#x4FEE;&#x6539;Bug";}</field>
+    <field name="featuresNum" type="array">a:6:{i:0;s:1:"0";i:1;s:1:"2";i:2;s:1:"1";i:3;s:1:"2";i:4;s:1:"1";i:5;s:1:"0";}</field>
+  </row>
+  <row id="115">
+    <field name="platform" type="string">BlackBerry 10</field>
+    <field name="date" type="string">2013-10-28</field>
+    <field name="version" type="string">2.0</field>
+    <field name="title" type="string">WeChat 2.0 for BlackBerry 10 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS 10.1 &lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">WeChat 2.0 for BlackBerry 10 Release.</field>
+    <field name="features" type="array">a:5:{i:0;s:74:"1.Moments &#x2013; post pictures and comments and share them with your friends.";i:1;s:61:"2.Interact with your favorite Official Accounts in menu mode.";i:2;s:34:"3.Support for Spanish and Italian.";i:3;s:55:"4.Forward messages and your friends' WeChat name cards.";i:4;s:41:"5.Improved performance on sending images.";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"1";i:2;s:1:"1";i:3;s:1:"0";i:4;s:1:"0";}</field>
+  </row>
+  <row id="116">
+    <field name="platform" type="string">BlackBerry 10</field>
+    <field name="date" type="string">2013-10-28</field>
+    <field name="version" type="string">2.0</field>
+    <field name="title" type="string">WeChat 2.0 for BlackBerry 10 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS10.1 &lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry10&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">WeChat 2.0 for BlackBerry 10&#x5168;&#x65B0;&#x767C;&#x4F48;&#x3002;</field>
+    <field name="features" type="array">a:5:{i:0;s:59:"1.&#x65B0;&#x589E;&#x670B;&#x53CB;&#x5708;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x670B;&#x53CB;&#x5708;&#x548C;&#x670B;&#x53CB;&#x5011;&#x4E92;&#x52D5;&#x3002;";i:1;s:65:"2.&#x5B98;&#x65B9;&#x5E33;&#x865F;&#x65B0;&#x589E;&#x81EA;&#x8A02;&#x83DC;&#x55AE;&#xFF0C;&#x53EF;&#x4EE5;&#x548C;&#x5B98;&#x65B9;&#x5E33;&#x865F;&#x4E92;&#x52D5;&#x3002;";i:2;s:38:"3.&#x589E;&#x52A0;&#x897F;&#x73ED;&#x7259;&#x8A9E;&#x3001;&#x7FA9;&#x5927;&#x5229;&#x8A9E;&#x3002;";i:3;s:56:"4.&#x5206;&#x4EAB;&#x540D;&#x7247;&#xFF0C;&#x8F49;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x804A;&#x5929;&#x4E92;&#x52D5;&#x66F4;&#x8C50;&#x5BCC;&#x3002;";i:4;s:29:"5.&#x50B3;&#x9001;&#x5716;&#x7247;&#x66F4;&#x52A0;&#x5FEB;&#x6377;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"2";i:1;s:1:"1";i:2;s:1:"1";i:3;s:1:"0";i:4;s:1:"0";}</field>
+  </row>
+  <row id="117">
+    <field name="platform" type="string">BlackBerry 10</field>
+    <field name="date" type="string">2014-01-23</field>
+    <field name="version" type="string">3.0</field>
+    <field name="title" type="string">WeChat 3.0 for BlackBerry 10 Release</field>
+    <field name="lang" type="string">en</field>
+    <field name="description" type="string">Requirements: OS 10.1 /OS 10.2 &lt;br/&gt;WeChat is the complete mobile communication and social networking app. Free, cross-platform, and full-featured, WeChat is the best way to keep in touch with everyone you care about.</field>
+    <field name="indexDescription" type="string">New video call, talk to your friends face to face.</field>
+    <field name="features" type="array">a:5:{i:0;s:52:"1.New video call, talk to your friends face to face.";i:1;s:24:"2.Fun and free stickers.";i:2;s:28:"3.Shake to find new friends.";i:3;s:30:"4.Scan QR code to add friends.";i:4;s:39:"5.Share rich media messages to Moments.";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"1";i:1;s:1:"2";i:2;s:1:"1";i:3;s:1:"1";i:4;s:1:"2";}</field>
+  </row>
+  <row id="118">
+    <field name="platform" type="string">BlackBerry 10</field>
+    <field name="date" type="string">2014-01-23</field>
+    <field name="version" type="string">3.0</field>
+    <field name="title" type="string">WeChat 3.0 for BlackBerry 10 &#x5168;&#x65B0;&#x767C;&#x4F48;</field>
+    <field name="lang" type="string">zh_TW</field>
+    <field name="description" type="string">&#x652F;&#x6301;&#x7CFB;&#x7D71;&#x7248;&#x672C;&#xFF1A;OS 10.1 /OS 10.2 &lt;br/&gt;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;WeChat&#x5FEB;&#x901F;&#x6536;&#x767C;&#x8A0A;&#x606F;&#xFF0C;&#x5373;&#x6642;&#x62CD;&#x7167;&#x5206;&#x4EAB;&#xFF0C;&#x96A8;&#x6642;&#x96A8;&#x5730;&#x806F;&#x7D61;&#x8EAB;&#x908A;&#x7684;&#x670B;&#x53CB;&#x3002;&#x652F;&#x6301;&#x57FA;&#x65BC;BlackBerry10&#x5E73;&#x53F0;&#x7684;&#x624B;&#x6301;&#x7D42;&#x7AEF;&#x88DD;&#x7F6E;&#x3002;</field>
+    <field name="indexDescription" type="string">&#x8996;&#x8A0A;&#x901A;&#x8A71;&#xFF0C;&#x548C;&#x670B;&#x53CB;&#x9762;&#x5C0D;&#x9762;&#x3002;</field>
+    <field name="features" type="array">a:5:{i:0;s:38:"1.&#x8996;&#x8A0A;&#x901A;&#x8A71;&#xFF0C;&#x548C;&#x670B;&#x53CB;&#x9762;&#x5C0D;&#x9762;&#x3002;";i:1;s:44:"2.&#x514D;&#x8CBB;&#x8CBC;&#x5716;&#xFF0C;&#x53EF;&#x611B;&#x8868;&#x60C5;&#x50B3;&#x9054;&#x5FC3;&#x610F;&#x3002;";i:2;s:32:"3.&#x6416;&#x4E00;&#x6416;&#xFF0C;&#x7D50;&#x4EA4;&#x65B0;&#x670B;&#x53CB;&#x3002;";i:3;s:39:"4.&#x6383;&#x63CF;QR Code&#xFF0C;&#x52A0;&#x597D;&#x53CB;&#x66F4;&#x8F15;&#x9B06;&#x3002;";i:4;s:44:"5.&#x652F;&#x6301;&#x5206;&#x4EAB;&#x5BCC;&#x5A92;&#x9AD4;&#x8A0A;&#x606F;&#x5230;&#x670B;&#x53CB;&#x5708;&#x3002;";}</field>
+    <field name="featuresNum" type="array">a:5:{i:0;s:1:"1";i:1;s:1:"2";i:2;s:1:"1";i:3;s:1:"1";i:4;s:1:"2";}</field>
+  </row>
+</table>
+  <table name="configuration" lastID="3">
+    <row id="1">
+      <field name="key" type="string">isSpecified</field>
+      <field name="value" type="string">0</field>
+    </row>
+    <row id="2">
+      <field name="key" type="string">lang</field>
+      <field name="value" type="array">a:17:{i:0;s:2:"en";i:1;s:5:"zh_TW";i:2;s:2:"pt";i:3;s:2:"th";i:4;s:2:"id";i:5;s:2:"vi";i:6;s:2:"es";i:7;s:2:"ru";i:8;s:2:"ar";i:9;s:2:"he";i:10;s:2:"pl";i:11;s:2:"hi";i:12;s:2:"ja";i:13;s:2:"it";i:14;s:2:"ko";i:15;s:2:"ms";i:16;s:2:"tr";}</field>
+    </row>
+    <row id="3">
+      <field name="key" type="string">platform</field>
+      <field name="value" type="array">a:8:{i:0;s:6:"iPhone";i:1;s:7:"Android";i:2;s:13:"Windows Phone";i:3;s:3:"S40";i:4;s:10:"Symbian V5";i:5;s:10:"Symbian V3";i:6;s:10:"BlackBerry";i:7;s:13:"BlackBerry 10";}</field>
+    </row>
+  </table>
 </Database>

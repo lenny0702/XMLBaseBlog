@@ -682,7 +682,12 @@
          }
 
 
-         return $this->rootXml->asXML($this->file);
+         $dom = new DOMDocument('1.0');
+         $dom->preserveWhiteSpace = false;
+         $dom->formatOutput = true;
+         $dom->loadXML($this->rootXml->asXML());
+         $dom->saveXML();
+         return $dom->save($this->file);
      }
 
      /**
@@ -739,7 +744,12 @@
          {
              $row = $this->xml->xpath('//row[@id="'.$this->_row_id.'"]');
              unset($row[0][0]);
-             return $this->xml->asXML($this->file);
+             $dom = new DOMDocument('1.0');
+             $dom->preserveWhiteSpace = false;
+             $dom->formatOutput = true;
+             $dom->loadXML($this->xml->asXML());
+             $dom->saveXML();
+             return $dom->save($this->file);
          }
          else
          {
@@ -750,7 +760,12 @@
                  $row = $xml->xpath('//row[@id="'.$obj->id.'"]');
                  unset($row[0][0]);
              }
-             return $xml->asXML($this->file);
+             $dom = new DOMDocument('1.0');
+             $dom->preserveWhiteSpace = false;
+             $dom->formatOutput = true;
+             $dom->loadXML($xml->asXML());
+             $dom->saveXML();
+             return $dom->save($this->file);
          }
 
          throw new Exception('Error with deleting');
@@ -768,7 +783,12 @@
              $row->addAttribute('id', $id);
              $id++;
          }
-         return $xml->asXML($this->file);
+         $dom = new DOMDocument('1.0');
+         $dom->preserveWhiteSpace = false;
+         $dom->formatOutput = true;
+         $dom->loadXML($xml->asXML());
+         $dom->saveXML();
+         return $dom->save($this->file);
      }
 
  }

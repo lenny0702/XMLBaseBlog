@@ -1,0 +1,1387 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tencent IBG 1998 - 2012
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wechat_portal 1350025720\n"
+"POT-Creation-Date: 2013-06-08 19:47+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\..\..\template/contact_us.html.php:10
+msgid "CONTACT US"
+msgstr ""
+
+#: ..\..\..\..\template/contact_us.html.php:13
+msgid "Your feedback can help improve our product and service."
+msgstr ""
+
+#: ..\..\..\..\template/contact_us.html.php:14
+msgid "Feel free to give us suggestions."
+msgstr ""
+
+#: ..\..\..\..\template/contact_us.html.php:15
+msgid "Please contact us through one of the following methods."
+msgstr ""
+
+#: ..\..\..\..\template/contact_us.html.php:20
+msgid ""
+"Add \"<span class=\"green\">WeChat Team</span>\" on WeChat to contact us"
+msgstr ""
+
+#: ..\..\..\..\template/contact_us.html.php:26
+msgid "Send us your suggestions about WeChat"
+msgstr ""
+
+#: ..\..\..\..\template/contact_us.html.php:31
+msgid "Contact WeChat support team for help"
+msgstr ""
+
+#: ..\..\..\..\template/contact_us.html.php:37
+msgid "Contact our PR team for any media inquiries"
+msgstr ""
+
+#: ..\..\..\..\template/contact_us.html.php:42
+msgid "Contact our business team for cooperation"
+msgstr ""
+
+#: ..\..\..\..\template/download.html.php:10
+msgid "DOWNLOAD"
+msgstr ""
+
+#: ..\..\..\..\template/download.html.php:43
+msgid "Scan QR Code via mobile phone"
+msgstr ""
+
+#: ..\..\..\..\template/download.html.php:44
+msgid ""
+"You can scan this QR code with your mobile phone, or open wechat.com on your "
+"mobile browser, to download WeChat."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:11
+#: ..\..\..\..\template/include/header.html:17
+#: ..\..\..\..\template/include/head_faq.html:9
+msgid "FAQ"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:27 ..\..\..\..\template/faq.html.php:176
+msgid "How do I use Video Call?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:31 ..\..\..\..\template/faq.html.php:180
+msgid "Can I use WeChat Video Call?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:32 ..\..\..\..\template/faq.html.php:181
+msgid ""
+"Video Calls are supported on WeChat versions 4.2 and up. At your earliest "
+"convenience, please update to the latest version of WeChat."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:32 ..\..\..\..\template/faq.html.php:68
+#: ..\..\..\..\template/faq.html.php:96 ..\..\..\..\template/faq.html.php:113
+#: ..\..\..\..\template/faq.html.php:181 ..\..\..\..\template/faq.html.php:217
+#: ..\..\..\..\template/faq.html.php:245
+#: ..\..\..\..\template/include/footer.html:49
+#: ..\..\..\..\template/index.html.php:105
+msgid "More"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:35 ..\..\..\..\template/faq.html.php:184
+msgid "How private is my video call?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:39 ..\..\..\..\template/faq.html.php:188
+msgid "How do I switch between Video and Audio mode?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:40 ..\..\..\..\template/faq.html.php:189
+msgid "You can select Video or Audio mode while starting a video call,"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:42 ..\..\..\..\template/faq.html.php:191
+msgid "Before accepting the call,"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:44 ..\..\..\..\template/faq.html.php:193
+msgid "Or during the call."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:46 ..\..\..\..\template/faq.html.php:195
+msgid ""
+"If you switch to Audio mode, the other user will be switched to Audio mode "
+"automatically."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:48 ..\..\..\..\template/faq.html.php:197
+msgid ""
+"The other user will be notified when you switch from Audio to Video mode."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:52 ..\..\..\..\template/faq.html.php:201
+msgid "Are WeChat Video Calls free?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:53 ..\..\..\..\template/faq.html.php:202
+msgid ""
+"It's free to use Video Call on WeChat. However, you may need to pay your "
+"carrier for internet service. The data consumption rate for Video Calls is "
+"14-21k/sec. It's recommended you use Video Call over a WiFi network to "
+"prevent consuming large amounts of data."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:60 ..\..\..\..\template/faq.html.php:209
+msgid "How do I use \"Moments\" ?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:64 ..\..\..\..\template/faq.html.php:213
+msgid "When can I use WeChat's \"Moments\" feature?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:65 ..\..\..\..\template/faq.html.php:214
+msgid ""
+"\"Moments\" is a new feature in WeChat 4.0. Please update Wechat to the "
+"latest version."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:68 ..\..\..\..\template/faq.html.php:217
+msgid "How do I share and view photos in \"Moments\"?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:69 ..\..\..\..\template/faq.html.php:218
+msgid ""
+"In the Social menu, click on \"Moments\". You can then view a streaming feed "
+"of your and your friends' photos."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:71 ..\..\..\..\template/faq.html.php:220
+msgid ""
+"Interact with your friends by giving and receiving comments, and \"Liking\" "
+"their photos."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:73 ..\..\..\..\template/faq.html.php:222
+msgid ""
+"You can share individual photos or batches of photos in \"Moments\", and "
+"send them to your friends. These photos will then be displayed in your "
+"friends' photo albums."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:75 ..\..\..\..\template/faq.html.php:224
+msgid "Go to your friend's profile page to view his or her photo album."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:79 ..\..\..\..\template/faq.html.php:228
+msgid "How do I manage my photos?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:80 ..\..\..\..\template/faq.html.php:229
+msgid ""
+"Go to the Settings menu and select My Moments. You can then manage your "
+"photos and view your friends' comments and \"Likes\"."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:88 ..\..\..\..\template/faq.html.php:237
+msgid "How private is my photo album?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:92 ..\..\..\..\template/faq.html.php:241
+msgid "Can all of my contacts see all comments made on my photo?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:93 ..\..\..\..\template/faq.html.php:242
+msgid ""
+"Your friends will only see comments from those users who are also their "
+"friends."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:96 ..\..\..\..\template/faq.html.php:245
+msgid "Can I restrict the visibility of my photos?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:97 ..\..\..\..\template/faq.html.php:246
+msgid ""
+"Yes. You can set the visibility to Private; only you will be able to see the "
+"photo. If you send the photo to other friends and then select Private, then "
+"it will only be visible to you."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:100 ..\..\..\..\template/faq.html.php:249
+msgid "Is my album visible to users not in my Contacts list?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:101 ..\..\..\..\template/faq.html.php:250
+msgid ""
+"A portion of your album may be visible to users not in your Contacts list. "
+"If you initiate a user-finding feature, your 10 most recent photos will be "
+"visible to a user using the same feature."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:107
+msgid "How do I forward WeChat messages?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:109
+msgid "In WeChat 4.0, you can forward messages to your friends."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:112
+msgid "How do I forward messages?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:113
+msgid ""
+"Tap and hold the message you want to forward and click Forward. You can "
+"select an existing conversation or start a new conversation."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:118
+msgid "Which types of messages can be forwarded?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:119
+msgid ""
+"You can forward texts and photos, even messages from third-party "
+"applications."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:122
+msgid "Can I forward a voice message?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:123
+msgid "Sorry, you can not forward voice messages now."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:129 ..\..\..\..\template/faq.html.php:256
+#: ..\..\..\..\template/faq.html.php:303 ..\..\..\..\template/faq.html.php:350
+#: ..\..\..\..\template/faq.html.php:413 ..\..\..\..\template/faq.html.php:495
+msgid "What is WeChat?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:130 ..\..\..\..\template/faq.html.php:257
+#: ..\..\..\..\template/faq.html.php:304 ..\..\..\..\template/faq.html.php:351
+#: ..\..\..\..\template/faq.html.php:414 ..\..\..\..\template/faq.html.php:496
+msgid ""
+"WeChat is a new and powerful mobile communication tool. It supports sending "
+"voice, video, photo and text messages. You can also do group chats, or you "
+"can find new friends nearby to talk to. WeChat works on iOS, Android, "
+"Windows Phone, Symbian and BlackBerry devices."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:133 ..\..\..\..\template/faq.html.php:260
+#: ..\..\..\..\template/faq.html.php:307 ..\..\..\..\template/faq.html.php:354
+#: ..\..\..\..\template/faq.html.php:417 ..\..\..\..\template/faq.html.php:499
+msgid "What can WeChat do?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:134 ..\..\..\..\template/faq.html.php:261
+#: ..\..\..\..\template/faq.html.php:308 ..\..\..\..\template/faq.html.php:355
+#: ..\..\..\..\template/faq.html.php:418 ..\..\..\..\template/faq.html.php:500
+msgid ""
+"With WeChat, you can chat with your friends instantly via voice messages, "
+"texts, or images. You can also create group chats to chat with several "
+"friends together."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:137 ..\..\..\..\template/faq.html.php:264
+#: ..\..\..\..\template/faq.html.php:311 ..\..\..\..\template/faq.html.php:358
+#: ..\..\..\..\template/faq.html.php:421 ..\..\..\..\template/faq.html.php:503
+msgid "Is WeChat free?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:138 ..\..\..\..\template/faq.html.php:265
+#: ..\..\..\..\template/faq.html.php:312 ..\..\..\..\template/faq.html.php:359
+#: ..\..\..\..\template/faq.html.php:422 ..\..\..\..\template/faq.html.php:504
+msgid ""
+"It's free to download, install and use WeChat. However, you may need to pay "
+"your carrier for internet service."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:141 ..\..\..\..\template/faq.html.php:268
+#: ..\..\..\..\template/faq.html.php:315 ..\..\..\..\template/faq.html.php:362
+#: ..\..\..\..\template/faq.html.php:425 ..\..\..\..\template/faq.html.php:507
+msgid "Is there any region restriction for voice messages?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:142 ..\..\..\..\template/faq.html.php:269
+#: ..\..\..\..\template/faq.html.php:316 ..\..\..\..\template/faq.html.php:363
+#: ..\..\..\..\template/faq.html.php:426 ..\..\..\..\template/faq.html.php:508
+msgid "No. You can chat with friends anywhere."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:145 ..\..\..\..\template/faq.html.php:272
+#: ..\..\..\..\template/faq.html.php:319 ..\..\..\..\template/faq.html.php:366
+#: ..\..\..\..\template/faq.html.php:429 ..\..\..\..\template/faq.html.php:511
+msgid "How do I register?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:146 ..\..\..\..\template/faq.html.php:273
+#: ..\..\..\..\template/faq.html.php:320 ..\..\..\..\template/faq.html.php:367
+#: ..\..\..\..\template/faq.html.php:430 ..\..\..\..\template/faq.html.php:512
+msgid ""
+"You can log in to WeChat with your Facebook account or sign up with your "
+"phone number."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:149 ..\..\..\..\template/faq.html.php:276
+#: ..\..\..\..\template/faq.html.php:323 ..\..\..\..\template/faq.html.php:370
+#: ..\..\..\..\template/faq.html.php:433 ..\..\..\..\template/faq.html.php:515
+msgid "How do I retrieve my password?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:150
+msgid ""
+"Click \"Can't access your account?\" in login page and follow the "
+"instructions."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:153 ..\..\..\..\template/faq.html.php:280
+#: ..\..\..\..\template/faq.html.php:327 ..\..\..\..\template/faq.html.php:374
+#: ..\..\..\..\template/faq.html.php:437 ..\..\..\..\template/faq.html.php:519
+msgid "Will WeChat contacts see my phone number?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:154 ..\..\..\..\template/faq.html.php:281
+#: ..\..\..\..\template/faq.html.php:328 ..\..\..\..\template/faq.html.php:375
+#: ..\..\..\..\template/faq.html.php:438 ..\..\..\..\template/faq.html.php:520
+msgid "No, your phone number will not be shown on WeChat."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:157
+msgid "What's the difference between WeChat ID and WeChat name?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:158
+msgid ""
+"WeChat ID is your unique name that friends can search for to find you. "
+"Wechat ID can be changed once only. WeChat name is your primary name shown "
+"to other WeChat users, and it can be changed as often as you like."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:161 ..\..\..\..\template/faq.html.php:288
+#: ..\..\..\..\template/faq.html.php:335 ..\..\..\..\template/faq.html.php:382
+#: ..\..\..\..\template/faq.html.php:405 ..\..\..\..\template/faq.html.php:445
+#: ..\..\..\..\template/faq.html.php:527
+msgid "How do I find my friends?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:162 ..\..\..\..\template/faq.html.php:289
+#: ..\..\..\..\template/faq.html.php:336 ..\..\..\..\template/faq.html.php:383
+#: ..\..\..\..\template/faq.html.php:446 ..\..\..\..\template/faq.html.php:528
+msgid ""
+"You can search for them via their WeChat IDs or their phone numbers "
+"directly, or you can link your phone address book to let WeChat find your "
+"friends for you with Recommended."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:165 ..\..\..\..\template/faq.html.php:292
+#: ..\..\..\..\template/faq.html.php:339 ..\..\..\..\template/faq.html.php:386
+#: ..\..\..\..\template/faq.html.php:449 ..\..\..\..\template/faq.html.php:531
+msgid "How do I delete message history?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:166 ..\..\..\..\template/faq.html.php:293
+#: ..\..\..\..\template/faq.html.php:340 ..\..\..\..\template/faq.html.php:387
+#: ..\..\..\..\template/faq.html.php:450 ..\..\..\..\template/faq.html.php:532
+msgid ""
+"You can delete a single message or the entire conversation. For touch-screen "
+"mobile, just tap and hold the message or swip to the left on the chat. For "
+"keyboard mobile, please select Options -> Delete."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:169 ..\..\..\..\template/faq.html.php:296
+#: ..\..\..\..\template/faq.html.php:343 ..\..\..\..\template/faq.html.php:390
+#: ..\..\..\..\template/faq.html.php:453 ..\..\..\..\template/faq.html.php:535
+msgid "How do I know whether my message has been read by the recipient?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:170 ..\..\..\..\template/faq.html.php:297
+#: ..\..\..\..\template/faq.html.php:344 ..\..\..\..\template/faq.html.php:391
+#: ..\..\..\..\template/faq.html.php:454 ..\..\..\..\template/faq.html.php:536
+msgid ""
+"Sorry, there is no way to know this. We think this is the private "
+"information of the other user and we do not disclose it. You can, however, "
+"see when they are typing a reply."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:277 ..\..\..\..\template/faq.html.php:324
+#: ..\..\..\..\template/faq.html.php:371 ..\..\..\..\template/faq.html.php:434
+#: ..\..\..\..\template/faq.html.php:516
+msgid "Click \"Forgot Password?\" in login page and follow the instructions."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:284 ..\..\..\..\template/faq.html.php:331
+#: ..\..\..\..\template/faq.html.php:378 ..\..\..\..\template/faq.html.php:441
+#: ..\..\..\..\template/faq.html.php:523
+msgid "What's the difference between WeChat ID and WeChat Nickname?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:285 ..\..\..\..\template/faq.html.php:332
+#: ..\..\..\..\template/faq.html.php:379 ..\..\..\..\template/faq.html.php:442
+#: ..\..\..\..\template/faq.html.php:524
+msgid ""
+"WeChat ID is your unique name that friends can search for to find you. "
+"Wechat ID can be changed once only. Nickname is your primary name shown to "
+"other WeChat users, and it can be changed as often as you like."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:397
+msgid "Can WeChat work on my phone?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:398
+msgid "The following Nokia S40 models support WeChat: "
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:401
+msgid "How do I download and install WeChat?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:402
+msgid ""
+"You can download and install WeChat using one of the methods described below:"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:402
+msgid ""
+"1. Open the <a target=\"_blank\" href=\"http://store.ovi.com/\">Nokia App "
+"Store</a> and search for WeChat on your phone. Download and install the "
+"WeChat app. "
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:402
+msgid ""
+"2. Visit the <a target=\"_blank\" href=\"http://www.wechat.com/\">official "
+"WeChat website</a> from your phone, and click the download link to download "
+"and install the WeChat app. "
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:402
+msgid ""
+"3. Visit the <a target=\"_blank\" href=\"http://www.wechat.com/\">official "
+"WeChat website</a> from your computer. Download the WeChat installation "
+"package from the official WeChat website onto your computer. Extract and "
+"then move the corresponding files to a folder on your phone. Then run the "
+"installer. You cannot use non-English characters for the folder path."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:406
+msgid "You can search for friends by entering their WeChat IDs. "
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:406
+msgid ""
+"You can link your phone number and Address Book to WeChat to find friends "
+"already using the app, or to invite friends to join WeChat."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:409
+msgid "How do I use voice messages?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:410
+msgid ""
+"While inside of a chat, press and hold the dial button on your phone and "
+"start talking. Release the button to send. You cannot currently cancel a "
+"voice message once you’ve pressed the dial button."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:410
+msgid "(this feature is coming soon)."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:460
+msgid "WeChat supports BlackBerry OS 5, 6, 7."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:461
+msgid "Recommended configurations:"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:461
+msgid ""
+"1.Mobile devices with external memory card (SD card) or internal storage "
+"capacity greater than 1Gb."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:461
+msgid "2.Available memory of at least 20Mb."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:463
+msgid "How do I initiate a group chat?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:464
+msgid ""
+"From the main screen, press the BlackBerry key and select \"New Group Chat\" "
+"or, from inside a chat, press the BlackBerry key and select \"Add Friends\"."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:466
+msgid "How do I send a picture?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:467
+msgid ""
+"From the chat screen, press the BlackBerry key and select \"Send Image\"."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:469
+msgid "How do I view the options screen for my group chat?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:470
+msgid ""
+"From the chat screen, press the BlackBerry key and select \"Group Chat "
+"Options\"."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:472
+msgid ""
+"When I start WeChat or try to log in, I see an error message: \"Init "
+"database failed\" or \"database initialization error\", what should I do?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:473
+msgid ""
+"1. If your BlackBerry device is connected to a computer, disconnect the data "
+"cable and start WeChat again."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:473
+msgid ""
+"2. If your BlackBerry device is not connected to a computer, please exit "
+"WeChat, reboot your device, and then start WeChat again."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:473
+msgid ""
+"If the problem persists, please exit WeChat and clear the local data file."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:475
+msgid "How do I clear WeChat's local data file?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:476
+msgid ""
+"1. If your BlackBerry device has internal storage of more than 1Gb (for "
+"example, the Blackberry 9000, 9800, 9810, 9900), go to your phone's home "
+"screen and select \"Media\", press the Blackberry key and select \"Explore"
+"\". Then, from the file system browser select \"Device\" and delete the \"/"
+"home/user/WeChat/\" directory, or rename it to another name, such as "
+"\"WeChat1\"."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:476
+msgid ""
+"2. For other models, from inside of \"Media\" press the BlackBerry key. From "
+"the pop-up menu, select \"Explore\" and enter \"Media Card\", then delete "
+"the \"/data/WeChat/\" directory, or rename it to any other name such as "
+"\"WeChat1\"."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:478
+msgid "Why is sending an audio message slow sometimes?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:479
+msgid ""
+"When you record a voice message in the chat window, if the recording "
+"animation appears to be very slow, or after releasing the button it is "
+"delayed for a while (for example, more than five seconds), it is probably "
+"because you have a low-speed SD card or your SD card has been corrupted. Try "
+"reformatting the SD card or replacing it."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:481
+msgid "Why don't I hear any sound when I try to play voice messages?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:482
+msgid ""
+"Some Blackberry OS versions or models do not support high-speed recording. "
+"Try to shut down the high-speed recording function: Go to \"Settings\" -> "
+"\"General\", and set the \"Low-bitrate Recording\" option to \"Off\"."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:484
+msgid ""
+"If my recorded voice message has loud background noise or playing voice "
+"messages fails, what should I do?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:485
+msgid ""
+"If there is noise or you are unable to play the voice message, check whether "
+"other apps are playing music or recording. Turn off these apps, and try to "
+"record a voice message again."
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:487
+msgid "Why do I receive no message notifications?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:488
+msgid ""
+"If you want to open or close a WeChat notification, but are unable to, go to "
+"your phone's home screen and select \"Sound and Alerts\" -> \"Change Sounds "
+"and Alerts\" -> \"Sounds for Selected Profile\" -> \"Other Applications - "
+"Notifiers\" -> \"wechat notification event\" and set:"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:488
+msgid "a) Check that the \"Volume\" option is set to \"Silent\""
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:488
+msgid "b) Check that the \"LED\" option is turned on"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:488
+msgid "c) Check that the \"Vibration\" option is turned on"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:491
+msgid "How do I manually switch the network connection type?"
+msgstr ""
+
+#: ..\..\..\..\template/faq.html.php:492
+msgid ""
+"WeChat tries to use your best option for connecting to the network. If you "
+"want to manually switch the network connection, you can choose the network "
+"connection from \"Settings\" -> \"General\" -> \"Network Settings\". For "
+"unregistered users, you can choose your network connection by pressing the "
+"BlackBerry key and selecting \"Network Settings\"."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:10
+#: ..\..\..\..\template/index.html.php:32
+msgid "FEATURES"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:19
+#: ..\..\..\..\template/features.html.php:181
+#: ..\..\..\..\template/index.html.php:38
+msgid "Live Chat"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:24
+#: ..\..\..\..\template/features.html.php:199
+#: ..\..\..\..\template/index.html.php:42
+msgid "Group Chat QR Code"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:29
+#: ..\..\..\..\template/features.html.php:211
+#: ..\..\..\..\template/index.html.php:46
+msgid "Chat History Backup"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:34
+#: ..\..\..\..\template/features.html.php:86
+#: ..\..\..\..\template/index.html.php:50
+msgid "Video Call"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:39
+#: ..\..\..\..\template/features.html.php:98
+#: ..\..\..\..\template/index.html.php:54
+msgid "Moments"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:44
+#: ..\..\..\..\template/features.html.php:110
+#: ..\..\..\..\template/index.html.php:58
+msgid "Voice Chat"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:49
+#: ..\..\..\..\template/features.html.php:117
+#: ..\..\..\..\template/index.html.php:20
+#: ..\..\..\..\template/index.html.php:62
+msgid "Web WeChat"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:54
+#: ..\..\..\..\template/features.html.php:131
+#: ..\..\..\..\template/index.html.php:66
+msgid "Emoticons"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:59
+#: ..\..\..\..\template/features.html.php:143
+#: ..\..\..\..\template/index.html.php:70
+msgid "Group Chat"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:64
+#: ..\..\..\..\template/features.html.php:152
+#: ..\..\..\..\template/index.html.php:74
+msgid "Shake"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:69
+#: ..\..\..\..\template/features.html.php:163
+#: ..\..\..\..\template/index.html.php:78
+msgid "Look Around"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:74
+#: ..\..\..\..\template/features.html.php:170
+#: ..\..\..\..\template/index.html.php:82
+msgid "Drift Bottle"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:87
+msgid ""
+"Video Call is available on WeChat versions 4.2 and later, allowing you to "
+"talk to your friends face to face. "
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:88
+msgid "In the chat window, press \"+\" and select \"Video Call\"."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:90
+msgid ""
+"If your friend has not sent you a message in the past 10 minutes, you need "
+"to send them an invite message and get a response in order to call them."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:92
+msgid ""
+"Select \"Video Call\" again in the chat window. Your friend will see the "
+"following window and can tap Accept to start."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:94
+msgid "You can switch between Video and Audio modes during the call."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:99
+msgid ""
+"Select \"Social\" -> \"Moments\". Press camera to share photos with your "
+"friends."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:101
+msgid ""
+"Set the Visibility of photos you’re sharing and @ people whom you'd like to "
+"alert to your post."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:103
+msgid ""
+"Like or Comment on your friends' photos; tap on a comment to reply directly "
+"to it."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:105
+msgid ""
+"Select \"Settings\" -> \"My Moments\" to view a timeline of your own Moments."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:111
+msgid ""
+"Hold \"Hold to Talk\" to start recording a message. Release the button to "
+"send."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:113
+msgid ""
+"While still holding down, you can move your finger up to the X button to "
+"discard and not send the voice message you are recording."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:118
+msgid "Click the magic wand icon at upper right and select \"Web WeChat\"."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:120
+msgid "Click \"Start\""
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:122
+msgid ""
+"Scan the QR Code that shows up when you open your PC browser to web.wechat."
+"com, then select \"OK\""
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:127
+msgid ""
+"Select Facebook Connect on the login page to log in with your Facebook "
+"account and password. "
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:132
+msgid "Select the smiley button in the chat window."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:134
+msgid "Enhance your chats with a huge selection of emoticons."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:138
+msgid ""
+"Select \"Special\" -> \"+\" to download emoticons from our online catalog or "
+"choose your own from your phone album."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:144
+msgid "Step 1: Open \"Chats\" and select the wand button at top right corner. "
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:146
+msgid "Step 2: Select contacts whom you'd like to join the group chat."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:148
+msgid "Step 3: You can add more friends to the group chat later."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:153
+msgid "Select \"Social\" -> \"Shake\". You will see a notice for new users."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:155
+msgid ""
+"Shake needs to access your location data. Please make sure you have both "
+"enabled Location Services from your iPhone’s Settings menu and that WeChat "
+"has been granted permission in the Location Services sub-menu."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:157
+msgid "Shake your phone to find people shaking their phones as well."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:159
+msgid ""
+"Choose someone from \"people found\" and \"Send Greeting\" to make friends."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:164
+msgid ""
+"Select \"Social\" -> \"Look Around\" to find people using WeChat with Look "
+"Around enabled nearby. Choose one and \"Send Greeting\" to make friends. "
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:166
+msgid ""
+"Look Around needs to access your location data. Please make sure you have "
+"both enabled Location Services from your iPhone’s Settings menu and that "
+"WeChat has been granted permission in the Location Services sub-menu."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:171
+msgid ""
+"Select \"Social\" -> \"Drift Bottle\". (note: you may need to enable Drift "
+"Bottle from \"Settings\"->\"Plug-ins\" first in order to see it)"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:173
+msgid ""
+"Select \"Throw\" to send out your voice or text message, then wait to see "
+"you will pick up your bottle and reply."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:175
+msgid ""
+"Select \"Pick\" to pick a drift bottle from the sea. You can reply to it or "
+"throw it back to the sea. Sometimes you may get a starfish. Just try again."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:182
+msgid ""
+"Chat with friends in a Live Chat session (available in the latest versions "
+"of WeChat for iOS and Android)"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:183
+msgid "Click \"+\" in a group chat conversation and select \"Live Chat\"."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:186
+msgid ""
+"An invitation message will be sent to the group chat's members automatically."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:188
+msgid ""
+"Hold the button in the middle. Talk after the tone when the indicator light "
+"turns green."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:190
+msgid ""
+"Members in the Live Chat will hear you immediately. Only one person can talk "
+"at a time. The indicator light will turn red if you press the button while "
+"others are speaking, and you won't be able to talk."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:192
+msgid ""
+"Press <img src=\"/img/features/icons/1.png\"> to hide the Live Chat window. "
+"You can then return to the Live Chat session by clicking on the green bar in "
+"group chat or the Live Chat notice message at the top."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:195
+msgid ""
+"Click <img src=\"/img/features/icons/2.png\"> to quit the Live Chat session. "
+"You will no longer receive messages from this session again. "
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:200
+msgid ""
+"Invite your friends to a WeChat group chat via QR code (available in the "
+"latest versions of WeChat for iOS and Android)"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:201
+msgid ""
+"Open a group chat conversation and click <img src=\"/img/features/icons/3.png"
+"\"> at the top right corner. "
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:203
+msgid "Select \"Group Chat QR Code\"."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:205
+msgid ""
+"Select \"…\" at the top right corner. You can share the group chat QR code "
+"via email or save it to your device."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:207
+msgid "People can scan the QR code with WeChat to join this group chat."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:212
+msgid ""
+"Back up your chat history and restore it to your new device. (Note: Chat "
+"History is only stored for 7 days.)"
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:213
+msgid "Select \"Settings\"->\"General\"->\"Chat History Backup\"."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:215
+msgid ""
+"Click \"Back Up\" and select the conversations you would like to back up."
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:217
+msgid "You can set a password for the chat history uploaded. "
+msgstr ""
+
+#: ..\..\..\..\template/features.html.php:220
+msgid ""
+"When you are logged in to another device, select \"Restore\" and enter the "
+"password (if you set one). The backed-up history will be restored to your "
+"device from the server."
+msgstr ""
+
+#: ..\..\..\..\template/include/button.html:1
+#: ..\..\..\..\template/include/footer.html:9
+msgid "Feedback"
+msgstr ""
+
+#: ..\..\..\..\template/include/button.html:2
+#: ..\..\..\..\template/include/footer.html:10
+msgid "Forgot Password"
+msgstr ""
+
+#: ..\..\..\..\template/include/button.html:3
+msgid "Available on the App Store"
+msgstr ""
+
+#: ..\..\..\..\template/include/button.html:4
+msgid "Available on Google Play"
+msgstr ""
+
+#: ..\..\..\..\template/include/button.html:5
+msgid "Available on Windows Phone"
+msgstr ""
+
+#: ..\..\..\..\template/include/button.html:6
+msgid "Symbian Keyboard"
+msgstr ""
+
+#: ..\..\..\..\template/include/button.html:7
+msgid "Symbian Touch"
+msgstr ""
+
+#: ..\..\..\..\template/include/button.html:8
+msgid "OS 6.0 and above"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:5
+msgid "About"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:6
+msgid "About Tencent"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:7
+#: ..\..\..\..\template/include/head_service_terms.html:9
+#: ..\..\..\..\template/service_terms.html.php:10
+msgid "Service Terms"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:8
+#: ..\..\..\..\template/include/header.html:18
+#: ..\..\..\..\template/include/head_contact_us.html:9
+msgid "Contact Us"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:14
+msgid "Community"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:15
+msgid "WeChat Developer"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:16
+msgid "WeChat Official Account Admin Platform"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:17
+msgid "Web Grab"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:18
+msgid "WeChat Translation Platform"
+msgstr ""
+
+
+#: ..\..\..\..\template/include/footer.html:28
+#: ..\..\..\..\template/include/header.html:15
+#: ..\..\..\..\template/include/head_download.html:9
+msgid "Download"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:29
+#: ..\..\..\..\template/index.html.php:15
+msgid "For iPhone"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:30
+#: ..\..\..\..\template/index.html.php:16
+msgid "For Android"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:31
+#: ..\..\..\..\template/index.html.php:17
+msgid "For Windows Phone"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:32
+msgid "For Nokia S40"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:33
+msgid "For Symbian Keyboard"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:34
+msgid "For Symbian Touch"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:35
+msgid "For BlackBerry OS 5.0"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:36
+msgid "For BlackBerry OS 6.0 and above"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:40
+msgid "Fans Page"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:41
+msgid "Hong Kong"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:42
+msgid "Taiwan"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:43
+msgid "India"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:44
+msgid "Thailand"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:45
+msgid "Malaysia"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:46
+msgid "Indonesia"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:47
+msgid "Turkey"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:48
+msgid "Vietnam"
+msgstr ""
+
+#: ..\..\..\..\template/include/footer.html:58
+msgid "Close"
+msgstr ""
+
+#: ..\..\..\..\template/include/head.html:2
+#: ..\..\..\..\template/include/head_contact_us.html:2
+#: ..\..\..\..\template/include/head_download.html:2
+#: ..\..\..\..\template/include/head_faq.html:2
+#: ..\..\..\..\template/include/head_fb_fans.html:2
+#: ..\..\..\..\template/include/head_features.html:2
+#: ..\..\..\..\template/include/head_home.html:2
+#: ..\..\..\..\template/include/head_service_terms.html:2
+#: ..\..\..\..\template/include/head_updates.html:2
+msgid "lang=\"en\""
+msgstr ""
+
+#: ..\..\..\..\template/include/head.html:5
+#: ..\..\..\..\template/include/head_contact_us.html:5
+#: ..\..\..\..\template/include/head_download.html:5
+#: ..\..\..\..\template/include/head_faq.html:5
+#: ..\..\..\..\template/include/head_fb_fans.html:5
+#: ..\..\..\..\template/include/head_features.html:5
+#: ..\..\..\..\template/include/head_home.html:5
+#: ..\..\..\..\template/include/head_service_terms.html:5
+#: ..\..\..\..\template/include/head_updates.html:5
+msgid ""
+"WeChat WeChat chat mobile chatting free send message send photo voice weixin "
+"offline message Weibo private message data consumption"
+msgstr ""
+
+#: ..\..\..\..\template/include/head.html:6
+#: ..\..\..\..\template/include/head_contact_us.html:6
+#: ..\..\..\..\template/include/head_download.html:6
+#: ..\..\..\..\template/include/head_faq.html:6
+#: ..\..\..\..\template/include/head_fb_fans.html:6
+#: ..\..\..\..\template/include/head_features.html:6
+#: ..\..\..\..\template/include/head_home.html:6
+#: ..\..\..\..\template/include/head_service_terms.html:6
+#: ..\..\..\..\template/include/head_updates.html:6
+msgid ""
+"Available for all kinds of platforms; enjoy group chat; support voice&#44;"
+"photo&#44;video and text messages."
+msgstr ""
+
+#: ..\..\..\..\template/include/header.html:14
+msgid "Home"
+msgstr ""
+
+#: ..\..\..\..\template/include/header.html:16
+#: ..\..\..\..\template/include/head_features.html:9
+msgid "Features"
+msgstr ""
+
+#: ..\..\..\..\template/include/header.html:21
+msgid "English"
+msgstr ""
+
+#: ..\..\..\..\template/include/header.html:60
+msgid "Help translate WeChat!"
+msgstr ""
+
+#: ..\..\..\..\template/include/head_updates.html:9
+msgid "Updates"
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:12
+msgid "Connect with friends across platforms"
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:18
+msgid "For S40 & Symbian"
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:19
+msgid "For BlackBerry"
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:21
+msgid "Free to Download Now"
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:33
+msgid "Previous"
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:90
+msgid "Next"
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:100
+msgid "WHAT'S NEW"
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:110
+msgid "SUPPORT"
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:112
+msgid ""
+"If you have any questions or suggestions, send a message to WeChat Team in "
+"the app or click below."
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:115
+msgid "Forgot your password? Reset it via SMS or email."
+msgstr ""
+
+#: ..\..\..\..\template/index.html.php:117
+msgid "Account Recovery"
+msgstr ""
+
+#: ..\..\..\..\template/updates.html.php:10
+msgid "UPDATES"
+msgstr ""
+
+#: ..\..\..\..\template/android_faq.html.php:1
+#: ..\..\..\..\template/bb_faq.html.php:1 ..\..\..\..\template/faq.html.php:1
+#: ..\..\..\..\template/iphone_faq.html.php:1
+#: ..\..\..\..\template/s40_faq.html.php:1
+msgid "WeChat - FAQ"
+msgstr ""
+
+#: ..\..\..\..\template/android_faq.html.php:35
+#: ..\..\..\..\template/bb_faq.html.php:90
+#: ..\..\..\..\template/faq.html.php:18
+#: ..\..\..\..\template/iphone_faq.html.php:42
+#: ..\..\..\..\template/s40_faq.html.php:47
+msgid ""
+"WeChat is a new and powerful mobile communication tool. It supports sending "
+"voice, video, photo and text messages. You can also do group chats, or you "
+"can find new friends nearby to talk to. WeChat works on iOS, Android, "
+"Windows Phone, and Symbian devices."
+msgstr ""
+
+#: ..\..\..\..\template/android_faq.html.php:57
+#: ..\..\..\..\template/bb_faq.html.php:112
+#: ..\..\..\..\template/faq.html.php:40
+#: ..\..\..\..\template/iphone_faq.html.php:64
+#: ..\..\..\..\template/s40_faq.html.php:69
+msgid "How to register?"
+msgstr ""
+
+#: ..\..\..\..\template/android_faq.html.php:63
+#: ..\..\..\..\template/bb_faq.html.php:118
+#: ..\..\..\..\template/faq.html.php:46
+#: ..\..\..\..\template/iphone_faq.html.php:70
+#: ..\..\..\..\template/s40_faq.html.php:75
+msgid "How to retrieve my password?"
+msgstr ""
+
+#: ..\..\..\..\template/android_faq.html.php:81
+#: ..\..\..\..\template/bb_faq.html.php:136
+#: ..\..\..\..\template/faq.html.php:64
+#: ..\..\..\..\template/iphone_faq.html.php:88
+#: ..\..\..\..\template/s40_faq.html.php:93
+msgid "How can I find my friends?"
+msgstr ""
+
+#: ..\..\..\..\template/android_faq.html.php:83
+#: ..\..\..\..\template/bb_faq.html.php:138
+#: ..\..\..\..\template/faq.html.php:66
+#: ..\..\..\..\template/iphone_faq.html.php:90
+#: ..\..\..\..\template/s40_faq.html.php:95
+msgid ""
+"You can search for them via their WeChat IDs or their phone numbers "
+"directly, or you can link your phone address book to let WeChat find your "
+"friends for you with Recommend."
+msgstr ""
+
+#: ..\..\..\..\template/android_faq.html.php:87
+#: ..\..\..\..\template/bb_faq.html.php:142
+#: ..\..\..\..\template/faq.html.php:70
+#: ..\..\..\..\template/iphone_faq.html.php:94
+#: ..\..\..\..\template/s40_faq.html.php:99
+msgid "How to delete message history?"
+msgstr ""
+
+#: ..\..\..\..\template/bb_contact.html.php:1
+#: ..\..\..\..\template/contact.html.php:1
+msgid "WeChat - Contact Us"
+msgstr ""
+
+#: ..\..\..\..\template/download.html.php:1
+msgid "WeChat - Download"
+msgstr ""
+
+#: ..\..\..\..\template/include/bb_main.html:18
+msgid "Use Look Around to find and chat with people nearby"
+msgstr ""
+
+#: ..\..\..\..\template/include/bb_main.html:24
+msgid "QR code"
+msgstr ""
+
+#: ..\..\..\..\template/include/bb_main.html:25
+msgid "Scan a friend's QR Code and send a greeting in WeChat"
+msgstr ""
+
+#: ..\..\..\..\template/include/bb_main.html:32
+#: ..\..\..\..\template/include/main.html:32
+msgid "More fun than a walkie-talkie!"
+msgstr ""
+
+#: ..\..\..\..\template/include/bb_main.html:39
+#: ..\..\..\..\template/include/main.html:39
+msgid "Chat with all your friends at the same time"
+msgstr ""
+
+#: ..\..\..\..\template/include/index_title.html:6
+#: ..\..\..\..\template/include/title.html:7
+msgid "WeChat - The new way to connect"
+msgstr ""
+
+#: ..\..\..\..\template/include/main.html:18
+msgid "Chat with your friends face to face"
+msgstr ""
+
+#: ..\..\..\..\template/include/main.html:25
+msgid "Create a streaming photo journal of your days"
+msgstr ""
+
+#: ..\..\..\..\template/s40_faq.html.php:28
+msgid ""
+"1. Open the <a href=\"http://store.ovi.com/\">Nokia App Store</a> and search "
+"for WeChat on your phone. Download and install the WeChat app. "
+msgstr ""
+
+#: ..\..\..\..\template/s40_faq.html.php:28
+msgid ""
+"2. Visit the <a href=\"http://www.wechat.com/\">official WeChat website</a> "
+"from your phone, and click the download link to download and install the "
+"WeChat app. "
+msgstr ""
+
+#: ..\..\..\..\template/s40_faq.html.php:28
+msgid ""
+"3. Visit the <a href=\"http://www.wechat.com/\">official WeChat website</a> "
+"from your computer. Download the WeChat installation package from the "
+"official WeChat website onto your computer. Extract and then move the "
+"corresponding files to a folder on your phone. Then run the installer. You "
+"cannot use non-English characters for the folder path."
+msgstr ""

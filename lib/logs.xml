@@ -1,0 +1,13 @@
+<Wechat>
+    <log platform="iphone">
+        
+    </log>
+    <log platform="android">
+        <publish date="2012-08-17">
+            <version lang="en">4.2 for Android</version>
+            <version lang="zh_TW">微信 4.2 for Android</version>
+        </publish>
+    </log>
+    <log platform="windowsphone"></log>
+    <log platform="iphone"></log>
+</WeChat>

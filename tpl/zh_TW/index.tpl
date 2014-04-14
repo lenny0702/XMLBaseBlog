@@ -6,6 +6,8 @@
 		<div class="date">{$logs[sec1]->publicDate}</div>
 		<div class="description">{$logs[sec1]->indexDescription}</div>
 	</div>
-	<div class="new"></div>
+    {if $logs[sec1]->isNew eq 1}
+        <div class="new"></div>
+    {/if}
 </li>
 {/section}

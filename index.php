@@ -44,5 +44,6 @@ $tmp = new Logs();
 //$tmp->generateIndexLogs();
 //$tmp->generateSingleLogPage();
 $tmp->generateLogs();
+echo "success";
 
 ?>

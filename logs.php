@@ -1,6 +1,6 @@
 <?php
 include "xmlDB.php";
-include "generateLogs.php";
+include "log.php";
 /**
  * Class Logs 
  * @author lennylan
@@ -109,7 +109,7 @@ class Logs
 		$this->defaultLang ="en";
 
 		$row = Database::factory("logs",NULL,"Logs");
-        $this->logs = initLogs($row->select()->find_all());
+        $this->logs = $this->initLogs($row->select()->order_by('date', 'DESC')->find_all());
 		$row = Database::factory("logs",NULL,"configuration");
 		foreach ($row->select()->find_all() as $confSingle){
 			$this->conf[$confSingle->key] = $confSingle->value;
@@ -121,19 +121,13 @@ class Logs
 	    return "@".$keyword."@";
 	}
 	
-	private function getPlatformName($keyword)
-	{
-        $platform = array("iOS"=>"iPhone","Android"=>"Android","Windows Phone"=>"Windows Phone");
-	    return $platform[$keyword];
-	}
 	function generateLogs() 
 	{
         $handleFuncs = array();
-        $handleFuncs[] = "$this->generateIndexLogs";
+        $handleFuncs[] = "generateIndexLogs";
+        $handleFuncs[] = "generateUpdatePage";
+        $handleFuncs[] = "generateSingleLogPage";
         $this->multiLangHandle($handleFuncs);
-		//$this->generateSingleLogPage();
-		//$this->generateUpdatePage();
-		//$this->generateIndexLogs();
 		//generateServiceTerm();
 		//generateFeatures();
 		//generateFaq();
@@ -169,14 +163,13 @@ class Logs
     public function initLogs($logs)
     {
 
-		$allLogs = $this->conf["isSpecified"] ? $this->specifiedLogs:$this->logs;
+		$allLogs = $this->conf["isSpecified"] ? $this->specifiedLogs:$logs;
         $logs = array();
         foreach ($allLogs as $log){
             if(!array_key_exists ($log->lang,$logs)){
                 $logs[$log->lang] = array();
-            }else{
-                $logs[$log->lang][] = $log;
             }
+            $logs[$log->lang][] = new Log($log);
         }
         return $logs;
     }
@@ -188,8 +181,8 @@ class Logs
     public function multiLangHandle($handleFuncs)
     {
         foreach ($this->conf["lang"] as $value => $langCode){
-            foreach ($handleFuncs as $handleFuncs){
-                handleFunc($langCode);
+            foreach ($handleFuncs as $handleFunc){
+                call_user_func(array($this,$handleFunc),$langCode);
             }
         }
     }
@@ -197,7 +190,7 @@ class Logs
 	function generateIndexLogs($langCode) 
 	{
         $file = $this->htdocsPath."/".$langCode."/index.html";
-        if(count( $logs[$langCode] ) < 3 && $langCode !=$this->defaultLang){
+        if((!array_key_exists($langCode, $this->logs) || count($this->logs[$langCode]) < 3 ) && $langCode !=$this->defaultLang){
             $langCode = $this->defaultLang;
         }
 
@@ -219,8 +212,8 @@ class Logs
         };
         $replaceContent = $this->genHtmlFromTep($assignArray,$tpl);
 
-        print_r($replaceContent);
-        print_r($file);
+        //print_r($replaceContent);
+        //print_r($file);
 
         try
         {
@@ -234,95 +227,111 @@ class Logs
         }
 	}
     
-	function generateSingleLogPage() 
+	function generateSingleLogPage($langCode) 
 	{
-		$allLogs = $this->conf["isSpecified"] ? $this->specifiedLogs:$this->logs;
-		$assignArray["IMAGEBASE"] = $this->imageBase;
-		foreach ($this->conf["lang"] as $value => $langCode){
-			print_r($langCode."<br>");
-			$isLangExist = false;
-			foreach ($allLogs as $log){
+        $desLangCode = $langCode;
+        if((!array_key_exists($langCode, $this->logs) || count($this->logs[$langCode]) <= 0 ) && $langCode !=$this->defaultLang){
+            $langCode = $this->defaultLang;
+        }
+        $logs  = $this->logs[$langCode];
+
+			foreach ($logs as $log){
+
+                $file = $this->htdocsPath."/".$desLangCode."/".preg_replace("/\./","_",$log->platform."_".$log->version).".html";
+
 				$tpl =$this->tplPath."/".$langCode."/log_".$log->platform.".tpl";
-				if($log->lang == $langCode) {
-					$isLangExist = true;
-					$file = $this->htdocsPath."/".$langCode."/".preg_replace("/\./","_",$this->getPlatformName($log->platform)."_".$log->version).".html";
-					print_r($file);
-					$assignArray["log"] = $log;
 
-                    if(!file_exists($file)){
-                        throw new Exception("log html not exists");
-                    }
+                $assignArray["log"] = $log;
+                $assignArray["IMAGEBASE"] = $this->imageBase;
+
+                if(!file_exists($file)){
+                    //print_r($file);
+                    throw new Exception("log html not exists");
+                }
+                if(!file_exists($tpl)){
+                    $tpl =$this->tplPath."/" + $this->defaultLang + "/log_".$log->platform.".tpl";
                     if(!file_exists($tpl)){
-						$tpl =$this->tplPath."/en/log_".$log->platform.".tpl";
-                        if(!file_exists($tpl)){
-                            throw new Exception("log tpl not exists");
-                        }
-                    };
-					$replaceContent = $this->genHtmlFromTep($assignArray,$tpl);
-					print_r($file);
-					//print_r($replaceContent);
-				}
-			}
-			if(!$isLangExist){
-				foreach ($allLogs as $log){
-					$tpl =$this->tplPath."/".$langCode."/log_".$log->platform.".tpl";
-					if($log->lang == "en") {
-						$isLangExist = true;
-						$file = $this->htdocsPath."/".$langCode."/index.html";
-						$assignArray["log"] = $log;
-						if(!file_exists($file) || !file_exists($tpl)){
-							$file = $this->htdocsPath."/en/index.html";
-							$tpl =$this->tplPath."/en/log_".$log->platform.".tpl";
-							if(!file_exists($file) || !file_exists($tpl)){
-								throw new Exception("index tpl not exists");
-							}
-						};
-						$replaceContent = $this->genHtmlFromTep($assignArray,$tpl);
-						print_r($replaceContent);
-					}
-				}
-			}
+                        throw new Exception("log tpl not exists");
+                    }
+                };
 
-			//$this->replaceLogs($file,getReplaceKeyword("Content"),$replaceContent));
-		}
+                $replaceContent = $this->genHtmlFromTep($assignArray,$tpl);
+
+                //print_r($file);
+                //print_r($tpl);
+
+                try
+                {
+                    //print_r($replaceContent);
+                    $this->replaceLogs($file,$this->getReplaceKeyword("Content"),$replaceContent);
+                    $this->replaceLogs($file,$this->getReplaceKeyword("Title"),$log->title);
+                    $this->replaceLogs($file,$this->getReplaceKeyword("pagetitle"),str_replace(" 全新發佈","",str_replace(" Release","",$log->title)));
+                }
+                catch (Exception $e)
+                {
+                    throw new Exception( 'Something gone wrong with replacement', 0, $e);
+                    return false;
+                }
+			}
 		
 		return true;
 	}
-	function generateUpdatePage() 
+    /**
+     * initPlatformLogs
+     * @return array
+     * @author LennyLan
+     **/
+    public function initPlatformLogs($logs)
+    {
+		$allLogs = $logs;
+        $logs = array();
+        foreach ($allLogs as $log){
+            if(!array_key_exists ($log->platform,$logs)){
+                $logs[$log->platform] = array();
+            }
+            $logs[$log->platform][] = $log;
+        }
+        return $logs;
+    }
+	function generateUpdatePage($langCode) 
 	{
-		$allLogs = $this->conf["isSpecified"] ? $this->specifiedLogs:$this->logs;
-		$assignArray["IMAGEBASE"] = $this->imageBase;
-		foreach ($this->conf["lang"] as $value => $langCode){
-			$logs = array();
-			foreach ($allLogs as $log){
-				if($log->lang == $langCode) {
-					$logs[] = $log;
-				}
-			}
-			if(count( $logs ) == 0){
-				foreach ($allLogs as $log){
-					if($log->lang == "en") {
-						$logs[] = $log;
-					}
-				}
-			
-			}
-			$assignArray["AndroidLogs"] = $logs;
+        $file = $this->htdocsPath."/".$langCode."/updates.html";
+        if((!array_key_exists($langCode, $this->logs) || count($this->logs[$langCode]) <= 0 ) && $langCode !=$this->defaultLang){
+            $langCode = $this->defaultLang;
+        }
+        $logs = $this->initPlatformLogs($this->logs[$langCode]);
 
-			$file = $this->htdocsPath."/".$langCode."/updates.html";
-			$tpl =$this->tplPath."/".$langCode."/update.tpl";
-			if(!file_exists($file) || !file_exists($tpl)){
-				$file = $this->htdocsPath."/en/updates.html";
-				$tpl =$this->tplPath."/en/update.tpl";
-				if(!file_exists($file) || !file_exists($tpl)){
-					throw new Exception("index tpl not exists");
-				}
-			};
-			$replaceContent = $this->genHtmlFromTep($assignArray,$tpl);
-			print_r($replaceContent);
-			$this->replaceLogs($file,$this->getReplaceKeyword("Content"),$replaceContent);
-		}
+        foreach ($logs as $platform=>$log){
+            $assignArray[str_replace(" ","",$platform)."Logs"] = $logs[$platform];
+        }
+
+        $tpl =$this->tplPath."/".$langCode."/update.tpl";
+
+        if(!file_exists($file)){
+            throw new Exception("updates.html not exists");
+        }
+
+        if(!file_exists($tpl)){
+            $tpl =$this->tplPath."/" + $this->defaultLang + "/update.tpl";
+            if(!file_exists($tpl)){
+                throw new Exception("update tpl not exists");
+            }
+        };
+
+        $replaceContent = $this->genHtmlFromTep($assignArray,$tpl);
+
+        //print_r($replaceContent);
 		
+        try
+        {
+            $this->replaceLogs($file,$this->getReplaceKeyword("Content"),$replaceContent);
+            return true;
+        }
+        catch (Exception $e)
+        {
+            throw new Exception( 'Something gone wrong with replacement', 0, $e);
+            return false;
+        }
 		return true;
 	}
 	function getSIngleLog($log) 
