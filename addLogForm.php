@@ -20,5 +20,14 @@ $row->description =$_POST["description"];
 $row->indexDescription =$_POST["indexDescription"];
 $row->features =$_POST["feature"];
 $row->featuresNum =$_POST["featureNum"];
+
+$tempFile = $srcPath.preg_replace("/\./","_",$row->platform."_".$row->version).".html";
+$imgDir = $srcPath."/".$row->lang."/img/".preg_replace("/\./","_",$row->platform."_".$row->version);
+if(!file_exists($tempFile)){
+	file_put_contents($tempFile,file_get_contents($filename));
+}
+if(!file_exists($imgDir)){
+	mkdir($imgDir, 0777);
+}
 $row->save();
 ?>

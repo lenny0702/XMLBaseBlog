@@ -86,7 +86,7 @@
                         <div class="col-lg-8">
                           <select class="form-control col-lg-6" name="platform">
                             <option value="Android">Android</option>
-                            <option value="iOS">iOS</option>
+                            <option value="iPhone">iPhone</option>
                             <option value="Windows Phone">Windows Phone</option>
                             <option value="Symbian">Symbian</option>
                             <option value="Blackberry">Blackberry</option>
