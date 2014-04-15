@@ -1,3 +1,3 @@
 <?php 
-define("src","wechatportalSrc");
+define("srcPath","wechatportalSrc");
 ?>
